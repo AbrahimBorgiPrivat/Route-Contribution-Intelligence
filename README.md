@@ -112,13 +112,11 @@ Local runtime definitions for direct execution from the repository.
 
 Current application runtimes:
 
-- `runtime_definitions/application/v1`
-- `runtime_definitions/application/v2`
 - `runtime_definitions/application/demo_bus_routes_nyc`
+- `views\application\demo_bus_routes_nyc_single_scenario`
 
 Current static runtimes:
 
-- `runtime_definitions/static/v1`
 - `runtime_definitions/static/demo_bus_routes_nyc`
 
 Each runtime is centered around a `runner.json` file and, where needed, supporting files such as KPI registries.
@@ -138,10 +136,8 @@ Main folders:
 
 The route pipeline compose file currently includes:
 
-- `route-data-v1`
-- `route-data-v2`
+- `routes-nyc-single-scenario`
 - `route-data-demo-bus-routes-nyc`
-- `route-presentation-v1`
 - `route-presentation-demo-bus-routes-nyc`
 
 ### `views/`
@@ -151,11 +147,9 @@ User-facing outputs.
 ```text
 views/
 |-- static/
-|   |-- v1/
 |   `-- demo_bus_routes_nyc/
 `-- application/
-    |-- v1/
-    |-- v2/
+    |-- demo_bus_routes_nyc_single_scenario/
     `-- demo_bus_routes_nyc/
 ```
 
@@ -170,8 +164,6 @@ Project documentation.
 
 - `docs/pages/`
   Static HTML documentation site
-- `docs/report/`
-  LaTeX-based report material
 
 ## How the project is structured
 

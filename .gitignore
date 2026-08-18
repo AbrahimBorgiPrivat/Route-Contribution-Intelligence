@@ -36,6 +36,7 @@ secrets.json
 
 # OUTPUT FOLDERS
 /outputs/*
+.pages-site/
 
 # OSRM 
 *.pbf
