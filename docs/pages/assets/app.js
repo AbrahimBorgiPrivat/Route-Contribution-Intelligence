@@ -216,6 +216,27 @@ const SITE = {
         },
       ],
     },
+    {
+      id: "demo",
+      title: "Demo",
+      items: [
+        {
+          label: "Interactive application",
+          href: "../../views/application/demo_bus_routes_nyc/html/index.html",
+          desc: "Multi-scenario interactive demo.",
+        },
+        {
+          label: "Single-scenario application",
+          href: "../../views/application/demo_bus_routes_nyc_single_scenario/html/index.html",
+          desc: "Fixed New York bus-route scenario.",
+        },
+        {
+          label: "Static presentation",
+          href: "../../views/static/demo_bus_routes_nyc/index.html",
+          desc: "Rendered static overview output.",
+        },
+      ],
+    },
   ],
 };
 

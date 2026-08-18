@@ -755,6 +755,77 @@ table.comparison-table {
   line-height: 1.55;
 }
 
+.entry-links__title {
+  margin: 26px 0 6px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.35;
+}
+
+.entry-links__intro {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.65;
+  max-width: 70ch;
+}
+
+.entry-links {
+  margin: 0 0 18px;
+}
+
+.entry-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0;
+}
+
+.entry-table td {
+  border: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.entry-table tbody tr + tr td {
+  padding-top: 14px;
+}
+
+.entry-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.entry-desc {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.entry-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 148px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.entry-cta:hover {
+  background: #be5f25;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
 .definition-table {
   margin: 28px 0;
   border-top: 1px solid var(--border);
@@ -814,6 +885,25 @@ table.comparison-table {
   margin: 40px 0;
   border: 0;
   border-top: 1px solid var(--border);
+}
+
+@media (max-width: 720px) {
+  .entry-table,
+  .entry-table tbody,
+  .entry-table tr,
+  .entry-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .entry-table tbody tr + tr td {
+    padding-top: 18px;
+  }
+
+  .entry-cta {
+    width: 100%;
+    min-width: 0;
+  }
 }
 
 .footer {
