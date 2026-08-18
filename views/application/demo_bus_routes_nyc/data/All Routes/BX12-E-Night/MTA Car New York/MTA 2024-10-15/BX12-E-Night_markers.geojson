@@ -1,0 +1,917 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 20.3,
+        "address": "BROADWAY/ISHAM ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919801,
+          40.868072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 33.35,
+        "address": "W 207 ST/10 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918515,
+          40.864244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "WEST FORDHAM RD/CEDAR AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911486,
+          40.861666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 23.2,
+        "address": "WEST FORDHAM RD/SEDGWICK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908471,
+          40.86274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 18.85,
+        "address": "WEST FORDHAM RD/UNIVERSITY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904256,
+          40.862703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 13.05,
+        "address": "WEST FORDHAM RD/JEROME AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901377,
+          40.862736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "EAST FORDHAM RD/GRAND CONCOURSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897565,
+          40.862394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 23.2,
+        "address": "EAST FORDHAM RD/VALENTINE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89601,
+          40.862236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 8,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "EAST FORDHAM RD/ELM PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893921,
+          40.861917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 9,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 10.15,
+        "address": "EAST FORDHAM RD/3 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.890431,
+          40.861137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 11,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "EAST FORDHAM RD/HOFFMAN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885659,
+          40.858624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 12,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "EAST FORDHAM RD/CAMBRELENG AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882903,
+          40.857651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 13,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "EAST FORDHAM RD/SOUTHERN BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880146,
+          40.856465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 14,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "PELHAM PKWY/WHITE PLAINS RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867834,
+          40.856715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 10,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "EAST FORDHAM RD/BATHGATE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887654,
+          40.859601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 15,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/MULINER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861761,
+          40.856878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 16,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/WILLIAMSBRIDGE RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85623,
+          40.857026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 17,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/JACOBI HOSP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.847392,
+          40.85741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 18,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/EASTCHESTER RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843935,
+          40.857271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 19,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "PELHAM PKWY/STILLWELL AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.838814,
+          40.856475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 20,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "PELHAM PKWY/ST PAUL AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.830704,
+          40.855472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 21,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 10.15,
+        "address": "WESTCHESTER AV/BRUCKNER BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.826752,
+          40.853265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 22,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "BAYCHESTER AV/NEW ENGLAND THRUWAY EXIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.830818,
+          40.866449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 23,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "MALL/BAY PLAZA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.827623,
+          40.865666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 20.3,
+        "address": "BROADWAY/ISHAM ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919801,
+          40.868072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 33.35,
+        "address": "W 207 ST/10 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918515,
+          40.864244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "WEST FORDHAM RD/CEDAR AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911486,
+          40.861666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 23.2,
+        "address": "WEST FORDHAM RD/SEDGWICK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908471,
+          40.86274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 18.85,
+        "address": "WEST FORDHAM RD/UNIVERSITY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904256,
+          40.862703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 13.05,
+        "address": "WEST FORDHAM RD/JEROME AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901377,
+          40.862736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "EAST FORDHAM RD/GRAND CONCOURSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897565,
+          40.862394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 23.2,
+        "address": "EAST FORDHAM RD/VALENTINE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89601,
+          40.862236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "EAST FORDHAM RD/ELM PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893921,
+          40.861917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 10.15,
+        "address": "EAST FORDHAM RD/3 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.890431,
+          40.861137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 10,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "EAST FORDHAM RD/BATHGATE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887654,
+          40.859601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 11,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "EAST FORDHAM RD/HOFFMAN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885659,
+          40.858624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 12,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "EAST FORDHAM RD/CAMBRELENG AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882903,
+          40.857651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 13,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "EAST FORDHAM RD/SOUTHERN BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880146,
+          40.856465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 14,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "PELHAM PKWY/WHITE PLAINS RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867834,
+          40.856715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 15,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/MULINER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861761,
+          40.856878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 16,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/WILLIAMSBRIDGE RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85623,
+          40.857026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 17,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/JACOBI HOSP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.847392,
+          40.85741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 18,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PELHAM PKWY/EASTCHESTER RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.843935,
+          40.857271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 19,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "PELHAM PKWY/STILLWELL AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.838814,
+          40.856475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 20,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "PELHAM PKWY/ST PAUL AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.830704,
+          40.855472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 21,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 10.15,
+        "address": "WESTCHESTER AV/BRUCKNER BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.826752,
+          40.853265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 22,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "BAYCHESTER AV/NEW ENGLAND THRUWAY EXIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.830818,
+          40.866449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 23,
+        "route_id": "BX12-E-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "MALL/BAY PLAZA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.827623,
+          40.865666
+        ]
+      }
+    }
+  ]
+}

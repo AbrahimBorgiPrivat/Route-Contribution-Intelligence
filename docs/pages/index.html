@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Contribution Intelligence | Overview</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="home" data-page-title="Overview" data-page-subtitle="A guided entry point to the documentation">
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar></aside>
+    <div class="workspace">
+      <header class="topbar" data-topbar></header>
+      <main class="content">
+        <article class="prose">
+          <header class="article-header">
+            <div class="eyebrow">Overview</div>
+            <h1 class="article-title">Route Contribution Intelligence</h1>
+            <p class="article-subtitle">
+              A compact guide to the route-level economic outlier problem, the mathematical model, the implemented
+              solution and the public demo example used throughout the documentation.
+            </p>
+            <div class="article-byline">
+              <div class="author-avatar" aria-hidden="true">AB</div>
+              <div class="author-copy">
+                <div class="author-name">Abrahim Borgi</div>
+                <div class="author-role">Senior Buisness Analyst</div>
+              </div>
+            </div>
+            <div class="article-context">
+              <span>Route Contribution Intelligence</span>
+              <span>Documentation overview</span>
+              <span>Problem, model, implementation and example</span>
+            </div>
+          </header>
+
+          <figure class="figure-wide">
+            <img src="assets/RoutemapIndex.png" alt="Route overview map used as the visual entry point to the documentation">
+            <figcaption>
+              The route map gives the first intuition: geometry is visible immediately, but the real question is which
+              parts of the route are economically weak once distance and revenue are evaluated together.
+            </figcaption>
+          </figure>
+
+          <p>
+            <strong>The central question is simple:</strong> which parts of a route look costly, and which of those are
+            actually economically weak once revenue is included?
+          </p>
+          <p class="article-pullquote">
+            <em>
+              A stop can look inefficient on a map and still be worth serving. Another can look harmless
+              geographically and still weaken the route economically.
+            </em>
+          </p>
+          <p>
+            This documentation therefore treats outlier detection as <strong>an economic route problem</strong> rather
+            than a purely spatial or statistical one. The pages move from the business question, to the formal model,
+            to the coded method, and finally to the outputs used in practice.
+          </p>
+
+          <ul>
+            <li><strong>Introduction:</strong> frames the business problem and explains why distance alone is not enough.</li>
+            <li><strong>Theory:</strong> turns the route into a graph model with route length, revenue and economic notation.</li>
+            <li><strong>Solution:</strong> explains how the removal logic is coded and implemented in Python, and how it becomes a practical search method.</li>
+            <li><strong>Implementation:</strong> connects the mathematical layer to the actual software structure.</li>
+            <li><strong>Example:</strong> shows the full workflow on the New York bus-route demo scenario.</li>
+          </ul>
+
+          <p>
+            Taken together, the documentation moves from problem statement to model, from model to implementation, and
+            from implementation to working outputs that can be read at scenario, route and stop level.
+          </p>
+
+          <nav class="article-navigation" aria-label="Documentation pages">
+            <a href="introduction.html">
+              <div class="nav-label">Introduction</div>
+              <div class="nav-title">The business problem</div>
+              <div class="nav-desc">Start with the economic route question and the intuition behind the outlier idea.</div>
+            </a>
+            <a href="theory.html#graphs-routes-economics">
+              <div class="nav-label">Theory</div>
+              <div class="nav-title">Graph model and notation</div>
+              <div class="nav-desc">See how the route becomes a measurable mathematical object.</div>
+            </a>
+            <a href="fixed-sequence.html#type-1-fixed-sequence">
+              <div class="nav-label">Solution</div>
+              <div class="nav-title">Exact logic and practical search</div>
+              <div class="nav-desc">Follow the implemented route-removal logic from exact evaluation to heuristics.</div>
+            </a>
+            <a href="implementation.html#architecture">
+              <div class="nav-label">Implementation</div>
+              <div class="nav-title">From model to system</div>
+              <div class="nav-desc">Read how data, routing, algorithms and outputs fit together in code.</div>
+            </a>
+            <a href="example.html#data">
+              <div class="nav-label">Example</div>
+              <div class="nav-title">Public demo scenario</div>
+              <div class="nav-desc">See the full workflow on the New York bus-route example.</div>
+            </a>
+          </nav>
+        </article>
+      </main>
+      <footer class="footer" data-footer></footer>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

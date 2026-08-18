@@ -1,0 +1,50 @@
+# Python artifacts
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+env/
+.venv/
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / coverage / build
+*.log
+.coverage
+htmlcov/
+dist/
+*.egg-info/
+
+# Temporary / swap files
+*.swp
+*~
+*.bak
+
+# Secrets / env
+.env
+secrets.json
+
+# OUTPUT FOLDERS
+/outputs/*
+
+# OSRM 
+*.pbf
+*.osrm
+*.osrm.*
+
+# OSM
+*.osm
+**/data/build/*
+**/data/maps/*
+
+docs/report/build/

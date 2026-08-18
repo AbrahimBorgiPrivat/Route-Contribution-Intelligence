@@ -1,0 +1,1487 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 10.88,
+        "address": "RIVERBANK STATE PARK RDWY/RIVERBANK STATE PARK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955503,
+          40.826647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 14.5,
+        "address": "W 145 ST/RIVERSIDE DR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95165,
+          40.826817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 46.88,
+        "address": "W 145 ST/BROADWAY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950148,
+          40.826198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 20.78,
+        "address": "W 145 ST/AMSTERDAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947941,
+          40.825272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.73,
+        "address": "W 145 ST/CONVENT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946395,
+          40.824621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 24.03,
+        "address": "W 145 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944964,
+          40.82402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 30.66,
+        "address": "W 145 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941493,
+          40.822558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 13.05,
+        "address": "W 145 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939352,
+          40.821648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 8,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.94,
+        "address": "W 145 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93639,
+          40.820444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 9,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 15.22,
+        "address": "E 149 ST/EXTERIOR ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930052,
+          40.819235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 10,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 25.01,
+        "address": "E 149 ST/GRAND CONCOURSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926861,
+          40.818377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 11,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 12.57,
+        "address": "E 149 ST/MORRIS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922383,
+          40.817178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.22,
+        "address": "E 149 ST/COURTLANDT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919779,
+          40.816543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 39.15,
+        "address": "E 149 ST/BERGEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916991,
+          40.815686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 11.28,
+        "address": "E 149 ST/SAINT ANN'S AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912863,
+          40.814223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.95,
+        "address": "E 149 ST/TRINITY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910157,
+          40.81342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 16,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.22,
+        "address": "E 149 ST/JACKSON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908684,
+          40.813105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.73,
+        "address": "E 149 ST/WALES AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907136,
+          40.812779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 18,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/E 149 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903625,
+          40.812179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 19,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.19,
+        "address": "SOUTHERN BLVD/AV SAINT JOHN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900976,
+          40.812932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 20,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.87,
+        "address": "SOUTHERN BLVD/E 156 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897299,
+          40.815124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 21,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/LONGWOOD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895833,
+          40.816536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 22,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.77,
+        "address": "SOUTHERN BLVD/TIFFANY ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893764,
+          40.818544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 29.0,
+        "address": "SOUTHERN BLVD/HUNTS POINT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891607,
+          40.82082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 24,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/ALDUS ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891755,
+          40.823173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 25,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.77,
+        "address": "SOUTHERN BLVD/WESTCHESTER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891857,
+          40.824545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 26,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.58,
+        "address": "SOUTHERN BLVD/E 167 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891876,
+          40.827187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 27,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 6.33,
+        "address": "SOUTHERN BLVD/FREEMAN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891826,
+          40.830046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 28,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "SOUTHERN BLVD/JENNINGS ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.890706,
+          40.832286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 29,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "SOUTHERN BLVD/E 172 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889728,
+          40.833943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 30,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 23.73,
+        "address": "SOUTHERN BLVD/BOSTON RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88775,
+          40.8372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 32,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.95,
+        "address": "SOUTHERN BLVD/EAST TREMONT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885462,
+          40.843057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 33,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.79,
+        "address": "SOUTHERN BLVD/E 180 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884446,
+          40.845823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 34,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 1.05,
+        "address": "SOUTHERN BLVD/BRONX PARK SOUTH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.883127,
+          40.847688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 35,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.29,
+        "address": "SOUTHERN BLVD/E 183 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88217,
+          40.851175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 36,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "SOUTHERN BLVD/E 187 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881577,
+          40.853214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 37,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.26,
+        "address": "SOUTHERN BLVD/E 189 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880682,
+          40.856408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 38,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/BOTANICAL GARDENS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880674,
+          40.861203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 31,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "SOUTHERN BLVD/E 176 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885907,
+          40.84079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 10.88,
+        "address": "RIVERBANK STATE PARK RDWY/RIVERBANK STATE PARK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955503,
+          40.826647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 14.5,
+        "address": "W 145 ST/RIVERSIDE DR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95165,
+          40.826817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 46.88,
+        "address": "W 145 ST/BROADWAY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950148,
+          40.826198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 20.78,
+        "address": "W 145 ST/AMSTERDAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947941,
+          40.825272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.73,
+        "address": "W 145 ST/CONVENT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946395,
+          40.824621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 24.03,
+        "address": "W 145 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944964,
+          40.82402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 30.66,
+        "address": "W 145 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941493,
+          40.822558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 13.05,
+        "address": "W 145 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939352,
+          40.821648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.94,
+        "address": "W 145 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93639,
+          40.820444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 15.22,
+        "address": "E 149 ST/EXTERIOR ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930052,
+          40.819235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 25.01,
+        "address": "E 149 ST/GRAND CONCOURSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926861,
+          40.818377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 12.57,
+        "address": "E 149 ST/MORRIS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922383,
+          40.817178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.22,
+        "address": "E 149 ST/COURTLANDT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919779,
+          40.816543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 39.15,
+        "address": "E 149 ST/BERGEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916991,
+          40.815686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 11.28,
+        "address": "E 149 ST/SAINT ANN'S AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912863,
+          40.814223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.95,
+        "address": "E 149 ST/TRINITY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910157,
+          40.81342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.22,
+        "address": "E 149 ST/JACKSON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908684,
+          40.813105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.73,
+        "address": "E 149 ST/WALES AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907136,
+          40.812779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/E 149 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903625,
+          40.812179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 19,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.19,
+        "address": "SOUTHERN BLVD/AV SAINT JOHN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900976,
+          40.812932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.87,
+        "address": "SOUTHERN BLVD/E 156 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897299,
+          40.815124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/LONGWOOD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895833,
+          40.816536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.77,
+        "address": "SOUTHERN BLVD/TIFFANY ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893764,
+          40.818544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 29.0,
+        "address": "SOUTHERN BLVD/HUNTS POINT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891607,
+          40.82082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 24,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/ALDUS ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891755,
+          40.823173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.77,
+        "address": "SOUTHERN BLVD/WESTCHESTER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891857,
+          40.824545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.58,
+        "address": "SOUTHERN BLVD/E 167 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891876,
+          40.827187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 6.33,
+        "address": "SOUTHERN BLVD/FREEMAN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891826,
+          40.830046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "SOUTHERN BLVD/JENNINGS ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.890706,
+          40.832286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "SOUTHERN BLVD/E 172 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889728,
+          40.833943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 30,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 23.73,
+        "address": "SOUTHERN BLVD/BOSTON RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88775,
+          40.8372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 32,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.95,
+        "address": "SOUTHERN BLVD/EAST TREMONT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885462,
+          40.843057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 31,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "SOUTHERN BLVD/E 176 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885907,
+          40.84079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 33,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.79,
+        "address": "SOUTHERN BLVD/E 180 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884446,
+          40.845823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 34,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 1.05,
+        "address": "SOUTHERN BLVD/BRONX PARK SOUTH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.883127,
+          40.847688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 35,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.29,
+        "address": "SOUTHERN BLVD/E 183 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88217,
+          40.851175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 36,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "SOUTHERN BLVD/E 187 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881577,
+          40.853214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 37,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.26,
+        "address": "SOUTHERN BLVD/E 189 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880682,
+          40.856408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 38,
+        "route_id": "BX19-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/BOTANICAL GARDENS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880674,
+          40.861203
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route B46-S-Day</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <style>
+        :root {
+            --ink: #1f1a17;
+            --muted: #6f6258;
+            --line: #e7d9c9;
+            --panel: rgba(255, 250, 244, 0.95);
+            --panel-soft: #fffaf4;
+            --accent: #9d4f1b;
+            --accent-deep: #2f221b;
+            --shadow: 0 22px 48px rgba(68, 39, 18, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Inter", sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at top left, rgba(222, 184, 135, 0.22), transparent 28%),
+                radial-gradient(circle at top right, rgba(196, 138, 76, 0.14), transparent 26%),
+                linear-gradient(180deg, #fffaf4 0%, #f7efe4 100%);
+            padding: 22px 20px 28px;
+        }
+
+        .page-shell {
+            max-width: 1980px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            padding: 10px 2px 18px;
+            border-bottom: 1px solid rgba(157, 79, 27, 0.12);
+        }
+
+        .hero-row {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .hero-side {
+            min-height: 72px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-side.right {
+            justify-content: flex-end;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--accent-deep);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .back-arrow {
+            font-size: 28px;
+            line-height: 1;
+        }
+
+        .hero-title {
+            text-align: center;
+        }
+
+        .hero-title h1 {
+            margin: 0;
+            font-size: clamp(30px, 3vw, 48px);
+            line-height: 1.05;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+        .hero-title p {
+            margin: 8px 0 0;
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .logo {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+        }
+
+        .meta-row {
+            margin-top: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .scenario-meta {
+            display: grid;
+            gap: 6px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .scenario-meta strong {
+            color: var(--ink);
+        }
+
+        .route-no {
+            color: var(--muted);
+            font-size: 14px;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .route-no strong {
+            color: var(--ink);
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: minmax(360px, 520px) minmax(0, 1fr);
+            gap: 24px;
+            margin-top: 28px;
+            align-items: start;
+        }
+
+        .stack {
+            display: grid;
+            gap: 18px;
+            align-content: start;
+            min-width: 0;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid rgba(157, 79, 27, 0.12);
+            border-radius: 24px;
+            box-shadow: var(--shadow);
+            padding: 18px;
+            overflow: hidden;
+            min-width: 0;
+        }
+
+        .section-title {
+            margin: 0 0 14px;
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .subheading {
+            margin: 0 0 10px;
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        .outlier-card {
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .collapsible-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            cursor: pointer;
+            margin: 0;
+            padding: 16px 18px;
+            background: linear-gradient(180deg, var(--accent-deep) 0%, #1f1813 100%);
+            color: #fff;
+        }
+
+        .collapsible-header .subheading {
+            margin-bottom: 6px;
+            color: rgba(255, 255, 255, 0.78);
+        }
+
+        .collapsible-header .section-title {
+            margin: 0;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .card-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.14);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+            font-size: 13px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .card-toggle::after {
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-right: 2px solid currentColor;
+            border-bottom: 2px solid currentColor;
+            transform: rotate(-45deg) translateY(0);
+            transform-origin: center;
+            transition: transform 0.2s ease;
+        }
+
+        .collapsible-header.is-open .card-toggle::after {
+            transform: rotate(45deg) translateY(-1px);
+        }
+
+        .collapsible-content {
+            display: none;
+            padding: 18px;
+            background: var(--panel);
+        }
+
+        .kpi-table,
+        .outlier-table {
+            width: 100% !important;
+            border-collapse: collapse;
+        }
+
+        .kpi-table th,
+        .outlier-table th {
+            background: var(--accent-deep);
+            color: #fff;
+            padding: 10px 12px;
+            text-align: left;
+            font-size: 12px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .kpi-table td,
+        .outlier-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--line);
+            background: rgba(255, 253, 250, 0.92);
+            vertical-align: top;
+        }
+
+        .kpi-table tr:last-child td,
+        .outlier-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+            min-width: 0;
+        }
+
+        .map-card {
+            align-self: start;
+        }
+
+        .map-frame {
+            border-radius: 18px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        iframe {
+            width: 100%;
+            height: 82vh;
+            min-height: 620px;
+            border: none;
+            display: block;
+            background: #fff;
+        }
+
+        table.dataTable tbody tr:hover td {
+            background: #fff7ef;
+        }
+
+        .dataTables_wrapper {
+            width: 100%;
+        }
+
+        .dataTables_wrapper .dataTables_filter,
+        .dataTables_wrapper .dataTables_info {
+            color: var(--muted);
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            border-radius: 999px !important;
+            border: 1px solid var(--line) !important;
+            background: #fff !important;
+        }
+
+        @media (max-width: 1320px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+
+            iframe {
+                height: 65vh;
+                min-height: 460px;
+            }
+        }
+
+        @media (max-width: 980px) {
+            .hero-row {
+                grid-template-columns: 1fr;
+                justify-items: start;
+            }
+
+            .hero-title {
+                text-align: left;
+            }
+
+            .hero-side.right {
+                justify-content: flex-start;
+            }
+
+            .meta-row {
+                flex-direction: column;
+            }
+
+            .route-no {
+                text-align: left;
+                white-space: normal;
+            }
+        }
+
+        @media (max-width: 720px) {
+            body {
+                padding: 16px;
+            }
+
+            .card {
+                border-radius: 20px;
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero-row">
+                <div class="hero-side">
+                    <a class="back-link" href="../index.html" title="Back">
+                        <span class="back-arrow">&#8592;</span>
+                    </a>
+                </div>
+
+                <div class="hero-title">
+                    <h1>Route B46-S-Day</h1>
+                    <p>Static route view for the New York bus-route demo.</p>
+                </div>
+
+                <div class="hero-side right">
+                    <img class="logo" src="../img/logo.png" alt="Demo logo">
+                </div>
+            </div>
+
+            <div class="meta-row">
+                <div class="scenario-meta">
+                    <div><strong>Label:</strong> All Routes</div>
+                    <div><strong>Profile:</strong> MTA Car New York</div>
+                    <div><strong>Analysis period:</strong> MTA 2024-10-15</div>
+                </div>
+
+                <div class="route-no">
+                    <strong>Route no.:</strong> B46-S-Day
+                </div>
+            </div>
+        </header>
+
+        <section class="layout">
+            <div class="stack">
+                
+                <article class="card">
+                    <p class="subheading">
+                        Type 1
+                    </p>
+                    <h2 class="section-title">
+                        Fixed route
+                    </h2>
+                    <table class="kpi-table">
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Contribution margin original</td><td>$174.09</td></tr>
+                            <tr><td>Contribution margin optimized</td><td>$178.80</td></tr>
+                            <tr><td>Original route time</td><td>52 min</td></tr>
+                            <tr><td>Optimized route time</td><td>46 min</td></tr>
+                            <tr><td>Best contribution gain</td><td>$4.71</td></tr>
+                            <tr><td>Significant outliers</td><td>5</td></tr>
+                        </tbody>
+                    </table>
+                </article>
+                
+                <article class="card">
+                    <p class="subheading">
+                        Type 2
+                    </p>
+                    <h2 class="section-title">
+                        Optimized route
+                    </h2>
+                    <table class="kpi-table">
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Contribution margin original</td><td>$174.09</td></tr>
+                            <tr><td>Contribution margin optimized</td><td>$177.06</td></tr>
+                            <tr><td>Original route time</td><td>52 min</td></tr>
+                            <tr><td>Optimized route time</td><td>47 min</td></tr>
+                            <tr><td>Best contribution gain</td><td>$2.97</td></tr>
+                            <tr><td>Significant outliers</td><td>3</td></tr>
+                        </tbody>
+                    </table>
+                </article>
+                
+
+                
+                <article class="card outlier-card">
+                    <div class="collapsible-header" data-target="outlier-details-0">
+                        <div>
+                            <p class="subheading">
+                                Type 1
+                            </p>
+                            <h2 class="section-title">Outlier details</h2>
+                        </div>
+                        <span class="card-toggle">Show table</span>
+                    </div>
+                    <div class="collapsible-content" id="outlier-details-0">
+                        <div class="table-wrap">
+                        <table class="display outlier-table">
+                            <thead>
+                                <tr>
+                                    <th>Outlier set</th>
+                                    <th>Margin gain</th>
+                                    <th>Travel reduction</th>
+                                    <th>Estimated savings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <td>{ 31 }</td>
+                                    <td>$1.02</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40 }</td>
+                                    <td>$0.89</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45 }</td>
+                                    <td>$1.09</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 46 }</td>
+                                    <td>$0.66</td>
+                                    <td>
+                                        
+                                            -0 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-1
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50 }</td>
+                                    <td>$0.22</td>
+                                    <td>
+                                        
+                                            -0 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-1
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51 }</td>
+                                    <td>$1.18</td>
+                                    <td>
+                                        
+                                            -0 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-1
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 52 }</td>
+                                    <td>$0.41</td>
+                                    <td>
+                                        
+                                            -3 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-7
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52 }</td>
+                                    <td>$2.35</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-9
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 46, 47 }</td>
+                                    <td>$0.39</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51 }</td>
+                                    <td>$1.40</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45, 46 }</td>
+                                    <td>$1.74</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-3
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 39 }</td>
+                                    <td>$0.08</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-3
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52 }</td>
+                                    <td>$2.97</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45, 46, 47 }</td>
+                                    <td>$1.48</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 39, 31 }</td>
+                                    <td>$1.10</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 46 }</td>
+                                    <td>$2.06</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 51, 39 }</td>
+                                    <td>$1.26</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 46, 47 }</td>
+                                    <td>$0.61</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 52, 45, 46 }</td>
+                                    <td>$2.15</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 52, 39 }</td>
+                                    <td>$0.49</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 51, 52 }</td>
+                                    <td>$3.23</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 46, 47 }</td>
+                                    <td>$1.28</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 45, 46 }</td>
+                                    <td>$2.93</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 52, 46, 47 }</td>
+                                    <td>$0.80</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-9
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52, 46 }</td>
+                                    <td>$3.00</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 50, 39 }</td>
+                                    <td>$0.30</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 45, 39 }</td>
+                                    <td>$1.17</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52, 45 }</td>
+                                    <td>$3.43</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 50, 51 }</td>
+                                    <td>$2.29</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 46, 39 }</td>
+                                    <td>$0.74</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 45, 46 }</td>
+                                    <td>$1.96</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 45, 46 }</td>
+                                    <td>$2.63</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45, 46, 31 }</td>
+                                    <td>$2.76</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 46, 47 }</td>
+                                    <td>$1.57</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 31 }</td>
+                                    <td>$2.42</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 47, 46, 31 }</td>
+                                    <td>$1.41</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52, 31 }</td>
+                                    <td>$3.37</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-11
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 45 }</td>
+                                    <td>$2.49</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 45, 46, 47 }</td>
+                                    <td>$2.66</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 50, 51, 52 }</td>
+                                    <td>$3.86</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-12
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 46 }</td>
+                                    <td>$3.63</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-12
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52, 45, 46 }</td>
+                                    <td>$4.09</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-12
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 45, 46 }</td>
+                                    <td>$3.14</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 50, 51, 39 }</td>
+                                    <td>$1.48</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52, 46, 47 }</td>
+                                    <td>$2.74</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-11
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 31 }</td>
+                                    <td>$3.99</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-13
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 45, 46, 47 }</td>
+                                    <td>$2.36</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 45, 46, 47 }</td>
+                                    <td>$1.69</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 51, 52, 39 }</td>
+                                    <td>$2.43</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-12
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 39, 46, 47 }</td>
+                                    <td>$0.47</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 46, 47 }</td>
+                                    <td>$1.79</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-5
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 45, 46, 39 }</td>
+                                    <td>$1.82</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-6
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 47, 45, 46, 31 }</td>
+                                    <td>$2.50</td>
+                                    <td>
+                                        
+                                            -3 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-6
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 45 }</td>
+                                    <td>$4.06</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-12
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 52, 45, 46, 47 }</td>
+                                    <td>$1.88</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-11
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 45, 46, 47 }</td>
+                                    <td>$2.88</td>
+                                    <td>
+                                        
+                                            -3 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-6
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52, 45, 46, 47 }</td>
+                                    <td>$3.82</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-13
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 39, 40 }</td>
+                                    <td>$3.05</td>
+                                    <td>
+                                        
+                                            -6 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-14
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 46, 47 }</td>
+                                    <td>$3.36</td>
+                                    <td>
+                                        
+                                            -5 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-13
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 39, 40, 45, 46, 47 }</td>
+                                    <td>$1.56</td>
+                                    <td>
+                                        
+                                            -3 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-7
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 45, 46 }</td>
+                                    <td>$4.71</td>
+                                    <td>
+                                        
+                                            -6 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-13
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52, 45, 46, 47 }</td>
+                                    <td>$4.45</td>
+                                    <td>
+                                        
+                                            -6 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-14
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="card outlier-card">
+                    <div class="collapsible-header" data-target="outlier-details-1">
+                        <div>
+                            <p class="subheading">
+                                Type 2
+                            </p>
+                            <h2 class="section-title">Outlier details</h2>
+                        </div>
+                        <span class="card-toggle">Show table</span>
+                    </div>
+                    <div class="collapsible-content" id="outlier-details-1">
+                        <div class="table-wrap">
+                        <table class="display outlier-table">
+                            <thead>
+                                <tr>
+                                    <th>Outlier set</th>
+                                    <th>Margin gain</th>
+                                    <th>Travel reduction</th>
+                                    <th>Estimated savings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                                <tr>
+                                    <td>{ 31 }</td>
+                                    <td>$1.02</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40 }</td>
+                                    <td>$0.89</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45 }</td>
+                                    <td>$1.09</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 46 }</td>
+                                    <td>$0.66</td>
+                                    <td>
+                                        
+                                            -0 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-1
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50 }</td>
+                                    <td>$0.22</td>
+                                    <td>
+                                        
+                                            -0 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-1
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51 }</td>
+                                    <td>$1.18</td>
+                                    <td>
+                                        
+                                            -0 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-1
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 52 }</td>
+                                    <td>$0.41</td>
+                                    <td>
+                                        
+                                            -3 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-7
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 51, 52 }</td>
+                                    <td>$2.35</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-9
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 46, 47 }</td>
+                                    <td>$0.39</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51 }</td>
+                                    <td>$1.40</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-2
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45, 46 }</td>
+                                    <td>$1.74</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-3
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 40, 39 }</td>
+                                    <td>$0.08</td>
+                                    <td>
+                                        
+                                            -1 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-3
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 50, 51, 52 }</td>
+                                    <td>$2.97</td>
+                                    <td>
+                                        
+                                            -4 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-10
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>{ 45, 46, 47 }</td>
+                                    <td>$1.48</td>
+                                    <td>
+                                        
+                                            -2 min
+                                        
+                                    </td>
+                                    <td>
+                                        
+                                        
+                                        $-4
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+
+            <article class="card map-card">
+                <h2 class="section-title">Route detail map</h2>
+                <div class="map-frame">
+                    <iframe src="..\maps/route_B46-S-Day_map.html"></iframe>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <script>
+    $(document).ready(function () {
+        const tables = $('.outlier-table').map(function () {
+            return $(this).DataTable({
+                pageLength: 10,
+                lengthChange: false,
+                searching: true,
+                info: false,
+                ordering: true,
+                pagingType: "simple",
+                autoWidth: false
+            });
+        }).get();
+
+        $('.collapsible-header').each(function (index) {
+            const header = $(this);
+            const targetId = header.data('target');
+            const content = $('#' + targetId);
+            const table = tables[index];
+
+            header.on('click', function () {
+                const isOpen = content.is(':visible');
+                content.stop(true, true).slideToggle(160);
+                header.toggleClass('is-open', !isOpen);
+
+                if (!isOpen && table) {
+                    setTimeout(function () {
+                        table.columns.adjust();
+                    }, 180);
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>

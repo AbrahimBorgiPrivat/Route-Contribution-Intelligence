@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Contribution Intelligence | Example</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="example" data-page-title="Example" data-page-subtitle="Demo outputs across data, static pages and application views">
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar></aside>
+    <div class="workspace">
+      <header class="topbar" data-topbar></header>
+      <main class="content">
+        <article class="prose">
+          <header class="article-header">
+            <div class="eyebrow">Example</div>
+            <h1 class="article-title">A Practical Demo of the Route Outlier Workflow</h1>
+            <p class="article-subtitle">
+              One compact example that connects scenario data, static presentation output and the interactive application.
+            </p>
+            <div class="article-byline">
+              <div class="author-avatar" aria-hidden="true">AB</div>
+              <div class="author-copy">
+                <div class="author-name">Abrahim Borgi</div>
+                <div class="author-role">Senior Buisness Analyst</div>
+              </div>
+            </div>
+            <div class="article-context">
+              <span>Route Contribution Intelligence</span>
+              <span>Example</span>
+              <span>Demo scenario</span>
+            </div>
+          </header>
+
+          <p>
+            This example shows how the solution is applied in one concrete public-transport scenario.
+          </p>
+          <ul>
+            <li><strong>Purpose:</strong> Demo the algorithm and implementation in a real-life scenario.</li>
+            <li><strong>How:</strong> Use MTA bus data to construct one concrete route optimization example.</li>
+          </ul>
+          <p>
+            In the sections below, we present the solution as implemented on real data and show how the same economic
+            outlier framework can be read from scenario level down to individual route decisions.
+          </p>
+
+          <section id="data">
+            <h2>Data</h2>
+            <p>
+              The example is built from two public MTA data sources: <em>MTA Bus Stop Level Ridership: Beginning 2024</em>
+              and <em>MTA Bus Stops</em>. 
+            </p>
+            <p>
+              Sources:
+              <a href="https://data.ny.gov/Transportation/MTA-Bus-Stop-Level-Ridership-Beginning-2024/fvdm-uavx/">MTA Bus Stop Level Ridership: Beginning 2024</a>
+              and
+              <a href="https://data.ny.gov/Transportation/MTA-Bus-Stops/2ucp-7wg5/">MTA Bus Stops</a>.
+            </p>
+            <p>
+              The first defines the route units that the algorithm
+              evaluates. The second assigns a modeled service value to each stop within the same scenario structure.
+            </p>
+            <h3><code>routes.csv</code></h3>
+            <p>
+              This file defines the route input itself. Each row represents one route unit, which in this example
+              corresponds to one bus stop in one time-specific route scenario.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Column</th>
+                    <th>Meaning</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>RouteId</code></td>
+                    <td>Scenario-specific route identifier, combining route, direction and time-of-day profile.</td>
+                  </tr>
+                  <tr>
+                    <td><code>Adress Id</code></td>
+                    <td>Stop identifier used to connect the route input with the service-value file.</td>
+                  </tr>
+                  <tr>
+                    <td><code>Adress</code></td>
+                    <td>Stop name used for readable route and map output.</td>
+                  </tr>
+                  <tr>
+                    <td><code>lon</code></td>
+                    <td>Longitude of the stop location.</td>
+                  </tr>
+                  <tr>
+                    <td><code>lat</code></td>
+                    <td>Latitude of the stop location.</td>
+                  </tr>
+                  <tr>
+                    <td><code>linjenummer</code></td>
+                    <td>Observed stop order within the route scenario.</td>
+                  </tr>
+                  <tr>
+                    <td><code>L_u</code></td>
+                    <td>Modeled internal route-unit cost, interpreted here as dwell time at the stop.</td>
+                  </tr>
+                  <tr>
+                    <td><code>route_group</code></td>
+                    <td>Scenario label used to group routes into higher-level views such as Day Busses or Rush Hour.</td>
+                  </tr>
+                  <tr>
+                    <td><code>type</code></td>
+                    <td>Routing profile category used by the runtime configuration.</td>
+                  </tr>
+                  <tr>
+                    <td><code>problem_type</code></td>
+                    <td>Problem formulation used by the solver, for example open-route evaluation through HPP.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3><code>route_revenue.csv</code></h3>
+            <p>
+              This file provides the modeled service value associated with each stop. It supplies the economic quantity that the outlier model compares against route cost.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Column</th>
+                    <th>Meaning</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>RouteId</code></td>
+                    <td>Scenario-specific route identifier matching the route input file.</td>
+                  </tr>
+                  <tr>
+                    <td><code>Adress Id</code></td>
+                    <td>Stop identifier used to attach service value to the correct route unit.</td>
+                  </tr>
+                  <tr>
+                    <td><code>Time profile</code></td>
+                    <td>Scenario time reference used to group observations into the modeled demand period, such as Morning, Day or Rush Hour.</td>
+                  </tr>
+                  <tr>
+                    <td><code>Oms</code></td>
+                    <td>Modeled revenue or service-value proxy assigned to the stop in that scenario.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="static">
+            <h2>Static</h2>
+            <p>
+              The static layer presents one prepared scenario as a small, fixed publication. The outputs are rendered
+              in advance, so the reader receives a finished narrative rather than an interactive workspace.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Page</th>
+                    <th>Role in the static presentation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Overview page</td>
+                    <td>Introduces the scenario and compares all generated routes in one table and 
+                        shows the full geographical spread of the scenario before route-level inspection.</td>
+                  </tr>
+                  <tr>
+                    <td>Route page</td>
+                    <td>Presents one selected route through KPIs, outlier tables and a focused detail map.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Overview page</h3>
+            <p>
+              The first page functions as the scenario entry point. It establishes the label, profile and analysis
+              period, then presents the route collection as a sortable overview table. 
+            </p>
+            <p>
+              In this form, the static output
+              behaves less like an analysis tool and more like a compact report: the reader can immediately compare
+              route times, contribution margins and significant outlier counts across all generated scenarios.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/static_route_overview.png" alt="Static overview page for the New York bus route demo">
+              <figcaption>
+                The overview page provides the scenario header and a route table that summarizes the Type 1 and Type 2
+                outputs for the full scenario collection.
+              </figcaption>
+            </figure>
+            <p>
+              The same overview also includes a full route map. This map serves for showing the geographical spread of the example at a
+              glance. 
+            </p>
+            <p>              
+              The reader can see how the scenarios occupy different parts of New York, how the stop markers are
+              distributed, and how the static output still preserves route geometry even without the broader
+              application shell around it.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/static_route_map.png" alt="Static full route map for the New York bus route demo">
+              <figcaption>
+                The static route map gives a scenario-wide geographical overview, making the route spread visible before
+                the reader drills down into any single route.
+              </figcaption>
+            </figure>
+            <h3>Route page</h3>
+            <p>
+              From the overview page, each row opens a dedicated route page. This is the analytical center of the
+              static presentation. 
+            </p>
+            <p>
+              Here the page shifts from scenario-wide comparison to route-level inspection: the
+              KPI cards separate Type 1 and Type 2 results, the outlier blocks can be expanded when needed, and the
+              map focuses on one concrete route rather than the full collection. 
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/static_route_page.png" alt="Static route page with KPI cards and detailed map">
+              <figcaption>
+                The route page narrows the view to one scenario instance and combines route-level KPIs, expandable
+                outlier details and a focused detail map.
+              </figcaption>
+            </figure>
+            <p>
+              In that sense, the static solution is best understood as a rendered interpretation of the same underlying
+              model.
+            </p>
+            <p> 
+              It fixes the scenario, computes the outputs in
+              advance and presents them as a readable sequence of pages: first the scenario overview, then the full map,
+              and finally the individual route analysis.
+            </p>
+          </section>
+
+          <section id="application">
+            <h2>Application</h2>
+            <p>
+              The application layer presents the same scenario as an interactive reading environment. 
+            </p>
+            <p>
+              Instead of moving through a fixed sequence of pre-rendered pages, the reader can filter scenarios, compare outputs, open a
+              selected case and then continue from scenario-level inspection to route-level detail.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>View</th>
+                    <th>Role in the application</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Scenario overview</td>
+                    <td>Compares scenario outcomes before route-level drill-down.</td>
+                  </tr>
+                  <tr>
+                    <td>Scenario route views</td>
+                    <td>Show the route overview table, the shared route map and scenario KPI summaries.</td>
+                  </tr>
+                  <tr>
+                    <td>Route page</td>
+                    <td>Presents one route through KPIs, detailed maps and expandable route tables.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Scenario overview</h3>
+            <p>
+              The entry point is the landing page. It frames the demo, explains the available selectors and prepares
+              the reader for the fact that the example is not one route but a collection of scenarios organized by
+              label, profile and analysis period. 
+            </p>
+            <p>
+              In contrast to the static version, this page acts as an interface for moving between cases rather than only as a fixed report header.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/Application_index_scenario_overview.png" alt="Application landing page with scenario explanation and overview">
+              <figcaption>
+                The landing page introduces the scenario structure and provides the first overview of how the demo is
+                filtered and navigated.
+              </figcaption>
+            </figure>
+            <p>
+              In the scenario overview the comparison is
+              explicit: Type 1 and Type 2 outputs are placed side by side, and the user can read the scenario as a set
+              of economic changes rather than as a list of stops. 
+            </p>
+            <p>
+              The KPI cards summarize the most important
+              transitions, while the metric tables below make the underlying values visible in a stable, comparable
+              form.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/Application_index_scenario_overview_kpi.png" alt="Scenario overview page with KPI change cards and summary tables">
+              <figcaption>
+                The scenario overview page emphasizes change, placing the main KPI comparisons before the detailed
+                route views.
+              </figcaption>
+            </figure>
+            <h3>Scenario route views</h3>
+            <p>
+              From Scenario overview you can look into certain routes. 
+            </p>
+            <p>
+              One is the route overview
+              table, where each route instance can be compared through route length, contribution margin and the number
+              of significant outliers. 
+            </p>
+            <p>
+              The other is the scenario-wide map, where the same collection is interpreted
+              spatially. Together, these two pages perform the same conceptual task from different angles: one in
+              numbers, one in geography.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/Application_Scenario_route_overview.png" alt="Application scenario route overview table">
+              <figcaption>
+                The route overview table turns the scenario into a comparable list of route instances and exposes the
+                next step into route-level inspection.
+              </figcaption>
+            </figure>
+            <figure class="figure-wide">
+              <img src="assets/Application_Scenario_route_map.png" alt="Application scenario-wide route map">
+              <figcaption>
+                The shared route map complements the table by showing how the scenario is distributed geographically
+                across New York.
+              </figcaption>
+            </figure>
+            <p>
+              A separate scenario KPI page reinforces the same interpretation at a higher level of aggregation. Rather
+              than focusing on individual routes, it summarizes how the chosen scenario behaves under the main Type 1
+              and Type 2 comparisons. 
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/Application_Scenario_site_kpis.png" alt="Application scenario KPI page">
+              <figcaption>
+                The scenario KPI view summarizes the economic effect of the selected scenario before the user inspects
+                any single route.
+              </figcaption>
+            </figure>
+            <h3>Route page</h3>
+            <p>
+              The route page is the most detailed part of the application. It preserves the scenario context in the
+              header, then combines Type 1 and Type 2 KPI cards with a detailed route-and-stop map. Here the
+              application becomes interpretive rather than merely comparative: the user can see where the route runs,
+              which stops become significant, and how the alternative solutions relate to one another on the map.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/Application_Route_page.png" alt="Application route page with KPI cards and detailed route map">
+              <figcaption>
+                The route page brings together the scenario context, route-level KPIs and the detailed map in one
+                analytical view.
+              </figcaption>
+            </figure>
+            <p>
+              Below the map, the route page continues into expandable route tables. These tables are less about visual
+              orientation and more about inspection: they expose stop order, stop identity, service value and length to
+              the next stop for each route solution. 
+            </p>
+            <p>
+              This is where the application most clearly moves from summary
+              interpretation into auditable detail.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/Application_Route_page_route_list.png" alt="Application route page with expandable route tables">
+              <figcaption>
+                Expandable route tables let the reader inspect the concrete stop sequence behind the summarized route
+                results.
+              </figcaption>
+            </figure>
+            <p>
+              Taken together, the application <strong> not change the underlying outlier model</strong>. What it changes is the
+              mode of reading. 
+            </p>
+            <p> 
+              static layer presents the scenario as a finished document, while the application
+              layer lets the reader move between explanation, comparison, geography and route-level inspection without
+              leaving the same analytical framework.
+            </p>
+          </section>
+
+          <section id="how-to-use-the-solution">
+            <h2>How to Use the Solution</h2>
+            <p>
+              The introduction began with a simple tension: the stop that looks geographically inconvenient is not
+              necessarily the stop that weakens the route economically. 
+            </p>
+            <p>
+              The purpose of the solution is therefore not only to display routes, but to guide the reader from visible structure to economic interpretation.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Step</th>
+                    <th>Question to ask</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1. Start with the scenario</td>
+                    <td>Which label, profile and analysis period define the case being evaluated?</td>
+                  </tr>
+                  <tr>
+                    <td>2. Compare the overview</td>
+                    <td>Which scenarios or routes show the largest change in contribution margin, length or outlier count?</td>
+                  </tr>
+                  <tr>
+                    <td>3. Inspect the geography</td>
+                    <td>Do the costly or significant parts of the route also look spatially unusual?</td>
+                  </tr>
+                  <tr>
+                    <td>4. Open the route detail</td>
+                    <td>Which concrete stops drive the result once the route is examined at route level?</td>
+                  </tr>
+                  <tr>
+                    <td>5. Read the outlier tables</td>
+                    <td>Which removals improve the route, and is the gain driven by travel reduction, low value, or both?</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              In practice, the solution should be read from outside to inside. First identify the scenario. Then use
+              the overview pages to compare which route instances appear economically weak. After that, use the maps to
+              understand whether the pattern is concentrated, peripheral or structurally embedded in the route. Only
+              then should the reader move to the route page and inspect the specific stop sequence and outlier sets.
+            </p>
+            <p>
+              This order matters. If one begins immediately with a single route, the result is easy to over-interpret
+              as a purely local anomaly. The broader scenario view keeps the original question in focus: not which stop
+              looks strange in isolation, but which stop or subset actually changes the route's contribution margin in a
+              meaningful way.
+            </p>
+            <p class="article-pullquote">
+              <em>
+                The solution is most useful when it is read as a progression: from scenario, to comparison, to map, to
+                route, and finally to the concrete stop-level explanation behind the economic result.
+              </em>
+            </p>
+            <p>
+              In that sense, the workflow returns directly to the problem posed in the introduction. 
+            </p>
+            <p>
+              The map gives the first intuition, but the decision is economic. The route that appears long may still be justified. The
+              stop that appears harmless may still be weak. The role of the solution is to make that distinction
+              visible, testable and readable.
+            </p>
+          </section>
+
+          <nav class="article-navigation" aria-label="Next pages">
+            <a href="introduction.html">
+              <div class="nav-label">Introduction</div>
+              <div class="nav-title">Back to the problem statement</div>
+              <div class="nav-desc">Return to the motivation behind the route-level economic question.</div>
+            </a>
+            <a href="implementation.html#visual-representation">
+              <div class="nav-label">Implementation</div>
+              <div class="nav-title">Visual representation</div>
+              <div class="nav-desc">See how maps, route pages and outputs are generated in the system.</div>
+            </a>
+          </nav>
+        </article>
+      </main>
+      <footer class="footer" data-footer></footer>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

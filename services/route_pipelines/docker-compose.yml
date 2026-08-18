@@ -1,0 +1,44 @@
+x-pipeline-base: &pipeline-base
+  build:
+    context: ../..
+    dockerfile: services/route_pipelines/Dockerfile
+  working_dir: /app
+  environment:
+    PYTHONPATH: /app
+    PYTHONUNBUFFERED: "1"
+    OSM_SNAP_URL: ${OSM_SNAP_URL:-http://host.docker.internal:5010}
+    OSRM_FOOT_URL: ${OSRM_FOOT_URL:-http://host.docker.internal:5000}
+    OSRM_CAR_URL: ${OSRM_CAR_URL:-http://host.docker.internal:5001}
+    OSRM_CAR_NEWYORK_URL: ${OSRM_CAR_NEWYORK_URL:-http://host.docker.internal:5003}
+    OSRM_BICYCLE_URL: ${OSRM_BICYCLE_URL:-http://host.docker.internal:5002}
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
+  restart: "no"
+
+services:
+  route-data-demo-bus-routes-nyc:
+    <<: *pipeline-base
+    container_name: route-data-demo-bus-routes-nyc
+    command: python libraries/runners/application/demo_bus_routes_nyc/run_data_pipeline.py
+    volumes:
+      - ../../data:/app/data
+      - ../../views/application/demo_bus_routes_nyc:/app/views/application/demo_bus_routes_nyc
+      - ./runtime_definitions/application/demo_bus_routes_nyc:/app/runtime_definitions/application/demo_bus_routes_nyc:ro
+
+  route-data-demo-bus-routes-nyc-single-scenario:
+    <<: *pipeline-base
+    container_name: route-data-demo-bus-routes-nyc-single-scenario
+    command: python libraries/runners/application/demo_bus_routes_nyc_single_scenario/run_data_pipeline.py
+    volumes:
+      - ../../data:/app/data
+      - ../../views/application/demo_bus_routes_nyc_single_scenario:/app/views/application/demo_bus_routes_nyc_single_scenario
+      - ./runtime_definitions/application/demo_bus_routes_nyc_single_scenario:/app/runtime_definitions/application/demo_bus_routes_nyc_single_scenario:ro
+
+  route-presentation-demo-bus-routes-nyc:
+    <<: *pipeline-base
+    container_name: route-presentation-demo-bus-routes-nyc
+    command: python libraries/runners/static/demo_bus_routes_nyc/run_presentation_pipeline.py
+    volumes:
+      - ../../data:/app/data
+      - ../../views/static/demo_bus_routes_nyc:/app/views/static/demo_bus_routes_nyc
+      - ./runtime_definitions/static/demo_bus_routes_nyc:/app/runtime_definitions/static/demo_bus_routes_nyc:ro

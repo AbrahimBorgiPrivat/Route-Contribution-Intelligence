@@ -1,0 +1,1031 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 10.15,
+        "address": "SOUTHERN BLVD/EAST FORDHAM RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880972,
+          40.856252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/E 187 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881852,
+          40.853173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "SOUTHERN BLVD/E 183 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882488,
+          40.850918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/E 180 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884499,
+          40.846138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/E 176 St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.886237,
+          40.840198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "SOUTHERN BLVD/E 174 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887719,
+          40.837467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/E 172 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889764,
+          40.834168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 8,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "SOUTHERN BLVD/E 163 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891773,
+          40.820842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/E 149 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903953,
+          40.812224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "E 149 ST/TINTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906146,
+          40.812659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "E 149 ST/CONCORD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90855,
+          40.813155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 149 ST/SAINT ANN'S AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913289,
+          40.814424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 16,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 149 ST/BROOK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915301,
+          40.815166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 14.5,
+        "address": "E 149 ST/MELROSE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918103,
+          40.81628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 22,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 14.5,
+        "address": "W 145 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938795,
+          40.821618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "W 145 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941703,
+          40.822843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 25,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "W 145 ST/AMSTERDAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947373,
+          40.825231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 26,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 31.9,
+        "address": "W 145 ST/BROADWAY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950176,
+          40.826407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 4,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "SOUTHERN BLVD/EAST TREMONT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885763,
+          40.842926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 11,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "SOUTHERN BLVD/AVENUE SAINT JOHN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901337,
+          40.812995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 18,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "E 149 ST/COURTLANDT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919846,
+          40.816745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 19,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 149 ST/GRAND CONCOURSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927078,
+          40.818589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 24,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "W 145 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944516,
+          40.82403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 9,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "SOUTHERN BLVD/LONGWOOD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896607,
+          40.816076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 10,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "SOUTHERN BLVD/E 156 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898025,
+          40.81471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 20,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "E 149 ST/GERARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929075,
+          40.819092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 21,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "W 145 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936347,
+          40.820557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 10.15,
+        "address": "SOUTHERN BLVD/EAST FORDHAM RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880972,
+          40.856252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/E 187 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881852,
+          40.853173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "SOUTHERN BLVD/E 183 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882488,
+          40.850918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/E 180 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884499,
+          40.846138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/E 176 St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.886237,
+          40.840198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "SOUTHERN BLVD/E 174 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887719,
+          40.837467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "SOUTHERN BLVD/E 172 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889764,
+          40.834168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "SOUTHERN BLVD/E 163 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891773,
+          40.820842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "SOUTHERN BLVD/E 149 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903953,
+          40.812224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "E 149 ST/TINTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906146,
+          40.812659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "E 149 ST/CONCORD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90855,
+          40.813155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 149 ST/SAINT ANN'S AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.913289,
+          40.814424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 149 ST/BROOK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915301,
+          40.815166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 14.5,
+        "address": "E 149 ST/MELROSE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918103,
+          40.81628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 14.5,
+        "address": "W 145 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938795,
+          40.821618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "W 145 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941703,
+          40.822843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "W 145 ST/AMSTERDAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947373,
+          40.825231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 31.9,
+        "address": "W 145 ST/BROADWAY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950176,
+          40.826407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 4,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "SOUTHERN BLVD/EAST TREMONT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885763,
+          40.842926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 11,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "SOUTHERN BLVD/AVENUE SAINT JOHN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901337,
+          40.812995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 18,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "E 149 ST/COURTLANDT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919846,
+          40.816745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 19,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 149 ST/GRAND CONCOURSE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927078,
+          40.818589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 20,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "E 149 ST/GERARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929075,
+          40.819092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 21,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "W 145 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936347,
+          40.820557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 24,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "W 145 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944516,
+          40.82403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 9,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "SOUTHERN BLVD/LONGWOOD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896607,
+          40.816076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 10,
+        "route_id": "BX19-S-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "SOUTHERN BLVD/E 156 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898025,
+          40.81471
+        ]
+      }
+    }
+  ]
+}

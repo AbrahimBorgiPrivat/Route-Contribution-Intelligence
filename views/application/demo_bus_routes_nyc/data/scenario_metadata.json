@@ -1,0 +1,16 @@
+{
+  "labels": {
+    "All Routes": "Alle MTA-ruter uden ekstra filtrering.",
+    "Day Busses": "Kun ruter markeret som Day Busses i route_group.",
+    "Evening Busses": "Kun ruter markeret som Evening Busses i route_group.",
+    "Morning": "Kun ruter markeret som Morning i route_group.",
+    "Night": "Kun ruter markeret som Night i route_group.",
+    "Rush Hour": "Kun ruter markeret som Rush Hour i route_group."
+  },
+  "APR_profiles": {
+    "MTA Car New York": "Bilprofil for New York, beregnet via den separate OSRM-car-newyork service i sekunder."
+  },
+  "week_profiles": {
+    "MTA 2024-10-15": "Omsaetningen er den modellerede MTA stop/daypart-proxy fra route_revenue.csv for sample-datoen 2024-10-15."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "pipeline": "route_data",
+  "input": {
+    "file_path": "./data/routes.csv",
+    "file_seperator": ";"
+  },
+  "output": {
+    "save_dir": "./views/application/demo_bus_routes_nyc_single_scenario/data"
+  },
+  "routing": {
+    "route_type": "both",
+    "start_routes": null,
+    "max_routes": null
+  },
+  "algorithm": {
+    "E": 5.0,
+    "APR": {
+      "car-newyork": {
+        "duration": 0.03944
+      }
+    },
+    "z": 0.0,
+    "k_max": 25,
+    "k_all": 1,
+    "B": 10,
+    "solver_tsp": "ortools",
+    "solver_hpp": "ortools",
+    "deterministic_tsp": true,
+    "deterministic_hpp": true,
+    "precheck": true,
+    "ortools_time_limit": 2,
+    "initial_point_method": {
+      "method": "GREEDY_DNN"
+    },
+    "type1_methods": ["A", "B", "U"],
+    "type2_methods": ["A", "B"],
+    "A_kwargs": null,
+    "B_kwargs": null,
+    "U_kwargs": {
+      "max_combination_size": 2,
+      "max_union_size": 10,
+      "min_union_size": 3
+    }
+  },
+  "geometry": {
+    "allowed_highways": null,
+    "chunk_size_osm": null,
+    "chunk_size_osrm": 50,
+    "use_rotated_side": false,
+    "offset_m": 2.5,
+    "entry_angle_deg": -60.0,
+    "exit_angle_deg": 60.0,
+    "unit_entry_exit_strategy": null
+  },
+  "mappings": {
+    "col_map": {
+      "route_id": { "name": "RouteId" },
+      "lon": { "name": "lon" },
+      "lat": { "name": "lat" },
+      "line_nr": { "name": "linjenummer" },
+      "L_u": { "name": "L_u" },
+      "address": {
+        "fields": ["Adress"],
+        "separator": "; "
+      },
+      "type": {
+        "name": "type",
+        "car-newyork": { "val": "Car", "annotations": "duration" }
+      },
+      "problem_type": {
+        "name": "problem_type",
+        "HPP": ["HPP"],
+        "TSP": ["TSP"],
+        "OUT:HPP": ["OUT:HPP"],
+        "OUT:TSP": ["OUT:TSP"]
+      },
+      "revenue": {
+        "path_revenue": "./data/route_revenue.csv",
+        "sep": ";",
+        "join_fields": {
+          "route_id": "RouteId",
+          "Adress Id": "Adress Id"
+        },
+        "rev_fields": ["Oms"],
+        "rev_formula": "SUM",
+        "rev_include_all_addresses": true
+      },
+      "group_by_route_id": true
+    },
+    "kpi_mapping": [
+      { "name": "Route ID", "key": "route_id" },
+      { "name": "Profile", "key": "profile" },
+      { "name": "T1 Length (Orig.)", "key": "t1_L_original" },
+      { "name": "T1 Length (Opt.)", "key": "t1_L_opt" },
+      { "name": "T1 CM (Orig.)", "key": "t1_DG_original" },
+      { "name": "T1 CM (Opt.)", "key": "t1_DG_best" },
+      { "name": "T1 Significant Outliers", "key": "t1_seg_outliers" },
+      { "name": "T2 Length (Orig.)", "key": "t2_L_original" },
+      { "name": "T2 Length (Opt.)", "key": "t2_L_opt" },
+      { "name": "T2 CM (Orig.)", "key": "t2_DG_original" },
+      { "name": "T2 CM (Opt.)", "key": "t2_DG_best" },
+      { "name": "T2 Significant Outliers", "key": "t2_seg_outliers" }
+    ]
+  },
+  "flags": {
+    "use_data": true,
+    "index_filename": "routes_index.json"
+  }
+}

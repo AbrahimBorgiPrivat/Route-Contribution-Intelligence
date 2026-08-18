@@ -1,0 +1,1183 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 20.78,
+        "address": "4 AV/86 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.028688,
+          40.622312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 6.53,
+        "address": "92 ST/FORT HAMILTON PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.027208,
+          40.616714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "LILY POND AV/MAJOR AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.064787,
+          40.600265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "McCLEAN AV/LILY POND AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06422,
+          40.598841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 4.83,
+        "address": "McCLEAN AV/RAILROAD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06625,
+          40.598178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "McCLEAN AV/MILLS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.069033,
+          40.597254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "SAND LN/McCLEAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.070476,
+          40.597025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "HYLAN BLVD/WEST FINGERBOARD RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.072639,
+          40.598531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 8,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "HYLAN BLVD/STEUBEN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.078051,
+          40.598576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 9,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "HYLAN BLVD/CLOVE RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.081064,
+          40.598662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 10,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "CLOVE RD/GRASMERE STATION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.083453,
+          40.603797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 11,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "CLOVE RD/NECKAR AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.086838,
+          40.60627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "CLOVE RD/TARGEE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.089219,
+          40.6077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "NARROWS RD NORTH/RICHMOND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.090733,
+          40.609731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/HOWARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.099516,
+          40.612715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/FOOTE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.100349,
+          40.613422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 16,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/VAN CORTLANDT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.102188,
+          40.614859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.72,
+        "address": "CLOVE RD/VICTORY BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.103516,
+          40.616595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 18,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/BEVERLY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.104703,
+          40.617898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 19,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/BEMENT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.110313,
+          40.620945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 20,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/SAINT PETERS CEMETERY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11239,
+          40.622376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 21,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "BROADWAY/FOREST AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.116101,
+          40.628784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 22,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "BROADWAY/DELAFIELD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.116432,
+          40.630688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "BROADWAY/CARY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.116756,
+          40.632566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 24,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "BROADWAY/CASTLETON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.117087,
+          40.63439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 25,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "CASTLETON AV/CAROLINE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.119274,
+          40.634487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 26,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CASTLETON AV/CLOVE RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.125845,
+          40.633917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 27,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CASTLETON AV/JEWETT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.129761,
+          40.63385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 28,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CASTLETON AV/HEBERTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.132408,
+          40.635011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 29,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PORT RICHMOND AV/HARRISON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.134223,
+          40.636595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 30,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PORT RICHMOND AV/RICHMOND TERR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.131826,
+          40.639876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 20.78,
+        "address": "4 AV/86 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.028688,
+          40.622312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 6.53,
+        "address": "92 ST/FORT HAMILTON PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.027208,
+          40.616714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "LILY POND AV/MAJOR AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.064787,
+          40.600265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "McCLEAN AV/LILY POND AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06422,
+          40.598841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 4.83,
+        "address": "McCLEAN AV/RAILROAD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06625,
+          40.598178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "McCLEAN AV/MILLS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.069033,
+          40.597254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "SAND LN/McCLEAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.070476,
+          40.597025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "HYLAN BLVD/WEST FINGERBOARD RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.072639,
+          40.598531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "HYLAN BLVD/STEUBEN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.078051,
+          40.598576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "HYLAN BLVD/CLOVE RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.081064,
+          40.598662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "CLOVE RD/GRASMERE STATION"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.083453,
+          40.603797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "CLOVE RD/NECKAR AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.086838,
+          40.60627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "CLOVE RD/TARGEE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.089219,
+          40.6077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "NARROWS RD NORTH/RICHMOND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.090733,
+          40.609731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/HOWARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.099516,
+          40.612715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/FOOTE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.100349,
+          40.613422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/VAN CORTLANDT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.102188,
+          40.614859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.72,
+        "address": "CLOVE RD/VICTORY BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.103516,
+          40.616595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/BEVERLY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.104703,
+          40.617898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 19,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/BEMENT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.110313,
+          40.620945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CLOVE RD/SAINT PETERS CEMETERY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11239,
+          40.622376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "BROADWAY/FOREST AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.116101,
+          40.628784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "BROADWAY/DELAFIELD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.116432,
+          40.630688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "BROADWAY/CARY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.116756,
+          40.632566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 24,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "BROADWAY/CASTLETON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.117087,
+          40.63439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "CASTLETON AV/CAROLINE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.119274,
+          40.634487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CASTLETON AV/CLOVE RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.125845,
+          40.633917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CASTLETON AV/JEWETT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.129761,
+          40.63385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CASTLETON AV/HEBERTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.132408,
+          40.635011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PORT RICHMOND AV/HARRISON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.134223,
+          40.636595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 30,
+        "route_id": "S53-W-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PORT RICHMOND AV/RICHMOND TERR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.131826,
+          40.639876
+        ]
+      }
+    }
+  ]
+}

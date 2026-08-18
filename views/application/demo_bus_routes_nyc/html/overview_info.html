@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info - Scenario View</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+<body class="blog-theme">
+    <div class="header">
+        <div class="header-row">
+            <div class="header-left">
+                <a class="header-btn" href="index.html" title="Home">&#127968;</a>
+            </div>
+            <h1 class="page-title">Info: Scenario View</h1>
+            <div class="header-right">
+                <img class="logo" src="../img/logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="scenario-meta">Documentation for <code>html/overview.html</code></div>
+    </div>
+
+    <main class="info-shell">
+        <section class="info-hero">
+            <h2>What is this page for?</h2>
+            <p>
+                This page shows one selected scenario in route detail.
+            </p>
+            <div class="info-links">
+                <a class="info-link" href="index_info.html">Overview</a>
+                <a class="info-link active" href="overview_info.html" aria-current="page">Scenario view</a>
+                <a class="info-link" href="route_info.html">Route view</a>
+            </div>
+        </section>
+
+        <section class="definition-box">
+            <h3>Key terms</h3>
+            <p>These are the main terms used here.</p>
+            <div class="definition-grid">
+                <div class="definition-item">
+                    <strong>Label</strong>
+                    <span>Label tells you which route setup you are looking at.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Profile</strong>
+                    <span>Profile is the operating profile used in the score.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Analysis period</strong>
+                    <span>Analysis period shows the time window used for the scenario.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Change cards</strong>
+                    <span>Change cards summarize the move from original to optimized.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>KPI cards</strong>
+                    <span>KPI cards show the main numbers for Type 1 and Type 2.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Route overview</strong>
+                    <span>The route overview breaks the scenario down by route.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-figure-grid">
+            <figure class="info-figure">
+                <div class="info-figure-header">Scenario KPI overview</div>
+                <div class="info-figure-body">
+                    <img src="../img/overview_page_1.png" alt="Scenario view screenshot">
+                </div>
+                <figcaption>The top section shows the change cards and KPI cards.</figcaption>
+            </figure>
+
+            <figure class="info-figure">
+                <div class="info-figure-header">Route overview and map</div>
+                <div class="info-figure-body">
+                    <img src="../img/overview_page_2.png" alt="Scenario map screenshot">
+                </div>
+                <figcaption>The bottom section shows the route table and map.</figcaption>
+            </figure>
+        </section>
+
+        <section class="info-grid">
+            <article class="info-card">
+                <h3>How to use it</h3>
+                <ul>
+                    <li>Check the metadata line at the top.</li>
+                    <li>Read the change cards first.</li>
+                    <li>Use the KPI cards to confirm the direction.</li>
+                    <li>Move to the route overview to find the drivers.</li>
+                </ul>
+            </article>
+
+            <article class="info-card">
+                <h3>What the route overview is for</h3>
+                <div class="formula-list">
+                    <div class="formula-item">
+                        <strong>Rows</strong>
+                        Each row is one route.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Type 1 and Type 2</strong>
+                        The two groups let you compare the same route across model types.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Transport mode</strong>
+                        Shows the mode used for the route and acts as a filter.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Sign. outliers</strong>
+                        Shows how many significant outliers the route has.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Open route</strong>
+                        The button opens the route detail page.
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-stack">
+            <article class="info-card">
+                <h3>When does a scenario look strong?</h3>
+                <ul>
+                    <li>When the change cards point in the right direction.</li>
+                    <li>When the KPI cards confirm the same picture.</li>
+                    <li>When the route overview shows the gain is not driven by one route only.</li>
+                    <li>When the map also looks reasonable.</li>
+                </ul>
+                <div class="callout">
+                    This page helps you decide whether to continue to route detail.
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

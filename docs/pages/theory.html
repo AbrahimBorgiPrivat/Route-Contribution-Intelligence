@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Contribution Intelligence | Theory</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="theory" data-page-title="Theory" data-page-subtitle="Graphs, routes and economics">
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar></aside>
+    <div class="workspace">
+      <header class="topbar" data-topbar></header>
+      <main class="content">
+        <article class="prose">
+          <header class="article-header">
+            <div class="eyebrow">Theory</div>
+            <h1 class="article-title">From a Delivery Route to a Mathematical Model</h1>
+            <p class="article-subtitle">
+              This page turns the route story into graph theory, route notation and the economic definition of an outlier.
+            </p>
+            <div class="article-byline">
+              <div class="author-avatar" aria-hidden="true">AB</div>
+              <div class="author-copy">
+                <div class="author-name">Abrahim Borgi</div>
+                <div class="author-role">Senior Buisness Analyst</div>
+              </div>
+            </div>
+            <div class="article-context">
+              <span>Route Contribution Intelligence</span>
+              <span>Theory</span>
+              <span>Graph model and contribution margin</span>
+            </div>
+          </header>
+
+          <figure class="figure-wide">
+            <img src="assets/graph.png" alt="Graph illustration introducing the theoretical route model">
+            <figcaption>
+              The theory layer begins by turning the route into a graph object with distances, units and economic
+              quantities that can be defined precisely.
+            </figcaption>
+          </figure>
+
+          <p>
+            The business question is now clear: some parts of the route may be economically harmful, but we still need
+            a language precise enough to measure that claim. This page therefore turns the route into a graph, the
+            graph into a route-length model, and the route-length model into an economic outlier definition.
+          </p>
+
+          <section id="graphs-routes-economics">
+            <h2>From route to graph</h2>
+            <p>
+              The route is represented as \(G = (V, A, w)\), where \(V\) is the set of route units, \(A\) is the set
+              of directed arcs and \(w : A \to \mathbb{R}_{\ge 0}\) assigns a travel cost or distance to each arc.
+            </p>
+            <p>
+              If the optimization graph is complete, then every ordered pair of distinct route units is available as a
+              candidate transition.
+            </p>
+            <div class="math-block">
+              \[
+              A = \{(i,j) \mid i,j \in V,\, i \neq j\}, \qquad w(i,j)=D_{i,j}.
+              \]
+            </div>
+            <p>
+              In the implementation, the weight matrix is not just a concept. It is the routed distance matrix that
+              the solver actually reads.
+            </p>
+            <p>
+              Once the route has become a graph, we can start asking how long it is geometrically. That requires us to
+              look more carefully at the directionality of the distances.
+            </p>
+          </section>
+
+          <section id="road-graph-vs-optimization-graph">
+            <h2>Road graph versus optimization graph</h2>
+            <p>
+              The code distinguishes between the road-level geometry used by the routing layer and the reduced graph
+              used by the optimization layer. 
+            </p>
+            <p>
+              For structured routes, the route is split into an outer graph between
+              route units and an inner graph inside each unit. The relevant objects are the outer matrix
+              <code>D_outer</code>, the full address matrix <code>D_all</code> and the structured unit models.
+            </p>
+            <div class="note">
+              The documentation uses the word graph in two related senses:
+              the underlying road network that produces distances, and the reduced optimization graph whose edges are
+              the routed distances used by the outlier algorithm.
+            </div>
+          </section>
+
+          <section id="asymmetric-distance-matrix">
+            <h2>Asymmetric distance matrix</h2>
+            <p>
+              A route is not necessarily symmetric. The distance from unit \(i\) to unit \(j\) can differ from the
+              reverse distance, so the matrix is generally asymmetric.
+            </p>
+            <div class="math-block">
+              \[
+              D = [D_{i,j}], \qquad D_{i,j} \neq D_{j,i} \ \text{in general}.
+              \]
+            </div>
+            <p>
+              This asymmetry matters because the route length depends on direction. A stop that looks cheap in one
+              position may be expensive in the opposite direction.
+            </p>
+          </section>
+
+          <section id="paths-cycles">
+            <h2>Routes, paths and cycles</h2>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Concept</th>
+                    <th>Meaning in this project</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Path</td>
+                    <td>An ordered visiting sequence through route units.</td>
+                  </tr>
+                  <tr>
+                    <td>Cycle</td>
+                    <td>A path whose last unit connects back to the first unit.</td>
+                  </tr>
+                  <tr>
+                    <td>Hamiltonian path</td>
+                    <td>An open route that visits every unit exactly once.</td>
+                  </tr>
+                  <tr>
+                    <td>Hamiltonian cycle</td>
+                    <td>A closed route that visits every unit exactly once and returns to the start.</td>
+                  </tr>
+                  <tr>
+                    <td>TSP</td>
+                    <td>Closed optimization route used when the route must return to its starting point.</td>
+                  </tr>
+                  <tr>
+                    <td>HPP / SHPP</td>
+                    <td>Open optimization route used when no return edge is required.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              The point of these definitions is not to turn the documentation into a graph theory textbook. It is to
+              make the solver choices precise enough to explain the implemented route search.
+            </p>
+          </section>
+
+          <section id="route-notation">
+            <h2>Problem statement and notation</h2>
+            <p>
+              We distinguish carefully between route units and served mailboxes. That distinction matters because one
+              removed route unit can contain many mailboxes, and the revenue per mailbox need not be identical across
+              units.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Symbol</th>
+                    <th>Meaning</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>\(R\)</td>
+                    <td>The full route, or the set of route units currently under evaluation.</td>
+                  </tr>
+                  <tr>
+                    <td>\(S \subseteq R\)</td>
+                    <td>A candidate subset removed from the route.</td>
+                  </tr>
+                  <tr>
+                    <td>\(R \setminus S\)</td>
+                    <td>The remaining route after removing the candidate subset.</td>
+                  </tr>
+                  <tr>
+                    <td>\(n(R)\)</td>
+                    <td>The number of route units.</td>
+                  </tr>
+                  <tr>
+                    <td>\(N(R)\)</td>
+                    <td>The number of mailboxes or economic units served by the route.</td>
+                  </tr>
+                  <tr>
+                    <td>\(p_i\)</td>
+                    <td>The number of mailboxes attached to route unit \(i\).</td>
+                  </tr>
+                  <tr>
+                    <td>\(D=[D_{i,j}]\)</td>
+                    <td>The routed distance matrix. At unit level it gives transition distances \(D_{i,j}\); at internal address level it gives distances such as \(D_{a_j,a_{j+1}}\).</td>
+                  </tr>
+                  <tr>
+                    <td>\(L_u\)</td>
+                    <td>The internal cost of route unit \(u\), such as service time, handling time or internal traversal.</td>
+                  </tr>
+                  <tr>
+                    <td>\(O(T)\)</td>
+                    <td>The revenue generated by the retained subset \(T\).</td>
+                  </tr>
+                  <tr>
+                    <td>\(E(T)\)</td>
+                    <td>The average revenue per mailbox on \(T\), defined as \(E(T)=O(T)/N(T)\).</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              <strong>Important distinction.</strong>
+              <code>n(R)</code> counts route units. <code>N(R)</code> counts mailboxes or other economic units. The
+              project needs both, because removing one route unit may remove many mailboxes.
+            </p>
+            <div class="math-block">
+              \[
+              \mathrm{G} := (R,\; D,\; p),
+              \qquad
+              N(T)=\sum_{i\in T} p_i,
+              \qquad
+              O(T)=\sum_{i\in T} o_i.
+              \]
+            </div>
+            <p>
+              Here \(o_i\) denotes the revenue contributed by route unit \(i\). If one prefers a mailbox-level view,
+              this can be written as \(o_i=e_i p_i\), where \(e_i\) is the revenue per mailbox for unit \(i\). This is
+              the more general formulation. A constant scalar \(E\) is only a special homogeneous case.
+            </p>
+          </section>
+
+          <section id="route-lengths">
+            <h2>Fixed route length and optimized route length</h2>
+            <p>
+              The route length should be split into two parts: the internal cost of each route unit, and the travel
+              between consecutive route units.
+            </p>
+            <p>
+              Let the fixed route order be
+              \(R=(u_1,u_2,\dots,u_k)\). Each route unit \(u\) may carry its own internal cost \(L_u\), which can
+              represent service time, handling time or an internal traversal length depending on the model.
+            </p>
+            <div class="math-block">
+              \[
+              L(R)=\sum_{t=1}^{k} L_{u_t}+\sum_{t=1}^{k-1} D_{u_t,u_{t+1}}.
+              \]
+              \[
+              L^{*}(R)=\min_{\sigma\in\mathcal{P}(R)}
+              \left(
+              \sum_{t=1}^{k} L_{\sigma(t)}
+              +\sum_{t=1}^{k-1} D_{\sigma(t),\sigma(t+1)}
+              \right).
+              \]
+            </div>
+            <p>
+              Here \(L_u\) is the internal cost of route unit \(u\), while \(D_{u_t,u_{t+1}}\) is the routed
+              transition distance from the exit of \(u_t\) to the entry of \(u_{t+1}\). If a route unit is modeled as
+              a single stop with no internal traversal, then \(L_u\) may be zero. If the unit represents a site with
+              service time or handling time, that time belongs in \(L_u\).
+            </p>
+            <p>
+              The optimized length \(L^{*}(R)\) keeps the same internal lengths, but minimizes over all allowed
+              permutations of the route units. Depending on the modeling assumption, that optimization is either open
+              (Shortest Hamiltonian Path / HPP) or closed (TSP).
+            </p>
+            <div class="definition">
+              <strong>Special case.</strong>
+              If the internal cost is itself derived from the order of addresses inside a site, one possible model is
+              \(L_u^{\mathrm{int}} = \sum_{j=1}^{m-1} D_{a_j,a_{j+1}}\). In the general theory, however, \(L_u\) is the
+              broader internal cost term, not only a distance sum.
+            </div>
+            <p>
+              In the code, the fixed-order calculation is handled by
+              <code>route_length_type1</code>, while optimized routes are solved by the TSP or HPP backends depending
+              on the problem type.
+            </p>
+            <p>
+              We can now describe how expensive the route is geometrically. What we still cannot answer is whether the
+              route is economically desirable.
+            </p>
+          </section>
+
+          <section id="contribution-margin">
+            <h2>Contribution margin</h2>
+            <p>
+              The economic score of the route is the contribution margin:
+            </p>
+            <div class="math-block">
+              \[
+              DG(R) = O(R) - APR \cdot L(R).
+              \]
+            </div>
+            <p>
+              Here \(O(R)\) is the realized revenue on the route and \(APR\) is the distance-related cost. This
+              formulation is important because revenue per mailbox does not have to be constant across route units.
+            </p>
+            <div class="math-block">
+              \[
+              O(R)=E(R)\cdot N(R),
+              \qquad
+              E(R)=\frac{O(R)}{N(R)}.
+              \]
+            </div>
+            <p>
+              Only in the homogeneous special case, where every mailbox yields the same revenue \(E\), can we simplify
+              the expression to
+            </p>
+            <div class="math-block">
+              \[
+              DG(R)=E\cdot N(R)-APR\cdot L(R).
+              \]
+            </div>
+            <p>
+              The implementation therefore matches the more general revenue view better if we state the model through
+              \(O(\cdot)\) first and treat constant \(E\) as shorthand.
+            </p>
+          </section>
+
+          <section id="removing-a-subset">
+            <h2>Removing a subset</h2>
+            <p>
+              We now have a route with a measurable geometric cost and a measurable economic value. The final step is
+              to ask what happens when part of the route disappears. 
+            </p>
+            <p>
+              Let \(S \subseteq R\) denote the candidate subset
+              removed from the route, and let \(R \setminus S\) be the retained route after that removal.
+            </p>
+            <p>
+              This is the central operation of the project. Every later algorithm, exact or heuristic, is built around
+              generating such subsets and asking whether removing them improves contribution margin.
+            </p>
+          </section>
+
+          <section id="marginal-distance-effect">
+            <h2>Marginal distance effect</h2>
+            <p>
+              Removing a subset changes the route length even before economics enters the picture. 
+            </p>
+            <p>
+              The route-length
+              change is defined by 
+            </p>
+            <div class="math-block">
+              \[
+              C(S) = L(R \setminus S) - L(R),
+              \qquad
+              C^{*}(S) = L^{*}(R \setminus S) - L^{*}(R).
+              \]
+            </div>
+            <p>
+              This separates geometry from economics. Once we know the length change, we can combine it with revenue
+              loss to obtain the full economic effect.
+            </p>
+            <p>
+              We can now assign a geometric effect to removing a subset. The final theoretical step is to ask how that
+              geometric change interacts with revenue.
+            </p>
+          </section>
+
+          <section id="marginal-economic-effect">
+            <h2>Marginal economic effect</h2>
+            <p>
+              The relevant quantity is the marginal economic effect. For a subset \(S\), removing the units changes
+              the contribution margin by
+            </p>
+            <div class="math-block">
+              \[
+              C_2(S)
+              = DG(R \setminus S)-DG(R)
+              = O(R \setminus S)-O(R) - APR \cdot C(S).
+              \]
+              \[
+              C_2^{*}(S)
+              = DG^{*}(R \setminus S)-DG^{*}(R)
+              = O(R \setminus S)-O(R) - APR \cdot C^{*}(S).
+              \]
+            </div>
+            <p>
+              This is the safest formulation, because the revenue loss from removing \(S\) is not generally captured by
+              a single constant \(E\). 
+            </p>
+            <div class="math-block">
+              \[
+              O(R \setminus S)=E(R\setminus S)\cdot N(R\setminus S),
+              \qquad
+              O(R)=E(R)\cdot N(R).
+              \]
+            </div>
+            <div class="intuition">
+              <strong>Economic intuition.</strong>
+              Removal creates a trade-off: lost revenue on one side, saved route cost on the other. A positive
+              \(C_2(S)\) means that the route becomes more profitable when \(S\) is removed than when \(S\) is kept on
+              the route.
+            </div>
+            <p>
+              In the homogeneous special case where all mailboxes share the same unit revenue \(E\), the expression
+              collapses to the simpler scalar form
+            </p>
+            <div class="math-block">
+              \[
+              C_2(S)
+              = E \left[N(R \setminus S)-N(R)\right]
+              - APR \left[L(R \setminus S)-L(R)\right].
+              \]
+            </div>
+          </section>
+
+          <section id="economic-outlier-definition">
+            <h2>Formal economic outlier definition</h2>
+            <p>
+              The implementation does not stop at \(C_2(S) > 0\). 
+            </p>
+            <p>
+              A practical outlier must also clear a threshold
+              \(z\), and the code keeps the proper-superset condition used by the report and the post-processing step.
+            </p>
+            <div class="math-block">
+              \[
+              C_2(S) > z
+              \qquad \text{and} \qquad
+              \exists S' \supset S \text{ such that } C_2(S') < z.
+              \]
+            </div>
+            <div class="definition-table">
+              <div class="definition-row">
+                <div class="definition-term">Economically beneficial removal</div>
+                <div class="definition-text">\(C_2(S) > 0\). Removing the subset improves the route, even before significance is considered.</div>
+              </div>
+              <div class="definition-row">
+                <div class="definition-term">Candidate outlier</div>
+                <div class="definition-text">\(C_2(S) > z\). The subset is strong enough to be considered by the detection logic.</div>
+              </div>
+              <div class="definition-row">
+                <div class="definition-term">Significant outlier subset</div>
+                <div class="definition-text">The subset is profitable and sits on a boundary where a larger removal set stops being profitable. That is what makes it a meaningful diagnostic object rather than just a positive value.</div>
+              </div>
+              <div class="definition-row">
+                <div class="definition-term">Why the superset rule matters</div>
+                <div class="definition-text">It avoids treating every positive subset as equally interesting. The definition looks for subsets that become special precisely because a larger removal starts to fail the threshold.</div>
+              </div>
+            </div>
+          </section>
+
+            <p>
+              At this point the central theoretical model is complete: we have a graph, a route-length model, a
+              contribution margin and a formal economic outlier definition. The remaining sections extend that core
+              model in directions that are useful for interpretation and implementation.
+            </p>
+          <section id="most-profitable-route-by-address-count">
+            <h2>Most profitable route as a function of the number of addresses</h2>
+            <p>
+              The outlier definition can also be viewed from the opposite direction. Instead of starting with a removal
+              subset and asking whether it should be excluded, we can ask which retained route is most profitable for a
+              fixed number of addresses.
+            </p>
+            <div class="math-block">
+              \[
+              \mathrm{PROFIT}(n)
+              =
+              \max_{T\subseteq R,\,n(T)=n}
+              DG^{*}(T)
+              =
+              \max_{T}
+              \left(O(T)-\mathrm{APR}\cdot L^{*}(T)\right).
+              \]
+            </div>
+            <p>
+              <strong>Note:</strong> If revenue per mailbox is constant, then \(O(T)=E\cdot N(T)\). 
+            </p>
+            <p>
+              This defines the best achievable contribution margin for every admissible route size \(n\). The optimal
+              address count and the corresponding optimal retained set are then
+            </p>
+            <div class="math-block">
+              \[
+              n^{\star} \in \arg\max_n \mathrm{PROFIT}(n),
+              \qquad
+              T_{n^{\star}}^{\star} = \arg\max_{T,\,|T|=n^{\star}} DG^{*}(T),
+              \]
+              \[
+              S_{n^{\star}}^{\star} = R \setminus T_{n^{\star}}^{\star}.
+              \]
+            </div>
+            <p>
+              In this formulation, the optimal removal set is simply the complement of the most profitable retained
+              route. That makes the profitability curve over route size a useful theoretical bridge between route
+              design and outlier detection.
+            </p>
+            <h3>Relation to outliers</h3>
+            <p>
+              For a fixed \(n\), the removed set \(S\) satisfies \(n(S)=n(R)-n\). Its marginal effect is still measured
+              through the same quantity as before:
+            </p>
+            <div class="math-block">
+              \[
+              C_2(S)=DG(R\setminus S)-DG(R).
+              \]
+            </div>
+            <p>
+              The outlier criterion therefore remains relevant in this view as well. It identifies the addresses that,
+              considered in isolation or in small subsets, should be removed because they move the route toward a more
+              profitable retained set.
+            </p>
+          </section>
+
+          <section id="structured-route-units">
+            <h2>Structured route units</h2>
+            <p>
+              The project also supports structured routes in which one route unit contains a group of addresses.
+              Those units have internal traversal, an entry point and an exit point. This is why the implementation
+              keeps both an outer unit graph and an inner address-level route model.
+            </p>
+            <div class="figure-grid">
+              <figure>
+                <img src="../report/figures/Slide3.PNG" alt="Structured route units with fixed entry and exit points">
+                <figcaption>
+                  Structured units can be modelled with fixed entry and exit points when the internal traversal is part
+                  of the route cost.
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="../report/figures/Slide4.PNG" alt="Structured route units with fixed outer and inner traversal">
+                <figcaption>
+                  The same idea appears in the implementation as an outer optimization problem and an inner HPP problem.
+                </figcaption>
+              </figure>
+            </div>
+            <p>
+              This is the point where the route story becomes nested: the outer order of units can be optimized, and
+              the internal visit order inside each unit can also be solved, depending on the chosen problem type.
+            </p>
+          </section>
+
+          <nav class="article-navigation" aria-label="Next pages">
+            <a href="introduction.html">
+              <div class="nav-label">Introduction</div>
+              <div class="nav-title">Back to the problem statement</div>
+              <div class="nav-desc">Return to the route-level narrative and the business question.</div>
+            </a>
+            <a href="fixed-sequence.html#hybrid-search">
+              <div class="nav-label">Solution</div>
+              <div class="nav-title">Hybrid search</div>
+              <div class="nav-desc">How the heuristic extension continues after the exact reference method.</div>
+            </a>
+            <a href="implementation.html#architecture">
+              <div class="nav-label">Implementation</div>
+              <div class="nav-title">From model to working system</div>
+              <div class="nav-desc">Modules, solvers, outputs and reproducibility.</div>
+            </a>
+          </nav>
+        </article>
+      </main>
+      <footer class="footer" data-footer></footer>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

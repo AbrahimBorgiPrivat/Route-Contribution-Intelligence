@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York Bus Route Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <style>
+        :root {
+            --ink: #1f1a17;
+            --muted: #6f6258;
+            --line: #e7d9c9;
+            --panel: rgba(255, 250, 244, 0.95);
+            --panel-soft: #fffaf4;
+            --accent: #9d4f1b;
+            --accent-deep: #2f221b;
+            --accent-soft: #f4e5d6;
+            --shadow: 0 22px 48px rgba(68, 39, 18, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Inter", sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at top left, rgba(222, 184, 135, 0.22), transparent 28%),
+                radial-gradient(circle at top right, rgba(196, 138, 76, 0.14), transparent 26%),
+                linear-gradient(180deg, #fffaf4 0%, #f7efe4 100%);
+            padding: 22px 20px 28px;
+        }
+
+        .page-shell {
+            max-width: 1980px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            padding: 10px 2px 18px;
+            border-bottom: 1px solid rgba(157, 79, 27, 0.12);
+        }
+
+        .hero-row {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .hero-side {
+            min-height: 72px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-side.right {
+            justify-content: flex-end;
+        }
+
+        .hero-title {
+            text-align: center;
+        }
+
+        .hero-title h1 {
+            margin: 0;
+            font-size: clamp(30px, 3vw, 48px);
+            line-height: 1.05;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+        .hero-title p {
+            margin: 8px 0 0;
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .logo {
+            width: 62px;
+            height: 62px;
+            object-fit: contain;
+        }
+
+        .scenario-meta {
+            display: grid;
+            gap: 6px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .scenario-meta strong {
+            color: var(--ink);
+        }
+
+        .section {
+            margin-top: 28px;
+        }
+
+        .section-title {
+            margin: 0 0 16px;
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .table-shell {
+            background: transparent;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table.dataTable {
+            width: 100% !important;
+            border-collapse: collapse !important;
+            background: transparent;
+        }
+
+        table.dataTable thead th {
+            background: var(--accent-deep);
+            color: #fff;
+            border-bottom: none !important;
+            padding: 14px 12px !important;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        table.dataTable tbody td {
+            background: rgba(255, 253, 250, 0.92);
+            border-bottom: 1px solid var(--line) !important;
+            color: var(--ink);
+            padding: 14px 12px !important;
+            vertical-align: middle;
+        }
+
+        table.dataTable tbody tr:hover td {
+            background: #fff7ef;
+        }
+
+        .metric-main {
+            font-weight: 700;
+            color: var(--ink);
+        }
+
+        .metric-sub {
+            display: block;
+            margin-top: 3px;
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .route-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: var(--accent-deep);
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .route-link:hover {
+            background: #4a3428;
+        }
+
+        .map-shell {
+            background: #fff;
+            border: 1px solid rgba(157, 79, 27, 0.12);
+            border-radius: 24px;
+            box-shadow: var(--shadow);
+            padding: 14px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 78vh;
+            min-height: 520px;
+            border: none;
+            display: block;
+            background: #fff;
+            border-radius: 18px;
+        }
+
+        .dataTables_wrapper .dataTables_filter,
+        .dataTables_wrapper .dataTables_info {
+            color: var(--muted);
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            border-radius: 999px !important;
+            border: 1px solid var(--line) !important;
+            background: #fff !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+            background: var(--accent-soft) !important;
+            border-color: rgba(157, 79, 27, 0.28) !important;
+        }
+
+        @media (max-width: 980px) {
+            .hero-row {
+                grid-template-columns: 1fr;
+                justify-items: start;
+            }
+
+            .hero-title {
+                text-align: left;
+            }
+
+            .hero-side.right {
+                justify-content: flex-start;
+            }
+        }
+
+        @media (max-width: 720px) {
+            body {
+                padding: 16px;
+            }
+
+            iframe {
+                height: 62vh;
+                min-height: 420px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero-row">
+                <div class="hero-side">
+                    <div class="scenario-meta">
+                        <div><strong>Scenario</strong></div>
+                        <div><strong>Label:</strong> All Routes</div>
+                        <div><strong>Profile:</strong> MTA Car New York</div>
+                        <div><strong>Analysis period:</strong> MTA 2024-10-15</div>
+                    </div>
+                </div>
+
+                <div class="hero-title">
+                    <h1>All Routes - MTA Car New York</h1>
+                    <p>Static overview of the New York bus-route demo.</p>
+                </div>
+
+                <div class="hero-side right">
+                    <img class="logo" src="img/logo.png" alt="Demo logo">
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">Route overview</h2>
+            <div class="table-shell">
+                <div class="table-wrap">
+                    <table id="route-table" class="display">
+                        <thead>
+                            <tr>
+                                {% for kpi in kpis %}
+                                    <th>{{ kpi.name }}</th>
+                                {% endfor %}
+                                <th>Open route</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in routes %}
+                            <tr>
+                                {% for kpi in kpis %}
+                                    {% set key = kpi.key %}
+                                    {% set value = row[key] %}
+                                    <td>
+                                        {% if key == "route_id" %}
+                                            <span class="metric-main">{{ value }}</span>
+                                        {% elif "_L_" in key and value is number %}
+                                            <span class="metric-main">{{ "%.0f"|format(value / 60) }} min</span>
+                                            <span class="metric-sub">{{ "%.0f"|format(value) }} sec</span>
+                                        {% elif "DG" in key and value is number %}
+                                            <span class="metric-main">${{ "{:,.2f}".format(value) }}</span>
+                                        {% elif "outlier" in key and value is number %}
+                                            <span class="metric-main">{{ "%.0f"|format(value) }}</span>
+                                        {% elif value is number %}
+                                            <span class="metric-main">{{ "{:,.0f}".format(value) }}</span>
+                                        {% else %}
+                                            <span class="metric-main">{{ value }}</span>
+                                        {% endif %}
+                                    </td>
+                                {% endfor %}
+                                <td>
+                                    <a class="route-link" href="routes/route_{{ row.route_id }}.html">
+                                        Open
+                                        <span>&#8594;</span>
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Route map</h2>
+            <div class="map-shell">
+                <iframe src="{{ map_file }}"></iframe>
+            </div>
+        </section>
+    </div>
+
+    <script>
+    $(document).ready(function () {
+        $('#route-table').DataTable({
+            pageLength: 20,
+            lengthChange: false,
+            info: false,
+            autoWidth: false
+        });
+    });
+    </script>
+</body>
+</html>

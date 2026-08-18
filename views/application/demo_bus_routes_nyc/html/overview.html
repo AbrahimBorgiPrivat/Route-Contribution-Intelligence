@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scenario Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/tables.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/hierarchy.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+<body class="blog-theme">
+    <div class="header">
+        <div class="header-row">
+            <div class="header-left">
+                <a class="header-btn" href="index.html" title="Home">&#127968;</a>
+            </div>
+            <h1 class="page-title" id="scenario-title">Scenario Overview</h1>
+            <div class="header-right">
+                <img class="logo" src="../img/logo.png" alt="Logo">
+            </div>
+        </div>
+
+        <div class="scenario-meta-row scenario-meta-row--with-info">
+            <button
+                type="button"
+                class="scenario-info-trigger"
+                id="scenario-info-trigger"
+                aria-haspopup="dialog"
+                aria-controls="scenario-info-modal">
+                Scenario info
+            </button>
+            <div class="scenario-meta" id="scenario-meta"></div>
+            <a class="info-inline-link" href="overview_info.html" title="Info">
+                <img src="../img/info_botton.png" alt="Info">
+            </a>
+        </div>
+    </div>
+
+    <div class="scenario-info-modal" id="scenario-info-modal" hidden aria-hidden="true">
+        <div class="scenario-info-modal__backdrop" data-scenario-info-close="true"></div>
+        <div
+            class="scenario-info-modal__dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="scenario-info-title">
+            <div class="scenario-info-modal__header">
+                <h2 class="scenario-info-modal__title" id="scenario-info-title">Scenario info</h2>
+                <button
+                    type="button"
+                    class="scenario-info-modal__close"
+                    data-scenario-info-close="true"
+                    aria-label="Close info box">
+                    Close
+                </button>
+            </div>
+            <div class="scenario-info-modal__body" data-scenario-info-content></div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Scenario KPIs</h2>
+    <div id="index-kpi-tables"></div>
+
+    <h2 class="section-title">Route overview</h2>
+    <div id="route-table-filters" class="table-filter-bar"></div>
+    <table id="route-table" class="display" style="width:100%">
+        <thead id="table-head"></thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <h2 class="section-title">Route map</h2>
+    <div class="big-map">
+        <div class="route-type-selector">
+            <button data-type="t1">Type 1</button>
+            <button data-type="t2">Type 2</button>
+            <button data-type="both" class="active">Both</button>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="../js/vendor/leaflet.textpath.js"></script>
+    <script type="module" src="../js/pages/overview_page_v2.js"></script>
+</body>
+</html>

@@ -1,0 +1,1753 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 27,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 26.89,
+        "address": "CHURCH AV/FLATBUSH AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958218,
+          40.650362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 28,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 10.22,
+        "address": "CHURCH AV/BEDFORD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955969,
+          40.650455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 31,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 5.95,
+        "address": "CHURCH AV/LLOYD ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951423,
+          40.650688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 32,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 29.41,
+        "address": "CHURCH AV/NOSTRAND AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949277,
+          40.650764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 33,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 14.64,
+        "address": "CHURCH AV/NEW YORK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946217,
+          40.650909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 34,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 12.01,
+        "address": "CHURCH AV/E 42 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937686,
+          40.651325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 4,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.81,
+        "address": "39 ST/4 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005795,
+          40.652335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 5,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 12.94,
+        "address": "39 ST/5 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004083,
+          40.651303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 6,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "39 ST/6 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001423,
+          40.649686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 12,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 16.63,
+        "address": "39 ST/9 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994843,
+          40.645704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 13,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "39 ST/10 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992613,
+          40.644356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 14,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 8.08,
+        "address": "39 ST/FORT HAMILTON PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990195,
+          40.642895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 15,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 8.38,
+        "address": "39 ST/12 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98821,
+          40.641698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 16,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 7.36,
+        "address": "39 ST/13 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986038,
+          40.640389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 17,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 6.69,
+        "address": "14 AV/39 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983782,
+          40.639486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 18,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 6.38,
+        "address": "CHURCH AV/E 37 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942939,
+          40.651042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 19,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "14 AV/CHURCH AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981284,
+          40.64189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 20,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 20.73,
+        "address": "CHURCH AV/McDONALD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979587,
+          40.64265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 21,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.83,
+        "address": "CHURCH AV/E 38 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941481,
+          40.651129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 22,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.44,
+        "address": "CHURCH AV / OCEAN PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97336,
+          40.645256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 23,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 14.78,
+        "address": "CHURCH AV/CONEY ISLAND AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971013,
+          40.646222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 24,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 3.38,
+        "address": "CHURCH AV/TROY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935751,
+          40.65142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 25,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 19.86,
+        "address": "CHURCH AV/E 18 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963199,
+          40.649313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 26,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.07,
+        "address": "CHURCH AV/E 48 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932439,
+          40.651571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 29,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.06,
+        "address": "CHURCH AV/E 52 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928071,
+          40.652173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 30,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.48,
+        "address": "CHURCH AV/E 56 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924192,
+          40.652456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 35,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "CHURCH AV/E 94 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916683,
+          40.654816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 36,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 16.53,
+        "address": "CHURCH AV/UTICA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930572,
+          40.651655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 37,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CHURCH AV/E 96 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915074,
+          40.655855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 38,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "CHURCH AV/KINGS HWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922293,
+          40.652394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 39,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.27,
+        "address": "CHURCH AV/REMSEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919557,
+          40.652955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 40,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.07,
+        "address": "CHURCH AV/ROCKAWAY PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914223,
+          40.656401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 41,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.16,
+        "address": "HEGEMAN AV/THOMAS S BOYLAND ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90948,
+          40.655881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 42,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.81,
+        "address": "E 98 ST/HEGEMAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912518,
+          40.655642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 43,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.68,
+        "address": "HEGEMAN AV/ROCKAWAY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906863,
+          40.65628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 44,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "HEGEMAN AV/OSBORN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905046,
+          40.656548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 0,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.51,
+        "address": "39 ST/1 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.012027,
+          40.656155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 1,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "CHURCH AV / E 3 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97723,
+          40.643612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 2,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "39 ST/3 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008495,
+          40.65396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 3,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "CHURCH AV/E 5 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975219,
+          40.644458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 7,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 7.73,
+        "address": "CHURCH AV/WESTMINSTER RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968043,
+          40.647415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 8,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 9.59,
+        "address": "39 ST/7 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999232,
+          40.648374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 9,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "CHURCH AV/RUGBY RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966292,
+          40.6481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 10,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 9.91,
+        "address": "39 ST/8 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996987,
+          40.647018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 11,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 6.77,
+        "address": "CHURCH AV/OCEAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960539,
+          40.650067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 45,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.48,
+        "address": "HEGEMAN AV/WATKINS ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904007,
+          40.656994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "39 ST/3 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.008495,
+          40.65396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.81,
+        "address": "39 ST/4 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.005795,
+          40.652335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 12.94,
+        "address": "39 ST/5 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.004083,
+          40.651303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "39 ST/6 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001423,
+          40.649686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 9.59,
+        "address": "39 ST/7 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999232,
+          40.648374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 9.91,
+        "address": "39 ST/8 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996987,
+          40.647018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 16.63,
+        "address": "39 ST/9 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994843,
+          40.645704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "39 ST/10 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992613,
+          40.644356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 8.08,
+        "address": "39 ST/FORT HAMILTON PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990195,
+          40.642895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 8.38,
+        "address": "39 ST/12 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98821,
+          40.641698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 7.36,
+        "address": "39 ST/13 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986038,
+          40.640389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 6.69,
+        "address": "14 AV/39 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.983782,
+          40.639486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 19,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "14 AV/CHURCH AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981284,
+          40.64189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 20.73,
+        "address": "CHURCH AV/McDONALD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979587,
+          40.64265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "CHURCH AV / E 3 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97723,
+          40.643612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "CHURCH AV/E 5 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975219,
+          40.644458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 11.44,
+        "address": "CHURCH AV / OCEAN PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97336,
+          40.645256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 14.78,
+        "address": "CHURCH AV/CONEY ISLAND AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.971013,
+          40.646222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 7.73,
+        "address": "CHURCH AV/WESTMINSTER RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968043,
+          40.647415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "CHURCH AV/RUGBY RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.966292,
+          40.6481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 19.86,
+        "address": "CHURCH AV/E 18 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963199,
+          40.649313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 6.77,
+        "address": "CHURCH AV/OCEAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960539,
+          40.650067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 26.89,
+        "address": "CHURCH AV/FLATBUSH AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958218,
+          40.650362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 10.22,
+        "address": "CHURCH AV/BEDFORD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955969,
+          40.650455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 31,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 5.95,
+        "address": "CHURCH AV/LLOYD ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951423,
+          40.650688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 32,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 29.41,
+        "address": "CHURCH AV/NOSTRAND AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949277,
+          40.650764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 33,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 14.64,
+        "address": "CHURCH AV/NEW YORK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946217,
+          40.650909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 6.38,
+        "address": "CHURCH AV/E 37 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942939,
+          40.651042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.83,
+        "address": "CHURCH AV/E 38 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941481,
+          40.651129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 34,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 12.01,
+        "address": "CHURCH AV/E 42 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937686,
+          40.651325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 24,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 3.38,
+        "address": "CHURCH AV/TROY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935751,
+          40.65142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.07,
+        "address": "CHURCH AV/E 48 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932439,
+          40.651571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 36,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 16.53,
+        "address": "CHURCH AV/UTICA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930572,
+          40.651655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.06,
+        "address": "CHURCH AV/E 52 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928071,
+          40.652173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 38,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "CHURCH AV/KINGS HWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922293,
+          40.652394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 39,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.27,
+        "address": "CHURCH AV/REMSEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.919557,
+          40.652955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 0,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 4.51,
+        "address": "39 ST/1 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.012027,
+          40.656155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 30,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.48,
+        "address": "CHURCH AV/E 56 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924192,
+          40.652456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 35,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "CHURCH AV/E 94 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.916683,
+          40.654816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 37,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CHURCH AV/E 96 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.915074,
+          40.655855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 40,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.07,
+        "address": "CHURCH AV/ROCKAWAY PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.914223,
+          40.656401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 41,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.16,
+        "address": "HEGEMAN AV/THOMAS S BOYLAND ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90948,
+          40.655881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 42,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 1.81,
+        "address": "E 98 ST/HEGEMAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912518,
+          40.655642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 43,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.68,
+        "address": "HEGEMAN AV/ROCKAWAY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.906863,
+          40.65628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 44,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "HEGEMAN AV/OSBORN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905046,
+          40.656548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 45,
+        "route_id": "B35-E-Morning",
+        "postboxes": 1,
+        "revenue": 0.48,
+        "address": "HEGEMAN AV/WATKINS ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904007,
+          40.656994
+        ]
+      }
+    }
+  ]
+}

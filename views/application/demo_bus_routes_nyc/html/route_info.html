@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info - Route</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+<body class="blog-theme">
+    <div class="header">
+        <div class="header-row">
+            <div class="header-left">
+                <a class="header-btn" href="index.html" title="Home">&#127968;</a>
+            </div>
+            <h1 class="page-title">Info: Route</h1>
+            <div class="header-right">
+                <img class="logo" src="../img/logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="scenario-meta">Documentation for <code>html/route.html</code></div>
+    </div>
+
+    <main class="info-shell">
+        <section class="info-hero">
+            <h2>What is this page for?</h2>
+            <p>
+                This is the most detailed view. It shows one route and compares the original and optimized versions.
+            </p>
+            <div class="info-links">
+                <a class="info-link" href="index_info.html">Overview</a>
+                <a class="info-link" href="overview_info.html">Scenario view</a>
+                <a class="info-link active" href="route_info.html" aria-current="page">Route view</a>
+            </div>
+        </section>
+
+        <section class="definition-box">
+            <h3>Key terms</h3>
+            <p>These are the main terms used on the route page.</p>
+            <div class="definition-grid">
+                <div class="definition-item">
+                    <strong>Type 1</strong>
+                    <span>Type 1 keeps the route order fixed.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Type 2</strong>
+                    <span>Type 2 may reorder the route to find a better solution.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Original and optimized</strong>
+                    <span>Original is the baseline. Optimized is the best solution found.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Outlier</strong>
+                    <span>An outlier is a route segment that looks unusually costly.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Length to next</strong>
+                    <span>Shows the distance or time to the next stop.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>APR x length</strong>
+                    <span>A simple cost measure for the segment to the next stop.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-figure-grid">
+            <figure class="info-figure">
+                <div class="info-figure-header">KPI, outliers and map</div>
+                <div class="info-figure-body">
+                    <img src="../img/route_page_1.png" alt="Route page screenshot">
+                </div>
+                <figcaption>The top section combines KPI tables, outliers and the map.</figcaption>
+            </figure>
+
+            <figure class="info-figure">
+                <div class="info-figure-header">Stop tables for original and optimized routes</div>
+                <div class="info-figure-body">
+                    <img src="../img/route_page_2.png" alt="Route stop table screenshot">
+                </div>
+                <figcaption>The bottom section shows the stop tables.</figcaption>
+            </figure>
+        </section>
+
+        <section class="info-grid">
+            <article class="info-card">
+                <h3>How to use it</h3>
+                <ul>
+                    <li>Start with the KPI tables.</li>
+                    <li>Read the outlier table next.</li>
+                    <li>Use the map to check the geography.</li>
+                    <li>Finish with the stop tables.</li>
+                </ul>
+            </article>
+
+            <article class="info-card">
+                <h3>What to look for</h3>
+                <div class="formula-list">
+                    <div class="formula-item">
+                        <strong>Better margin</strong>
+                        A higher margin is usually a good sign.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Fewer outliers</strong>
+                        Fewer problem spots usually means improvement.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Cleaner route</strong>
+                        The map should still look sensible.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Stop tables</strong>
+                        These show the exact order and stop-level changes.
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-stack">
+            <article class="info-card">
+                <h3>How to read the stop tables</h3>
+                <table class="glossary-table">
+                    <tr>
+                        <th>Route no.</th>
+                        <td>The position in the shown order.</td>
+                    </tr>
+                    <tr>
+                        <th>Original no.</th>
+                        <td>The position in the original order.</td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td>The stop address.</td>
+                    </tr>
+                    <tr>
+                        <th>Revenue</th>
+                        <td>The value contributed by the stop.</td>
+                    </tr>
+                    <tr>
+                        <th>Length to next</th>
+                        <td>Distance or time to the next stop.</td>
+                    </tr>
+                    <tr>
+                        <th>APR x length</th>
+                        <td>The cost of the segment to the next stop.</td>
+                    </tr>
+                    <tr>
+                        <th>Significant outlier</th>
+                        <td>Marks whether the stop is a clear issue.</td>
+                    </tr>
+                </table>
+                <div class="callout">
+                    Use the route page to understand why a scenario looks strong or weak.
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

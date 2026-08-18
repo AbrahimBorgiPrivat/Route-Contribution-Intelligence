@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York Bus Route Demo</title>
+    <link rel="icon" href="../favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/tables.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body class="blog-theme">
+<div class="header">
+    <div class="header-row">
+        <div class="header-left"></div>
+        <h1 class="page-title">All Routes - MTA Car New York</h1>
+        <div class="header-right">
+            <img class="logo" src="../img/logo.png" alt="Logo">
+        </div>
+    </div>
+    <div class="scenario-meta-row">
+        <div class="scenario-meta">
+            <strong>Label:</strong> All Routes |
+            <strong>Profile:</strong> MTA Car New York |
+            <strong>Analysis period:</strong> MTA 2024-10-15
+        </div>
+    </div>
+</div>
+
+<section class="overview-section">
+    <h2 class="section-title">Scenario KPIs</h2>
+    <div id="index-kpi-tables" class="kpi-grid"></div>
+</section>
+
+<section class="overview-section">
+    <h2 class="section-title">Route overview</h2>
+    <div class="table-shell">
+        <table id="route-table" class="display">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+</section>
+
+<section class="overview-section">
+    <h2 class="section-title">Route map</h2>
+    <div class="big-map">
+        <div class="map-toolbar">
+            <div class="route-type-selector">
+                <button data-type="t1">Type 1</button>
+                <button data-type="t2">Type 2</button>
+                <button data-type="both" class="active">Both</button>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+<script src="../js/vendor/leaflet.textpath.js"></script>
+<script type="module" src="../js/pages/index_page.js"></script>
+</body>
+</html>

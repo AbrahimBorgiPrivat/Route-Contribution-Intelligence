@@ -1,0 +1,940 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Contribution Intelligence | Solution</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="fixed-sequence" data-page-title="Solution" data-page-subtitle="Type 1, Type 2, exact search and hybrid search">
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar></aside>
+    <div class="workspace">
+      <header class="topbar" data-topbar></header>
+      <main class="content">
+        <article class="prose">
+          <header class="article-header">
+            <div class="eyebrow">Solution</div>
+            <h1 class="article-title">From Marginal Cost to Outlier Detection</h1>
+            <p class="article-subtitle">
+              The implemented solution starts with an exact route-removal model in
+              <code>core_algorithm.py</code>. Type 1 keeps the route order fixed, Type 2 re-optimizes the remaining
+              route, and the hybrid method extends the same economic definition when exact enumeration becomes too
+              expensive.
+            </p>
+            <div class="article-byline">
+              <div class="author-avatar" aria-hidden="true">AB</div>
+              <div class="author-copy">
+                <div class="author-name">Abrahim Borgi</div>
+                <div class="author-role">Senior Buisness Analyst</div>
+              </div>
+            </div>
+            <div class="article-context">
+              <span>Route Contribution Intelligence</span>
+              <span>Solution</span>
+              <span>Implemented Type 1 / Type 2 / hybrid logic</span>
+            </div>
+          </header>
+
+          <figure class="figure-wide">
+            <img src="assets/code.png" alt="Code-oriented visual introducing the implemented solution layer">
+            <figcaption>
+              The solution layer is not only conceptual. It is implemented code that evaluates candidate removals,
+              compares Type 1 and Type 2 behavior, and extends the exact core with hybrid search.
+            </figcaption>
+          </figure>
+
+          <p>
+            The solution starts with the simplest possible operation: remove a candidate subset and measure what
+            happens. That removal changes both the served revenue and the route length. The two Type definitions are
+            about whether the surviving route is allowed to keep its original order or whether it should be re-solved.
+          </p>
+          <p>
+            In code, the exact reference implementation lives in
+            <code>libraries/utils/algorithm/single_route/core_algorithm.py</code> as
+            <code>find_outliers</code>. The hybrid continuation in the same solution pipeline is the companion function
+            <code>find_outliers_hybrid</code>.
+          </p>
+
+          <section id="algorithm-entrypoints">
+            <h2>From definition to search</h2>
+            <p>
+              We now know what an outlier is mathematically. The next problem is finding it. 
+            </p>
+            <p>
+              Every algorithm on this 
+              page is built around the same core operation: choose a candidate removal, evaluate the remaining route and
+              measure the marginal economic effect.
+            </p>
+            <div class="process-flow" aria-label="Generic subset evaluation pipeline">
+              <div class="process-step">Choose a candidate subset \(S \subseteq R\).</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Remove \(S\) from the route.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Evaluate the remaining route.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Calculate the economic change \(C_2(S)\).</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Classify the candidate against the outlier criterion.</div>
+            </div>
+            <p>
+              The repository implements this logic through two closely related entrypoints. One explores the subset
+              space exhaustively. The other keeps the same economic definition but expands the subset space selectively.
+            </p>
+            <div class="process-grid">
+              <div class="process-panel">
+                <h3><code>find_outliers</code></h3>
+                <div class="process-flow" aria-label="Exact outlier pipeline">
+                  <div class="process-step">Initialize the route and compute the baseline sequence and route length.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Run <code>full_set_evaluation</code> on the exact subset space.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Evaluate \(C_2(S)\) for every candidate subset.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Apply thresholding and superset logic to detect significant outliers.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Construct the final retained route and recompute the final economics.</div>
+                </div>
+              </div>
+              <div class="process-panel">
+                <h3><code>find_outliers_hybrid</code></h3>
+                <div class="process-flow" aria-label="Hybrid outlier pipeline">
+                  <div class="process-step">Initialize the route and compute the baseline sequence and route length.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Evaluate the exact local core with \( |S| \leq k_{\mathrm{all}} \).</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Expand the candidate set through <code>run_hybrid_candidate_generation</code>.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Evaluate \(C_2(S)\) on every generated subset that reaches the kernel.</div>
+                  <div class="process-arrow">&darr;</div>
+                  <div class="process-step">Run the same outlier post-processing and final route construction.</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="type-1-fixed-sequence">
+            <h2>Type 1 - Fixed Sequence</h2>
+            <p>
+              Consider a route \(A \to B \to C \to D \to E\). If \(C\) is removed, the fixed sequence simply reconnects
+              the surviving vertices as \(A \to B \to D \to E\). 
+            </p> 
+            <p> This is the Type 1 view: the order is preserved and
+              only the removed vertices disappear.
+            </p>
+            <figure class="figure-wide figure-small">
+              <img src="assets/remove_unit.png" alt="Illustration showing a route unit removed from a sequence">
+              <figcaption>
+                Removing one route unit changes the route structure and sets up the economic question that follows:
+                does the remaining route become better or worse after the removal?
+              </figcaption>
+            </figure>
+            <p>
+              Type 1 asks a conservative question: if the current route order is kept exactly as it is, does removing
+              a subset improve the contribution margin? 
+            </p>
+            <div class="figure-grid">
+              <figure>
+                <img src="../report/figures/Slide1.PNG" alt="Report figure illustrating Type 1 fixed sequence behavior">
+                <figcaption>
+                  In the report figure, Type 1 is the fixed-sequence baseline. The surviving route units keep their
+                  order, so the effect comes only from the removal itself.
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="../report/figures/Slide2.PNG" alt="Report figure illustrating Type 2 free sequence behavior">
+                <figcaption>
+                  The comparison figure highlights the difference between a fixed sequence and a re-optimized sequence.
+                </figcaption>
+              </figure>
+            </div>
+            <p>
+              That is why the code can evaluate Type 1 directly by using the
+              fixed route length function.
+            </p>
+            <div class="math-block">
+              \[
+              C_2(S)
+              = E \left[N(R \setminus S) - N(R)\right]
+              - APR \left[L(R \setminus S) - L(R)\right].
+              \]
+            </div>
+            <p>
+              For Type 1, \(L(R \setminus S)\) is measured under the preserved order. The sequence is not re-solved.
+            </p>
+            <p class="article-pullquote">
+              <em>Type 1 therefore asks whether \(S\) is harmful in the route we currently operate.</em>
+            </p>
+            <p>
+              The code path that matches this logic is the strict-order branch in
+              <code>route_solver.py</code> and <code>route_length_type1</code>.
+            </p>
+          </section>
+
+          <section id="type-2-optimized-sequence">
+            <h2>Type 2 - Optimized Sequence</h2>
+            <p>
+              Fixed-order evaluation gives us a useful operational baseline. But it also inherits every inefficiency
+              already present in the route. <em>What if the route order itself is part of the problem?</em>
+            </p>
+            <p>
+              Type 2 removes that bias. After removing the subset, the remaining route is solved again as a TSP or
+              HPP / SHPP instance depending on the configuration. 
+            </p>
+            <p>
+              This makes the question sharper:
+            </p>
+            <p class="article-pullquote">
+              <em>Type 2 asks whether a route unit is harmful even after the surviving route has been arranged efficiently.</em>
+            </p>
+            <p>
+              That difference is important. A unit can look acceptable under the current route order but still become
+              a clear outlier once the route is re-optimized. 
+            </p>
+            <div class="figure-grid">
+              <figure>
+                <img src="../report/figures/Slide3.PNG" alt="Structured route illustration with fixed out and in points">
+                <figcaption>
+                  Structured route units can contain nested traversals, so Type 2 may re-order both the outer sequence
+                  and the inner traversal.
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="../report/figures/Slide4.PNG" alt="Structured route illustration with fixed outer and inner traversal">
+                <figcaption>
+                  The outer graph and inner unit traversal are solved together in the structured implementation.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Question</th>
+                    <th>Type 1</th>
+                    <th>Type 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Can the order change?</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                  </tr>
+                  <tr>
+                    <td>What is measured?</td>
+                    <td>The impact of removal in the current route</td>
+                    <td>The impact of removal after re-optimization</td>
+                  </tr>
+                  <tr>
+                    <td>Interpretation</td>
+                    <td>Operational baseline</td>
+                    <td>Sharper structural diagnosis</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              In the implementation, this is the non-strict branch of <code>solve_route</code> and, for structured routes, <code>solve_structured_route</code>.
+            </p>
+          </section>
+
+          <section id="route-solvers">
+            <h2>Route Solvers</h2>
+            <p>
+              <strong> Type 2</strong> introduces a new computational requirement. Every evaluated removal may require us to solve the
+              remaining route again. Once the order is allowed to change, each candidate removal becomes a routing
+              problem of its own.
+            </p>
+            <p>
+              That is the point where route optimization enters the outlier story directly. Closed routes lead to TSP
+              style problems. Open routes lead to HPP or SHPP style problems. 
+            </p>
+            <p>
+              The algorithmic layer therefore needs a
+              family of route solvers rather than a single distance calculation rule.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Problem type</th>
+                    <th>Supported backends</th>
+                    <th>Relevant module</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>TSP</td>
+                    <td>greedy, python_tsp, ortools, lkh, exact</td>
+                    <td><code>libraries/utils/algorithm/solvers/tsp.py</code></td>
+                  </tr>
+                  <tr>
+                    <td>HPP</td>
+                    <td>greedy, greedy_denn, cheapest_insertion, ortools, exact</td>
+                    <td><code>libraries/utils/algorithm/solvers/hpp.py</code></td>
+                  </tr>
+                  <tr>
+                    <td>Type 1 length</td>
+                    <td>Fixed order only</td>
+                    <td><code>libraries/utils/algorithm/solvers/type1.py</code></td>
+                  </tr>
+                  <tr>
+                    <td>Structured OUT:TSP / OUT:HPP</td>
+                    <td>Outer solver + inner HPP solver</td>
+                    <td><code>libraries/utils/algorithm/single_route/route_solver_structured.py</code></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              The important point for the solution story is that the economic outlier criterion stays the same. What
+              changes across Type 1 and Type 2 is how the surviving route length is computed.
+            </p>
+            <h3>Which solver should we trust?</h3>
+            <p>
+              The project keeps several solver backends because the route subproblems are not all alike. Some solvers
+              are lightweight constructive heuristics, some are stronger local-search engines, and some are kept as
+              exact references for validation.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Solver</th>
+                    <th>Main idea</th>
+                    <th>Typical use in this project</th>
+                    <th>Role</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>greedy</code></td>
+                    <td>Nearest-feasible extension from the current route position.</td>
+                    <td>Fast baseline for TSP and HPP route re-optimization.</td>
+                    <td>Heuristic baseline</td>
+                  </tr>
+                  <tr>
+                    <td><code>greedy_denn</code></td>
+                    <td>Project-specific greedy construction for open-path routing.</td>
+                    <td>HPP-focused heuristic when endpoint structure matters.</td>
+                    <td>Heuristic</td>
+                  </tr>
+                  <tr>
+                    <td><code>python_tsp</code></td>
+                    <td>Library-based TSP search with deterministic and non-deterministic variants.</td>
+                    <td>TSP optimization in non-structured Type 2 evaluation.</td>
+                    <td>Heuristic</td>
+                  </tr>
+                  <tr>
+                    <td><code>cheapest_insertion</code></td>
+                    <td>Incremental insertion where each added unit causes the smallest route increase.</td>
+                    <td>Constructive HPP heuristic.</td>
+                    <td>Heuristic</td>
+                  </tr>
+                  <tr>
+                    <td><code>ortools</code></td>
+                    <td>Routing-based guided search through the OR-Tools backend.</td>
+                    <td>General-purpose default for TSP, HPP and structured inner solves.</td>
+                    <td>High-quality practical solver</td>
+                  </tr>
+                  <tr>
+                    <td><code>lkh</code></td>
+                    <td>Lin-Kernighan-Helsgaun style local search for TSP instances.</td>
+                    <td>High-quality TSP route construction and validation.</td>
+                    <td>High-quality heuristic</td>
+                  </tr>
+                  <tr>
+                    <td><code>exact</code></td>
+                    <td>Provably exact optimization on small enough instances.</td>
+                    <td>Validation, benchmarking and theoretical reference cases.</td>
+                    <td>Exact benchmark</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Heuristic performance relative to exact solvers</h3>
+            <p>
+              The route solver is called repeatedly inside Type 2 evaluation and inside the hybrid search. That makes
+              solver choice part of the algorithm itself, not just an implementation detail. The exact solver gives the
+              reference point, but the practical question is which heuristic stays close enough to that reference while
+              still being fast enough to support many subset evaluations.
+            </p>
+            <h4>Quality relative to the exact baseline</h4>
+            <figure class="figure-wide">
+              <img src="assets/validation_exact_vs_heuristic_hpp.png" alt="Validation score comparing HPP heuristics against exact solutions">
+              <figcaption>
+                On HPP instances, <code>cheapest_insertion</code> achieves the smallest average gap to the exact
+                solver, while non-deterministic <code>ortools</code> remains close and also recovers the exact solution
+                on a substantial share of instances.
+              </figcaption>
+            </figure>
+            <figure class="figure-wide">
+              <img src="assets/validation_exact_vs_heuristic_tsp.png" alt="Validation score comparing TSP heuristics against exact solutions">
+              <figcaption>
+                On TSP instances, <code>lkh</code> and non-deterministic <code>ortools</code> match the exact solver
+                across the plotted cases, while deterministic <code>ortools</code> stays close enough to remain
+                operationally attractive.
+              </figcaption>
+            </figure>
+            <p>
+              These plots establish the first part of the story: moving away from the exact solver does not mean giving
+              up all structure or quality. It means accepting a controlled approximation whose size can be measured.
+            </p>
+            <h4>Runtime under repeated route evaluation</h4>
+            <p>
+              The second part of the story is runtime. In the outlier search, the solver is not run once on a single
+              route. It is run again and again on many nearby subproblems. The relevant benchmark is therefore not only
+              solution quality, but solution quality per unit time.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/hpp_solver_benchmark.png" alt="Benchmark comparing HPP solver runtime and average route length">
+              <figcaption>
+                For simulated HPP instances, the benchmark compares runtime with average route length and therefore
+                shows which heuristics are merely fast and which ones are fast without degrading route quality too much.
+              </figcaption>
+            </figure>
+            <figure class="figure-wide">
+              <img src="assets/hpp_initial_point_study.png" alt="Study of initial-point sensitivity in SHPP heuristics">
+              <figcaption>
+                For SHPP, the start node is part of the optimization logic. This study shows that initial-point choice
+                can materially influence the resulting path, which is exactly why endpoint handling matters in the open
+                route variants used by the algorithm.
+              </figcaption>
+            </figure>
+            <figure class="figure-wide">
+              <img src="assets/tsp_solver_benchmark.png" alt="Benchmark comparing TSP solver runtime and average route length">
+              <figcaption>
+                The corresponding TSP benchmark adds the same runtime perspective on closed tours and makes it possible
+                to compare route quality and computational cost in the same frame.
+              </figcaption>
+            </figure>
+            <p>
+              Read together, these figures explain why <code>ortools</code> becomes the practical workhorse. Once the
+              instance size moves beyond about <code>n &gt; 10</code>, it gives the best overall compromise between
+              runtime and route quality while still staying close to the exact reference. 
+            </p>
+            <p> 
+              SHPP, the start-point study adds an extra lesson: stability is not only about the solver backend, but also about how the open
+              path is initialized.
+            </p>
+            <h4>What this means for hybrid search</h4>
+            <p>
+              The hybrid algorithm inherits exactly these trade-offs. Its exact core is only useful if the surrounding
+              heuristic expansion can evaluate many candidates quickly without drifting too far from the exact
+              economics. 
+            </p>
+            <p>
+              The figures without <code>routes</code> in their name are benchmarks on simulated data. The
+              figures with <code>routes</code> in their name are the corresponding measurements on real route
+              instances.
+            </p>
+            <div class="figure-stack">
+              <figure>
+                <img src="assets/hybrid_hpp.png" alt="Hybrid HPP benchmark on simulated data">
+                <figcaption>
+                  Hybrid HPP performance on simulated instances.
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="assets/hybrid_hpp_routes.png" alt="Hybrid HPP benchmark on real routes">
+                <figcaption>
+                  Hybrid HPP performance on real routes.
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="assets/hybrid_tsp.png" alt="Hybrid TSP benchmark on simulated data">
+                <figcaption>
+                  Hybrid TSP performance on simulated instances.
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="assets/hybrid_tsp_routes.png" alt="Hybrid TSP benchmark on real routes">
+                <figcaption>
+                  Hybrid TSP performance on real routes.
+                </figcaption>
+              </figure>
+            </div>
+            <p>
+              Across all of these benchmarks, the operational conclusion is consistent. <code>ortools</code> is
+              generally the best default when the algorithm must balance route quality, runtime and repeated subset
+              evaluation. 
+            </p>
+            <p>
+              <code>lkh</code> remains the strongest TSP heuristic when pure tour quality is the primary
+              objective, but its runtime profile makes it a poor default once the instance size grows beyond about
+              <code>n &gt; 100</code>. That is why the implementation keeps several solver backends available, but leans
+              on <code>ortools</code> as the most robust production-facing compromise.
+            </p>
+          </section>
+
+          <section id="why-subsets-matter">
+            <h2>Why subsets matter</h2>
+            <p>
+              The interesting object is not always a single address. Two addresses can be individually weak yet still
+              not clear the threshold alone, while the pair together may become a meaningful economic removal. That is
+              why the algorithm searches over \(S \subseteq R\), not just over single vertices.
+            </p>
+            <p>
+              Once Type 1, Type 2 and the route solvers are in place, this is the next unavoidable consequence: the
+              search problem is about subsets, not isolated vertices. Even if every single address can be evaluated, the
+              economically relevant object may still be a pair, a block or a larger local structure.
+            </p>
+            <p class="article-pullquote">
+              <em>
+                Subset interactions are the reason this is an outlier-detection problem rather than a simple ranking
+                problem. The economics can change when units are considered together.
+              </em>
+            </p>
+          </section>
+
+          <section id="exact-search">
+            <h2>Exact Search</h2>
+            <p>
+              We now have a definition, a way to evaluate removals, and a route solver layer. The theoretically clean
+              strategy is therefore exhaustive: for every \(S \subseteq R\), solve the remaining route, calculate
+              \(C_2(S)\) and classify the subset.
+            </p>
+            <div class="process-flow" aria-label="Exact evaluation loop">
+              <div class="process-step">Choose a subset \(S \subseteq R\).</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Remove \(S\) from the route.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Recompute the route length.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Compute the revenue change.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Evaluate \(C_2(S)\).</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Classify the subset against the threshold \(z\).</div>
+            </div>
+            <p>
+              Only after that conceptual algorithm is clear does it make sense to mention the code entrypoint:
+              <code>find_outliers</code> delegates the exhaustive work to <code>full_set_evaluation</code>, then sends
+              the evaluated subsets into <code>run_outlier_postprocessing</code>.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Number of route units</th>
+                    <th>Possible subsets</th>
+                    <th>Reason this matters</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>10</td>
+                    <td>1,024</td>
+                    <td>Still manageable for exhaustive evaluation.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>1,048,576</td>
+                    <td>Already expensive without pruning.</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>1,073,741,824</td>
+                    <td>Too large for naive enumeration in a practical workflow.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>The definition scales. Exhaustive search does not.</h3>
+            <p>
+              The mathematics is still simple. The number of subsets is not. Once subsets become the relevant object,
+              the theoretical search space grows as \(2^{|R|}\).
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Number of route units</th>
+                    <th>Possible subsets</th>
+                    <th>Interpretation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>10</td>
+                    <td>1,024</td>
+                    <td>Still manageable for exhaustive evaluation.</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>1,048,576</td>
+                    <td>Already costly when every subset needs route evaluation.</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td>1,073,741,824</td>
+                    <td>Too large for naive exhaustive search in a practical workflow.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              Since search space grows as \(2^{|R|}\) we need a better way to select the subset \(S\subseteq R\) that we are searching without changing the economic definitions.
+            </p>
+          </section>
+
+          <section id="hybrid-search">
+            <h2>Hybrid Search</h2>
+            <p>
+              Hybrid search is introduced at exactly this point. It does not redefine an outlier. It changes which
+              subsets are selected for evaluation once exhaustive search becomes too expensive.
+            </p>
+            <div class="process-flow" aria-label="Hybrid search algorithm">
+              <div class="process-step">Exact small subsets.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Structural candidates.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Promising combinations.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Controlled expansion.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Economic evaluation.</div>
+            </div>
+            <p>
+              Only after that motivation is in place do we need the implementation name: in
+              <code>core_algorithm.py</code>, the corresponding entrypoint is <code>find_outliers_hybrid</code>.
+            </p>
+            <p> 
+              It begins from exact small subsets and then expands the candidate set through several structural methods.
+            </p>
+          </section>
+
+          <section id="small-subsets">
+            <h3>Exact evaluation of small subsets</h3>
+            <p>
+              The hybrid implementation begins with an exact core: all subsets with size up to <code>k_all</code> are
+              evaluated exhaustively. This is handled by <code>full_set_evaluation</code>, which calls the shared
+              <code>evaluate_subset</code> kernel for every combination in that size range.
+            </p>
+            <p class="article-pullquote">
+              <em>The first phase is exact, not approximate. It is the local ground truth that the later heuristic steps build on.</em>
+            </p>
+          </section>
+
+          <section id="peripheral-clusters">
+            <h3>Method A - Peripheral clusters</h3>
+            <p>
+              Peripheral geometry can reveal groups that are cheap internally but expensive to connect to the rest of
+              the route. Method A therefore searches for small route-unit clusters that behave like detachable boundary
+              structures.
+            </p>
+            <div class="process-flow" aria-label="Peripheral cluster generation">
+              <div class="process-step">Start from one route unit.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Attach the nearest remaining unit.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Stop when the next attachment exceeds the route-based threshold \(\tau\).</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Evaluate the resulting cluster and any nearby merged variants.</div>
+            </div>
+            <p>
+              The code implements this through <code>greedy_peripheral_clusters</code>, which grows local groups using a
+              threshold \(\tau\) estimated from the scale of the current route.
+            </p>
+            <p>
+              In the implementation, this threshold can be selected in two ways through
+              <code>method: Optional[Literal["kneedle", "relative"]]</code>. 
+            </p>
+            <p>
+              Both choices try to detect where short
+              local connections end and unusually long bridge edges begin.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Method</th>
+                    <th>How \(\tau\) is chosen</th>
+                    <th>Interpretation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><code>kneedle</code></td>
+                    <td>Apply knee detection to the sorted route-edge lengths and use the detected bend point as threshold.</td>
+                    <td>Chooses the transition where ordinary local edges start giving way to longer connector edges.</td>
+                  </tr>
+                  <tr>
+                    <td><code>relative</code></td>
+                    <td>Scan the sorted route-edge lengths and stop at the first sufficiently large relative jump.</td>
+                    <td>Chooses the first edge scale that looks disproportionately larger than the preceding local scale.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              The idea is structural: if a cluster sits at the perimeter of the route, removing it may save more travel
+              than its local revenue justifies.
+            </p>
+          </section>
+
+          <section id="marginal-blocks">
+            <h3>Method B - Marginal blocks</h3>
+            <p>
+              The route order itself contains local economic information. Method B therefore scans along that order and
+              accumulates contiguous blocks with weak marginal contribution.
+            </p>
+            <p>
+              The helper <code>find_marginal_blocks</code> estimates a local quantity \(\Delta DG(i)\) for each unit
+              and then builds windows whose cumulative score remains promising.
+            </p>
+            <div class="math-block">
+              \[
+              \Delta DG(i)
+              \approx
+              -E \cdot p_i - APR \cdot \Delta L_i.
+              \]
+            </div>
+            <p>
+              This matters because several adjacent route units can form a weak block even when none of them is
+              individually decisive.
+            </p>
+          </section>
+
+          <section id="union-expansion">
+            <h3>Method U - Union-based expansion of promising subsets</h3>
+            <p>
+              Methods A and B can reveal separate promising local structures. Those structures may become even more
+              important when they are removed together. Method U therefore combines already promising subsets into
+              larger candidate removals.
+            </p>
+            <p>
+              In the implementation, <code>run_union_candidate_generation</code> builds pruned unions and evaluates
+              every unseen combination with the same economic kernel as the rest of the pipeline.
+            </p>
+            <div class="process-flow" aria-label="Union expansion logic">
+              <div class="process-step">Collect previously promising subsets with strong economic scores.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Build bounded unions subject to the configured size limits.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Skip combinations that have already been evaluated.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Keep only unions that survive the exact economic test.</div>
+            </div>
+            <p>
+              This is useful when multiple local weaknesses become more important when considered together.
+            </p>
+          </section>
+
+          <section id="beam-search">
+            <h3>Beam Search</h3>
+            <p>
+              Exact search explores everything. Methods A, B and U create promising structures. Beam Search is the
+              final controlled expansion step: it explores around the best of those structures without letting the
+              candidate space explode again.
+            </p>
+            <p>
+              The implementation starts from strong subsets, expands them by one unit at a time and retains only the
+              best <code>B</code> candidates at each depth.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Step</th>
+                    <th>What the code does</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Seed</td>
+                    <td>Start from exact small subsets and other high-quality generated candidates.</td>
+                  </tr>
+                  <tr>
+                    <td>Expand</td>
+                    <td>Add one new route unit to each promising subset.</td>
+                  </tr>
+                  <tr>
+                    <td>Score</td>
+                    <td>Evaluate \(C_2(S)\) after solving the remaining route.</td>
+                  </tr>
+                  <tr>
+                    <td>Keep</td>
+                    <td>Retain only the top \(B\) candidates before moving to the next depth.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="precheck-pruning">
+            <h3>Pre-check and pruning</h3>
+            <p>
+              Type 2 route solving is expensive. That is why the algorithm can optionally use a cheaper Type 1
+              evaluation as an early screen before committing to full re-optimization work.
+            </p>
+            <p>
+              When <code>precheck=True</code>, candidates that already look weak under the fixed-sequence test can be
+              dropped early.
+            </p>
+            <p>
+                The pre-check does not redefine the objective. It only avoids spending full solver time on candidates
+                that already fail a cheaper lower-resolution screen.
+            </p>
+          </section>
+
+          <section id="outlier-engine">
+            <h2>Outlier Engine</h2>
+            <p>
+              We now have all the pieces. The Outlier Engine is where they become one algorithm. 
+            </p>
+            <p>
+              This is the
+              orchestration layer that combines route solving, candidate generation, subset evaluation and final
+              classification.
+            </p>
+            <div class="process-flow" aria-label="Outlier engine orchestration">
+              <div class="process-step">Route Solvers + Candidate Methods</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step"><code>evaluate_subset</code> and economic scoring</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step"><code>detect_outliers</code> and significance logic</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Final retained route \(S^{*}\) and post-processing</div>
+            </div>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Role</th>
+                    <th>Code representation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Exact entrypoint</td>
+                    <td><code>find_outliers</code></td>
+                  </tr>
+                  <tr>
+                    <td>Hybrid entrypoint</td>
+                    <td><code>find_outliers_hybrid</code></td>
+                  </tr>
+                  <tr>
+                    <td>Subset distance effect</td>
+                    <td><code>compute_cost_change</code></td>
+                  </tr>
+                  <tr>
+                    <td>Subset economic effect</td>
+                    <td><code>compute_coverage_change</code></td>
+                  </tr>
+                  <tr>
+                    <td>Shared evaluation kernel</td>
+                    <td><code>evaluate_subset</code></td>
+                  </tr>
+                  <tr>
+                    <td>Exact exhaustive phase</td>
+                    <td><code>full_set_evaluation</code></td>
+                  </tr>
+                  <tr>
+                    <td>Classification</td>
+                    <td><code>detect_outliers</code></td>
+                  </tr>
+                  <tr>
+                    <td>Final result construction</td>
+                    <td><code>run_outlier_postprocessing</code></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              Each search method answers a different candidate-generation question. The Outlier Engine is where those
+              candidates are finally evaluated against one common economic definition.
+            </p>
+          </section>
+
+          <section id="complexity-guarantees">
+            <h3>Complexity and guarantees</h3>
+            <p>
+              The final question is what remains exact and what becomes heuristic once the complete algorithmic layer is
+              assembled.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Part</th>
+                    <th>Exact or heuristic?</th>
+                    <th>Guarantee level</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Economic evaluation on evaluated subsets</td>
+                    <td>Exact</td>
+                    <td>Uses the shared economic kernel once a subset reaches evaluation.</td>
+                  </tr>
+                  <tr>
+                    <td>Configured exhaustive small-subset search</td>
+                    <td>Exact</td>
+                    <td>Exact for the configured subset-size limit.</td>
+                  </tr>
+                  <tr>
+                    <td>Exact route solver when selected</td>
+                    <td>Exact</td>
+                    <td>Route re-optimization is exact on instances where the exact backend is used.</td>
+                  </tr>
+                  <tr>
+                    <td>Method A candidate generation</td>
+                    <td>Heuristic</td>
+                    <td>Structural candidate discovery only.</td>
+                  </tr>
+                  <tr>
+                    <td>Method B candidate generation</td>
+                    <td>Heuristic</td>
+                    <td>Contiguous-window approximation.</td>
+                  </tr>
+                  <tr>
+                    <td>Method U expansion</td>
+                    <td>Heuristic</td>
+                    <td>Combines already promising subsets into larger candidates.</td>
+                  </tr>
+                  <tr>
+                    <td>Beam Search</td>
+                    <td>Heuristic</td>
+                    <td>Controlled expansion with bounded beam width.</td>
+                  </tr>
+                  <tr>
+                    <td>Heuristic route solvers where selected</td>
+                    <td>Heuristic</td>
+                    <td>Quality depends on backend, determinism setting and instance class.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              We now have the complete algorithmic layer. The final question is how data enters this layer and how its
+              results become an operational output.
+            </p>
+          </section>
+
+          <nav class="article-navigation" aria-label="Next pages">
+            <a href="introduction.html">
+              <div class="nav-label">Introduction</div>
+              <div class="nav-title">Back to the problem statement</div>
+              <div class="nav-desc">Return to the route-level narrative and the business question.</div>
+            </a>
+            <a href="theory.html#economic-outlier-definition">
+              <div class="nav-label">Theory</div>
+              <div class="nav-title">Formal definition</div>
+              <div class="nav-desc">See the graph model and the economic outlier criterion.</div>
+            </a>
+            <a href="implementation.html#algorithm-integration">
+              <div class="nav-label">Implementation</div>
+              <div class="nav-title">From model to working system</div>
+              <div class="nav-desc">Modules, solvers, outputs and reproducibility.</div>
+            </a>
+          </nav>
+        </article>
+      </main>
+      <footer class="footer" data-footer></footer>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

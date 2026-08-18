@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Contribution Intelligence | Introduction</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="introduction" data-page-title="Introduction" data-page-subtitle="The business problem behind the math">
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar></aside>
+    <div class="workspace">
+      <header class="topbar" data-topbar></header>
+      <main class="content">
+        <article class="prose">
+          <header class="article-header">
+            <div class="eyebrow">Introduction</div>
+            <h1 class="article-title">Finding the Addresses That Make a Route Less Profitable</h1>
+            <p class="article-subtitle">
+              Outlier detection at the intersection of graph theory, route optimization and marginal economics.
+            </p>
+            <div class="article-byline">
+              <div class="author-avatar" aria-hidden="true">AB</div>
+              <div class="author-copy">
+                <div class="author-name">Abrahim Borgi</div>
+                <div class="author-role">Senior Buisness Analyst</div>
+              </div>
+            </div>
+            <div class="article-context">
+              <span>Route Contribution Intelligence</span>
+              <span>Introduction</span>
+              <span>Implemented Type 1 / Type 2 solution</span>
+            </div>
+          </header>
+
+          <figure class="figure-wide">
+            <img src="assets/route_example.png" alt="Example route visualization used to motivate the outlier problem">
+            <figcaption>
+              A route example makes the core question visible immediately: which parts of the route look costly, and
+              which of those actually become economically weak once revenue is included?
+            </figcaption>
+          </figure>
+
+          <p>
+            At first, this looks like a geographical problem. Imagine a route containing many addresses. One address
+            requires a visible detour and immediately looks like the obvious outlier. But that same address may contain
+            many mailboxes and therefore generate substantial revenue. Removing it could shorten the route while making
+            the route less profitable.
+          </p>
+          <p>
+            Another address may sit much closer to the main route and look harmless on the map, yet contribute so
+            little revenue that it becomes the real economic weak point. That is the tension this project starts from:
+            distance is visible, but marginal economic contribution is what matters.
+          </p>
+
+          <p class="article-pullquote">
+            <em>
+              An outlier in this project is not defined by how unusual an address looks in the data. It is defined by
+              how the route's contribution margin changes when that address, or a group of addresses, is removed.
+            </em>
+          </p>
+
+          <ul>
+            <li><strong>Business question.</strong> What can we remove without hurting margin?</li>
+            <li><strong>Mathematical lens.</strong> Graph theory, route optimization and marginal economics.</li>
+            <li><strong>Implemented scope.</strong> Type 1, Type 2 and hybrid search.</li>
+          </ul>
+
+          <section id="the-problem">
+            <h2>The problem</h2>
+            <p>
+              Each route unit contributes revenue through its mailboxes or other economic weight, but it also adds
+              travel cost. That means the best route is not necessarily the route with the shortest geometric path.
+              A unit can be far away and still be worth serving. Another can be close by and still reduce the route's
+              contribution margin if it adds too little revenue relative to the distance it forces the route to take.
+            </p>
+            <p>
+              The analytical goal is therefore not to ask which address is far away. The real question is whether
+              removing an address, or a small subset of addresses, improves the route economically.
+            </p>
+          </section>
+
+          <section id="why-distance-alone-is-not-enough">
+            <h2>Why distance alone is not enough</h2>
+            <ul>
+              <li>
+                A geographically distant address may carry enough mailboxes to justify the extra travel cost.
+                Distance alone does not make it an outlier.
+              </li>
+              <li>
+                A nearby address with little demand can still be economically weak if the route structure makes it
+                expensive to include.
+              </li>
+            </ul>
+          </section>
+
+          <section id="what-do-we-mean-by-outlier">
+            <h2>What do we mean by outlier?</h2>
+            <p>
+              In classical statistics, an outlier is a point that looks unusual relative to the rest of the data.
+              Here the definition is different. The project treats a route unit as interesting when removing it, alone
+              or together with others, changes the route's contribution margin sufficiently positively.
+            </p>
+            <p class="article-pullquote">
+              <em>
+                A route unit is interesting when removing it, alone or with others, raises the route's contribution
+                margin enough to pass the configured significance threshold.
+              </em>
+            </p>
+            <p>
+              This means the site deliberately avoids z-scores, isolation forests, IQR rules or generic anomaly
+              detection. The object is not statistical surprise. The object is marginal economic effect.
+            </p>
+          </section>
+
+          <section id="routes-as-graphs">
+            <h2>Routes as graphs</h2>
+            <p>
+              The next step is to move from narrative to model. The route is represented as a weighted directed graph,
+              and the remainder of the documentation turns that graph into a cost model and a subset search problem.
+            </p>
+            <figure class="figure-wide">
+              <img src="assets/remove_unit.png" alt="Illustration showing a route unit removed from a sequence">
+              <figcaption>
+                Removing one route unit changes the route structure and sets up the economic question that follows:
+                does the remaining route become better or worse after the removal?
+              </figcaption>
+            </figure>
+            <p>
+              The graph is directed because the routed distance from one stop to another need not equal the reverse
+              distance. That asymmetry is not a cosmetic detail; it changes the optimization problem.
+            </p>
+            <p>
+              To determine the route effect rigorously, we now need a mathematical representation of the route, its
+              cost and the economic effect of removing part of it.
+            </p>
+          </section>
+
+          <section id="two-questions">
+            <h2>Two questions</h2>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Question</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Type 1</strong></td>
+                    <td>What happens if we remove addresses but preserve the existing route sequence?</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Type 2</strong></td>
+                    <td>What happens if we remove addresses and then optimize the remaining route?</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              Those two questions are the backbone of the solution. The next pages turn them into notation,
+              algorithms and an actual implementation.
+            </p>
+          </section>
+
+          <nav class="article-navigation" aria-label="Next pages">
+            <a href="theory.html#economic-outlier-definition">
+              <div class="nav-label">Theory</div>
+              <div class="nav-title">Formal definition</div>
+              <div class="nav-desc">See the graph model and the economic outlier criterion.</div>
+            </a>
+            <a href="fixed-sequence.html#hybrid-search">
+              <div class="nav-label">Solution</div>
+              <div class="nav-title">Hybrid search</div>
+              <div class="nav-desc">How the heuristic extension continues after the exact reference method.</div>
+            </a>
+            <a href="implementation.html#architecture">
+              <div class="nav-label">Implementation</div>
+              <div class="nav-title">From model to working system</div>
+              <div class="nav-desc">Modules, solvers, outputs and reproducibility.</div>
+            </a>
+          </nav>
+        </article>
+      </main>
+      <footer class="footer" data-footer></footer>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

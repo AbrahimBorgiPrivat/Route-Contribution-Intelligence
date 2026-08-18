@@ -1,0 +1,342 @@
+{
+  "routes": [
+    {
+      "route_id": "B35-E-Day",
+      "path": "routes/B35-E-Day/B35-E-Day.json"
+    },
+    {
+      "route_id": "B35-E-Evening",
+      "path": "routes/B35-E-Evening/B35-E-Evening.json"
+    },
+    {
+      "route_id": "B35-E-Morning",
+      "path": "routes/B35-E-Morning/B35-E-Morning.json"
+    },
+    {
+      "route_id": "B35-E-Night",
+      "path": "routes/B35-E-Night/B35-E-Night.json"
+    },
+    {
+      "route_id": "B35-E-RushHour",
+      "path": "routes/B35-E-RushHour/B35-E-RushHour.json"
+    },
+    {
+      "route_id": "B35-W-Day",
+      "path": "routes/B35-W-Day/B35-W-Day.json"
+    },
+    {
+      "route_id": "B35-W-Evening",
+      "path": "routes/B35-W-Evening/B35-W-Evening.json"
+    },
+    {
+      "route_id": "B35-W-Morning",
+      "path": "routes/B35-W-Morning/B35-W-Morning.json"
+    },
+    {
+      "route_id": "B35-W-Night",
+      "path": "routes/B35-W-Night/B35-W-Night.json"
+    },
+    {
+      "route_id": "B35-W-RushHour",
+      "path": "routes/B35-W-RushHour/B35-W-RushHour.json"
+    },
+    {
+      "route_id": "B46-N-Day",
+      "path": "routes/B46-N-Day/B46-N-Day.json"
+    },
+    {
+      "route_id": "B46-N-Evening",
+      "path": "routes/B46-N-Evening/B46-N-Evening.json"
+    },
+    {
+      "route_id": "B46-N-Morning",
+      "path": "routes/B46-N-Morning/B46-N-Morning.json"
+    },
+    {
+      "route_id": "B46-N-Night",
+      "path": "routes/B46-N-Night/B46-N-Night.json"
+    },
+    {
+      "route_id": "B46-N-RushHour",
+      "path": "routes/B46-N-RushHour/B46-N-RushHour.json"
+    },
+    {
+      "route_id": "B46-S-Day",
+      "path": "routes/B46-S-Day/B46-S-Day.json"
+    },
+    {
+      "route_id": "B46-S-Evening",
+      "path": "routes/B46-S-Evening/B46-S-Evening.json"
+    },
+    {
+      "route_id": "B46-S-Morning",
+      "path": "routes/B46-S-Morning/B46-S-Morning.json"
+    },
+    {
+      "route_id": "B46-S-Night",
+      "path": "routes/B46-S-Night/B46-S-Night.json"
+    },
+    {
+      "route_id": "B46-S-RushHour",
+      "path": "routes/B46-S-RushHour/B46-S-RushHour.json"
+    },
+    {
+      "route_id": "BX12-E-Night",
+      "path": "routes/BX12-E-Night/BX12-E-Night.json"
+    },
+    {
+      "route_id": "BX12-W-Night",
+      "path": "routes/BX12-W-Night/BX12-W-Night.json"
+    },
+    {
+      "route_id": "BX19-N-Day",
+      "path": "routes/BX19-N-Day/BX19-N-Day.json"
+    },
+    {
+      "route_id": "BX19-N-Evening",
+      "path": "routes/BX19-N-Evening/BX19-N-Evening.json"
+    },
+    {
+      "route_id": "BX19-N-Morning",
+      "path": "routes/BX19-N-Morning/BX19-N-Morning.json"
+    },
+    {
+      "route_id": "BX19-N-Night",
+      "path": "routes/BX19-N-Night/BX19-N-Night.json"
+    },
+    {
+      "route_id": "BX19-N-RushHour",
+      "path": "routes/BX19-N-RushHour/BX19-N-RushHour.json"
+    },
+    {
+      "route_id": "BX19-S-Day",
+      "path": "routes/BX19-S-Day/BX19-S-Day.json"
+    },
+    {
+      "route_id": "BX19-S-Evening",
+      "path": "routes/BX19-S-Evening/BX19-S-Evening.json"
+    },
+    {
+      "route_id": "BX19-S-Morning",
+      "path": "routes/BX19-S-Morning/BX19-S-Morning.json"
+    },
+    {
+      "route_id": "BX19-S-Night",
+      "path": "routes/BX19-S-Night/BX19-S-Night.json"
+    },
+    {
+      "route_id": "BX19-S-RushHour",
+      "path": "routes/BX19-S-RushHour/BX19-S-RushHour.json"
+    },
+    {
+      "route_id": "M101-N-Day",
+      "path": "routes/M101-N-Day/M101-N-Day.json"
+    },
+    {
+      "route_id": "M101-N-Evening",
+      "path": "routes/M101-N-Evening/M101-N-Evening.json"
+    },
+    {
+      "route_id": "M101-N-Morning",
+      "path": "routes/M101-N-Morning/M101-N-Morning.json"
+    },
+    {
+      "route_id": "M101-N-Night",
+      "path": "routes/M101-N-Night/M101-N-Night.json"
+    },
+    {
+      "route_id": "M101-N-RushHour",
+      "path": "routes/M101-N-RushHour/M101-N-RushHour.json"
+    },
+    {
+      "route_id": "M101-S-Day",
+      "path": "routes/M101-S-Day/M101-S-Day.json"
+    },
+    {
+      "route_id": "M101-S-Evening",
+      "path": "routes/M101-S-Evening/M101-S-Evening.json"
+    },
+    {
+      "route_id": "M101-S-Morning",
+      "path": "routes/M101-S-Morning/M101-S-Morning.json"
+    },
+    {
+      "route_id": "M101-S-Night",
+      "path": "routes/M101-S-Night/M101-S-Night.json"
+    },
+    {
+      "route_id": "M101-S-RushHour",
+      "path": "routes/M101-S-RushHour/M101-S-RushHour.json"
+    },
+    {
+      "route_id": "M15-N-Day",
+      "path": "routes/M15-N-Day/M15-N-Day.json"
+    },
+    {
+      "route_id": "M15-N-Evening",
+      "path": "routes/M15-N-Evening/M15-N-Evening.json"
+    },
+    {
+      "route_id": "M15-N-Morning",
+      "path": "routes/M15-N-Morning/M15-N-Morning.json"
+    },
+    {
+      "route_id": "M15-N-Night",
+      "path": "routes/M15-N-Night/M15-N-Night.json"
+    },
+    {
+      "route_id": "M15-N-RushHour",
+      "path": "routes/M15-N-RushHour/M15-N-RushHour.json"
+    },
+    {
+      "route_id": "M15-S-Day",
+      "path": "routes/M15-S-Day/M15-S-Day.json"
+    },
+    {
+      "route_id": "M15-S-Evening",
+      "path": "routes/M15-S-Evening/M15-S-Evening.json"
+    },
+    {
+      "route_id": "M15-S-Morning",
+      "path": "routes/M15-S-Morning/M15-S-Morning.json"
+    },
+    {
+      "route_id": "M15-S-Night",
+      "path": "routes/M15-S-Night/M15-S-Night.json"
+    },
+    {
+      "route_id": "M15-S-RushHour",
+      "path": "routes/M15-S-RushHour/M15-S-RushHour.json"
+    },
+    {
+      "route_id": "Q58-E-Day",
+      "path": "routes/Q58-E-Day/Q58-E-Day.json"
+    },
+    {
+      "route_id": "Q58-E-Evening",
+      "path": "routes/Q58-E-Evening/Q58-E-Evening.json"
+    },
+    {
+      "route_id": "Q58-E-Morning",
+      "path": "routes/Q58-E-Morning/Q58-E-Morning.json"
+    },
+    {
+      "route_id": "Q58-E-Night",
+      "path": "routes/Q58-E-Night/Q58-E-Night.json"
+    },
+    {
+      "route_id": "Q58-E-RushHour",
+      "path": "routes/Q58-E-RushHour/Q58-E-RushHour.json"
+    },
+    {
+      "route_id": "Q58-W-Day",
+      "path": "routes/Q58-W-Day/Q58-W-Day.json"
+    },
+    {
+      "route_id": "Q58-W-Evening",
+      "path": "routes/Q58-W-Evening/Q58-W-Evening.json"
+    },
+    {
+      "route_id": "Q58-W-Morning",
+      "path": "routes/Q58-W-Morning/Q58-W-Morning.json"
+    },
+    {
+      "route_id": "Q58-W-Night",
+      "path": "routes/Q58-W-Night/Q58-W-Night.json"
+    },
+    {
+      "route_id": "Q58-W-RushHour",
+      "path": "routes/Q58-W-RushHour/Q58-W-RushHour.json"
+    },
+    {
+      "route_id": "S53-E-Day",
+      "path": "routes/S53-E-Day/S53-E-Day.json"
+    },
+    {
+      "route_id": "S53-E-Evening",
+      "path": "routes/S53-E-Evening/S53-E-Evening.json"
+    },
+    {
+      "route_id": "S53-E-Morning",
+      "path": "routes/S53-E-Morning/S53-E-Morning.json"
+    },
+    {
+      "route_id": "S53-E-Night",
+      "path": "routes/S53-E-Night/S53-E-Night.json"
+    },
+    {
+      "route_id": "S53-E-RushHour",
+      "path": "routes/S53-E-RushHour/S53-E-RushHour.json"
+    },
+    {
+      "route_id": "S53-W-Day",
+      "path": "routes/S53-W-Day/S53-W-Day.json"
+    },
+    {
+      "route_id": "S53-W-Evening",
+      "path": "routes/S53-W-Evening/S53-W-Evening.json"
+    },
+    {
+      "route_id": "S53-W-Morning",
+      "path": "routes/S53-W-Morning/S53-W-Morning.json"
+    },
+    {
+      "route_id": "S53-W-Night",
+      "path": "routes/S53-W-Night/S53-W-Night.json"
+    },
+    {
+      "route_id": "S53-W-RushHour",
+      "path": "routes/S53-W-RushHour/S53-W-RushHour.json"
+    }
+  ],
+  "kpis": [
+    {
+      "name": "Route ID",
+      "key": "route_id"
+    },
+    {
+      "name": "Profile",
+      "key": "profile"
+    },
+    {
+      "name": "T1 Length (Orig.)",
+      "key": "t1_L_original"
+    },
+    {
+      "name": "T1 Length (Opt.)",
+      "key": "t1_L_opt"
+    },
+    {
+      "name": "T1 CM (Orig.)",
+      "key": "t1_DG_original"
+    },
+    {
+      "name": "T1 CM (Opt.)",
+      "key": "t1_DG_best"
+    },
+    {
+      "name": "T1 Significant Outliers",
+      "key": "t1_seg_outliers"
+    },
+    {
+      "name": "T2 Length (Orig.)",
+      "key": "t2_L_original"
+    },
+    {
+      "name": "T2 Length (Opt.)",
+      "key": "t2_L_opt"
+    },
+    {
+      "name": "T2 CM (Orig.)",
+      "key": "t2_DG_original"
+    },
+    {
+      "name": "T2 CM (Opt.)",
+      "key": "t2_DG_best"
+    },
+    {
+      "name": "T2 Significant Outliers",
+      "key": "t2_seg_outliers"
+    }
+  ]
+}

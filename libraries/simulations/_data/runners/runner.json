@@ -1,0 +1,89 @@
+{ "pipeline": "route_presentation",
+  "kpi_registry": "kpi_registry.py",
+  "input": {
+    "file_path": "../../data/wip_data/route_kommune_nr400.csv"
+  },
+  "routing": {
+    "route_type": "both",
+    "start_routes": null,
+    "max_routes": null
+  },
+  "algorithm": {
+    "E": 5.0,
+    "APR": {"foot": {
+              "distance": 0.03
+            },
+            "bike": {
+              "distance": 0.01
+            },
+            "bicycle": {
+              "distance": 0.01
+            },
+            "car": {
+              "duration": 0.0555556
+            }
+          },
+    "z": 0.0,
+    "k_max": 25,
+    "k_all": 1,
+    "B": 10,
+    "solver_tsp": "ortools",
+    "solver_hpp": "greedy_denn",
+    "deterministic_tsp": true,
+    "deterministic_hpp": false,
+    "precheck": true,
+    "ortools_time_limit": 2,
+    "initial_point_method": {"method": "GREEDY_DNN"},
+    "type1_methods": ["A", "B"],
+    "type2_methods": ["A", "B"],
+    "A_kwargs": {
+      "method": "kneedle"
+    },
+    "B_kwargs": {
+      "L_max": 8
+    }
+  },
+  "output": {
+    "html_render": true
+  },
+  "col_map": {"route_id": { "name": "id" },
+            "lon":      { "name": "vejx" },
+            "lat":      { "name": "vejy" },
+            "line_nr":  { "name": "linienr" },
+            "address": { 
+                "fields": ["adresse"],
+                "separator": "; "
+            },
+            "transform": {
+                "convert_from": "EPSG:25832",
+                "convert_to":   "EPSG:4326"
+            },
+            "type": {
+                "name": "beregning",
+                "foot":  {"val": 0, "annotations": "distance"},
+                "car":   {"val": 1, "annotations": "duration"},
+                "cycle": {"val": 2, "annotations": "distance"}
+            },
+            "problem_type": {
+                "name": "beregning",
+                "HPP": [1],
+                "TSP": [0, 2]
+            }
+            },
+  "kpis": [
+    { "name": "RUTE ID", "key": "route_id", "type": "both", "fn": "route_id" },
+
+    { "name": "T1: Længde org.", "key": "L_original", "type": "type1", "fn": "L_original" },
+    { "name": "T1: Længde opt.", "key": "L_opt", "type": "type1", "fn": "L_opt" },
+    { "name": "T1: Dækningsgrad org.", "key": "t1_DG_org", "type": "type1", "fn": "DG_original" },
+    { "name": "T1: Dækningsgrad opt.", "key": "t1_DG_best", "type": "type1", "fn": "DG_best" },
+    { "name": "T1: Seg. outlier", "key": "t1_seg_outliers", "type": "type1", "fn": "count_outliers" },
+
+    { "name": "T2: Længde org.", "key": "L_original", "type": "type2", "fn": "L_original" },
+    { "name": "T2: Længde opt.", "key": "L_opt", "type": "type2", "fn": "L_opt" },
+    { "name": "T2: Dækningsgrad org.", "key": "t2_DG_org", "type": "type2", "fn": "DG_original" },
+    { "name": "T2: Dækningsgrad opt.", "key": "t2_DG_best", "type": "type2", "fn": "DG_best" },
+    { "name": "T2: Seg. outlier", "key": "t2_seg_outliers", "type": "type2", "fn": "count_outliers" }
+  ]
+}
+

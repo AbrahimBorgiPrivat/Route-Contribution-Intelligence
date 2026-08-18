@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New York Bus Route Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/tables.css">
+    <link rel="stylesheet" href="../css/slicers.css">
+    <link rel="stylesheet" href="../css/hierarchy.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+<body class="blog-theme">
+    <div class="header">
+        <div class="header-row">
+            <div class="header-left"></div>
+            <h1 class="page-title">New York Bus Route Demo</h1>
+            <div class="header-right">
+                <img class="logo" src="../img/logo.png" alt="Logo">
+                <a class="info-header-link" href="index_info.html" title="Info">
+                    <img src="../img/info_botton.png" alt="Info">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="index-intro">
+        <article class="index-intro-card index-intro-hero">
+            <h2>How to use this page</h2>
+            <p>
+                Use this page to get a quick overview before opening a scenario or a route.
+                Filter by <strong>Label</strong>, <strong>Profile</strong> and <strong>Analysis period</strong>,
+                compare KPI cards, and open the scenarios you want to inspect.
+            </p>
+        </article>
+
+        <div class="index-intro-grid">
+            <article class="index-intro-card">
+                <h3>Label</h3>
+                <p>
+                    Label describes the route setup. In this demo the labels are simple bus route groups such as
+                    all routes, day buses, evening buses, morning, night and rush hour.
+                </p>
+            </article>
+
+            <article class="index-intro-card">
+                <h3>Profile</h3>
+                <p>
+                    Profile is the operating profile used to score the route. It lets you compare scenarios under
+                    different assumptions.
+                </p>
+            </article>
+
+            <article class="index-intro-card">
+                <h3>Analysis period</h3>
+                <p>
+                    Analysis period shows the time window used for evaluation. It helps check whether a scenario
+                    stays stable across periods.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <div id="hierarchy-container"></div>
+
+    <script type="module" src="../js/pages/index_page_v2.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* =========================
+   SLICERS (NM style)
+========================= */
+
+.slicer-bar {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.slicer-wrap {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.slicer-wrap label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--nm-blue);
+}
+
+.slicer-select {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #d7e6ea;
+    background: linear-gradient(180deg, #fffdf9 0%, #f3ebdf 100%);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.slicer-select:hover {
+    background: #fff;
+}

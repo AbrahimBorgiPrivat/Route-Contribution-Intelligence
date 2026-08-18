@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route Contribution Intelligence | Implementation</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="implementation" data-page-title="Implementation" data-page-subtitle="From mathematical model to working system">
+  <div class="app-shell">
+    <aside class="sidebar" data-sidebar></aside>
+    <div class="workspace">
+      <header class="topbar" data-topbar></header>
+      <main class="content">
+        <article class="prose">
+          <header class="article-header">
+            <div class="eyebrow">Implementation</div>
+            <h1 class="article-title">From Mathematical Model to Working System</h1>
+            <p class="article-subtitle">
+              This page follows the actual code: route data in, routed matrices in the middle, the core algorithm on
+              top of that, and visual representation at the end.
+            </p>
+            <div class="article-byline">
+              <div class="author-avatar" aria-hidden="true">AB</div>
+              <div class="author-copy">
+                <div class="author-name">Abrahim Borgi</div>
+                <div class="author-role">Senior Buisness Analyst</div>
+              </div>
+            </div>
+            <div class="article-context">
+              <span>Route Contribution Intelligence</span>
+              <span>Implementation</span>
+              <span>Actual source code, not report-only theory</span>
+            </div>
+          </header>
+
+          <figure class="figure-wide">
+            <img src="assets/route_example_2.png" alt="Second route example illustrating the implementation-level output flow">
+            <figcaption>
+              The implementation layer turns route computations into reusable output files, and the visualization layer
+              then reads those files as route pages, KPI summaries and scenario views.
+            </figcaption>
+          </figure>
+
+          <p>
+            The documentation needs to match the codebase, not just the report. This page therefore treats the full
+            Solution layer as one central algorithmic component and focuses on the software system around it: input
+            data, route preparation, routed distances, configuration, reusable computation and operational output.
+          </p>
+
+          <section id="architecture">
+            <h2>Architecture overview</h2>
+            <p>
+              The implementation page answers a different question than the Solution page. The algorithm is already
+              complete. What remains is the engineering needed to feed it with data and turn its output into an
+              operational workflow.
+            </p>
+            <div class="process-flow" aria-label="Implementation architecture flow">
+              <div class="process-step">Input data.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Route and unit preparation.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">OSRM and routed distance matrices.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Algorithmic layer: Type 1 / Type 2 / Exact + Hybrid Search / Outlier Engine.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Result data.</div>
+              <div class="process-arrow">&darr;</div>
+              <div class="process-step">Maps, HTML and KPI output.</div>
+            </div>
+          </section>
+
+          <section id="input-preparation">
+            <h2>Input and route preparation</h2>
+            <p>
+              Before any optimization begins, the software system must decide what the route units actually are. That
+              preparation step turns raw address data, node descriptions and route assignments into the objects consumed
+              by the algorithmic layer.
+            </p>
+            <p>
+              In the non-structured case, this mainly means building the route list \(R\), the mailbox vector
+              <code>p</code> and the relevant coordinates. In the structured case, it also means assembling the inner
+              and outer unit models that later feed Type 2 and hybrid search.
+            </p>
+          </section>
+
+          <section id="distance-matrix">
+            <h2>OSRM and routed distance matrices</h2>
+            <p>
+              The routing layer is separated from the economic layer. The code uses <code>OSRMClient</code> and the
+              routing helpers in <code>libraries/classes/osrm_api.py</code> and
+              <code>libraries/utils/visualization/map_pipeline.py</code> to build routed distances. 
+            </p>
+            <p>
+              The resulting
+              matrices are then consumed by the core algorithm as \(D_{ij}\).
+            </p>
+            <div class="definition">
+              <strong>Implementation detail.</strong>
+              For structured routes, the code keeps both <code>D_all</code> and <code>D_outer</code>. The first is the
+              address-level matrix used for Type 1 and inner traversal. The second is the outer unit-to-unit matrix
+              used for Type 2 structured optimization.
+            </div>
+          </section>
+
+          <section id="algorithm-integration">
+            <h2>Integration with the algorithmic layer</h2>
+            <p>
+              The complete algorithmic layer lives on the Solution page. From the implementation perspective, the
+              important question is which modules prepare data for that layer and which modules call its entrypoints.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>System layer</th>
+                    <th>Role in the full pipeline</th>
+                    <th>Key modules</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Route preparation</td>
+                    <td>Construct route-unit representations and structured route models.</td>
+                    <td><code>structured_route_builder.py</code>, route preparation helpers</td>
+                  </tr>
+                  <tr>
+                    <td>Routing layer</td>
+                    <td>Fetch or derive routed distances that become the optimization matrices.</td>
+                    <td><code>osrm_api.py</code>, <code>map_pipeline.py</code></td>
+                  </tr>
+                  <tr>
+                    <td>Algorithm invocation</td>
+                    <td>Call <code>find_outliers</code> or <code>find_outliers_hybrid</code> with the prepared route data.</td>
+                    <td><code>core_algorithm.py</code></td>
+                  </tr>
+                  <tr>
+                    <td>Result assembly</td>
+                    <td>Collect the optimized route, outlier subsets, coverage change and final KPIs.</td>
+                    <td><code>run_outlier_postprocessing</code>, reporting helpers</td>
+                  </tr>
+                  <tr>
+                    <td>Output layer</td>
+                    <td>Render the algorithm result into maps, pages and route summaries.</td>
+                    <td><code>html_generator.py</code>, visualization modules</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              This page deliberately does not repeat the search methods in detail. The important implementation point is
+              that the surrounding system treats Type 1, Type 2, exact search, hybrid search and the Outlier Engine as
+              one coherent algorithmic layer.
+            </p>
+          </section>
+
+          <section id="configuration">
+            <h2>Configuration and runtime definitions</h2>
+            <p>
+              Solver choice, problem type, deterministic behavior, hybrid methods, beam width and threshold settings
+              are kept outside the surrounding application flow. This separation allows the same software system to run
+              different algorithmic configurations without rewriting the orchestration layer.
+            </p>
+            <p>
+              In practice, this configuration lives in <code>libraries/config.py</code> and the related runtime
+              definitions. That is where the system decides whether the route is treated as TSP, HPP, structured
+              OUT:TSP / OUT:HPP, exact, heuristic or hybrid.
+            </p>
+          </section>
+
+          <section id="caching">
+            <h2>Caching and reusable computation</h2>
+            <p>
+              Structured routing is expensive enough that repeated recomputation would quickly dominate runtime. The
+              system therefore keeps reusable inner and outer route computations where possible, especially in the
+              structured route pipeline.
+            </p>
+          </section>
+
+          <section id="visual-representation">
+            <h2>Visual Representation</h2>
+            <p>
+              The implementation idea is simple: the route pipeline first generates a structured collection of output
+              files, mainly <code>JSON</code> and <code>GeoJSON</code>. On top of those files sits a visualization
+              layer.
+            </p>
+            <p>
+              For the demo bus dataset, that visualization layer is expressed in two forms: a static presentation and
+              an application presentation. Neither performs optimization in the browser. Both read the same
+              precomputed route results and differ only in how those results are presented to the reader.
+            </p>
+            <p>
+              The contract for that data-to-visualization step is defined by the demo-specific runtime definitions for
+              <code>static/demo_bus_routes_nyc</code> and <code>application/demo_bus_routes_nyc</code>. Those
+              definitions decide which scenario combinations are materialized, where the generated files are written and
+              which KPI views the frontend can later read.
+            </p>
+            <div class="table-wrap">
+              <table class="comparison-table">
+                <thead>
+                  <tr>
+                    <th>Layer</th>
+                    <th>Output model</th>
+                    <th>Role</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Static</strong></td>
+                    <td>Pre-rendered HTML pages, maps and KPI tables for the demo scenario.</td>
+                    <td>Presents the result as a fixed document that can be reviewed without the interactive application shell.</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Application</strong></td>
+                    <td>Scenario-aware data views, route pages, maps and KPI comparisons for the same demo dataset.</td>
+                    <td>Turns the same generated data into an interactive route browser with filtering, comparison and route-level drill-down.</td>
+                  </tr>
+                  <tr>
+                  <td><strong>Runtime Definitions</strong></td>
+                    <td>Demo-specific pipeline configuration for the two presentation modes.</td>
+                    <td>Defines which files and scenario combinations the static and application layers can consume.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              In that sense, the main product of the pipeline is not the map itself. It is the generated route data.
+              The map, KPI cards, scenario pages and route pages are all views built on top of that same data
+              contract.
+            </p>
+            <p>
+              The static version is the simpler reading mode. It turns one prepared scenario into a small publication
+              of overview pages, route pages and maps. The application version generalizes the same output into an
+              interactive scenario browser, where the reader can move from label-level selection to KPI comparison and
+              finally to route-level inspection without recomputing anything in the browser.
+            </p>
+            <div class="figure-stack">
+              <figure class="figure-wide">
+                <img src="assets/static_route_map.png" alt="Static route map for the demo bus scenario">
+                <figcaption>
+                  Static route map output. This view presents the demo scenario as a fixed geographical overview across
+                  the generated routes.
+                </figcaption>
+              </figure>
+              <figure class="figure-wide">
+                <img src="assets/Application_Scenario_site_kpis.png" alt="Application KPI overview for the demo bus scenario">
+                <figcaption>
+                  Application KPI overview. The same generated files can also be read as an interactive economic
+                  comparison layer rather than only as geometry.
+                </figcaption>
+              </figure>
+              <figure class="figure-wide">
+                <img src="assets/Application_Route_page.png" alt="Application route page with detailed route-level visualization">
+                <figcaption>
+                  Route-level output. At the most detailed level, one route page combines route geometry, markers,
+                  outlier subsets and the Type 1 / Type 2 economic comparison for one route instance in the demo data.
+                </figcaption>
+              </figure>
+            </div>
+            <p>
+              The essential architectural point is therefore a separation between data generation and data
+              presentation. The route pipeline computes the scenario once, and the static and application layers then
+              provide two different reading modes for the same underlying result.
+            </p>
+          </section>
+
+          <section id="route-reports">
+            <h2>Generated route reports and HTML</h2>
+            <p>
+              The algorithm does not end in a subset identifier. It ends in an operational report: original route,
+              retained route, distance change, contribution-margin change and the significant outlier set that produced
+              that result.
+            </p>
+            <p>
+              This is the final implementation bridge from optimization to use. The software system turns an algorithmic
+              result into something planners can inspect visually and compare economically.
+            </p>
+          </section>
+
+          <section id="reproducibility">
+            <h2>Reproducibility</h2>
+            <p>
+              Deterministic options are exposed where possible, configuration is externalized, and reusable route
+              computations are cached where the structured models make that beneficial. All of these choices matter
+              because the system is intended to make the same algorithmic layer usable repeatedly under different route
+              assumptions.
+            </p>
+          </section>
+
+          <div class="key-idea">
+            <strong>What the code actually implements.</strong>
+            Type 1 and Type 2 outlier detection, exact small-subset evaluation, hybrid candidate generation and
+            visual representation. It does not implement Type 3 as part of this documentation story.
+          </div>
+
+          <nav class="article-navigation" aria-label="Next pages">
+            <a href="introduction.html">
+              <div class="nav-label">Introduction</div>
+              <div class="nav-title">Back to the problem statement</div>
+              <div class="nav-desc">Return to the route-level narrative and the business question.</div>
+            </a>
+            <a href="theory.html#economic-outlier-definition">
+              <div class="nav-label">Theory</div>
+              <div class="nav-title">Formal definition</div>
+              <div class="nav-desc">See the graph model and the economic outlier criterion.</div>
+            </a>
+            <a href="fixed-sequence.html#hybrid-search">
+              <div class="nav-label">Solution</div>
+              <div class="nav-title">Hybrid search</div>
+              <div class="nav-desc">How the heuristic extension continues after the exact reference method.</div>
+            </a>
+          </nav>
+        </article>
+      </main>
+      <footer class="footer" data-footer></footer>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

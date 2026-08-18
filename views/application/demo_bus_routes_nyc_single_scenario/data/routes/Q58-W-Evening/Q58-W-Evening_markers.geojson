@@ -1,0 +1,2057 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 41.89,
+        "address": "41 RD/MAIN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82929,
+          40.757391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 8.92,
+        "address": "COLLEGE POINT BLVD/SANFORD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.833082,
+          40.754336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "COLLEGE POINT BLVD/FOWLER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832316,
+          40.752011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 2.3,
+        "address": "COLLEGE POINT BLVD/58 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.835312,
+          40.746005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.74,
+        "address": "COLLEGE POINT BLVD/59 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.836207,
+          40.744715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.81,
+        "address": "HORACE HARDING EXPWY/WALDRON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.850434,
+          40.738218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "108 ST/HORACE HARDING EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.851901,
+          40.737858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 23.56,
+        "address": "GRAND AV/QUEENS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.878318,
+          40.736357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 34,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "GRAND AV/QUEENS MIDTOWN EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897316,
+          40.724911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 35,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 6.31,
+        "address": "GRAND AV/HAMILTON PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898774,
+          40.724156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 3,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.05,
+        "address": "COLLEGE POINT BLVD/VAN WYCK EXPWY EXIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.834973,
+          40.746654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 8,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "108 ST/WALDRON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.853114,
+          40.739531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 9,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 2.78,
+        "address": "108 ST/VAN CLEEF ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.853603,
+          40.74094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 10,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.73,
+        "address": "CORONA AV/51 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.855877,
+          40.74363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 11,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.62,
+        "address": "CORONA AV/104 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.859166,
+          40.744099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 12,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "CORONA AV/102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86218,
+          40.744346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 13,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.71,
+        "address": "CORONA AV/NATIONAL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.864781,
+          40.744821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 14,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CORONA AV/46 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.866029,
+          40.743481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 15,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.81,
+        "address": "CORONA AV/JUNCTION BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867254,
+          40.742172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 17,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.48,
+        "address": "CORONA AV/94 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.870005,
+          40.74238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 18,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 5.12,
+        "address": "CORONA AV/91 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873904,
+          40.742375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 19,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.16,
+        "address": "CORONA AV/90 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874947,
+          40.741585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 20,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.32,
+        "address": "CORONA AV/88 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876296,
+          40.740585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 21,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.51,
+        "address": "BROADWAY/CORONA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877764,
+          40.739049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 22,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 27.76,
+        "address": "BROADWAY/QUEENS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877551,
+          40.737121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 24,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "GRAND AV/GOLDSMITH ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880889,
+          40.735702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 25,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.8,
+        "address": "GRAND AV/HASPEL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882084,
+          40.734958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 26,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.77,
+        "address": "GRAND AV/CALAMUS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884007,
+          40.733361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 27,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.41,
+        "address": "GRAND AV/82 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88473,
+          40.732141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 28,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.36,
+        "address": "GRAND AV/79 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885954,
+          40.730814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 29,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.25,
+        "address": "GRAND AV/74 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.888385,
+          40.7301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 30,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.62,
+        "address": "GRAND AV/73 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.890277,
+          40.729251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 31,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.26,
+        "address": "GRAND AV/72 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891827,
+          40.728025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 32,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.3,
+        "address": "GRAND AV/69 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894688,
+          40.72635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 33,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.16,
+        "address": "GRAND AV/BORDEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89579,
+          40.725716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 36,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "GRAND AV/REMSEN PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8998,
+          40.723649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 37,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.4,
+        "address": "FLUSHING AV/64 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90188,
+          40.722442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 38,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.72,
+        "address": "FRESH POND RD/FLUSHING AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903057,
+          40.721244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 39,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "FRESH POND RD/59 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902497,
+          40.719077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 40,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 2.49,
+        "address": "FRESH POND RD/59 DR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902217,
+          40.718083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 41,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "FRESH POND RD/60 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901821,
+          40.716841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 42,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.81,
+        "address": "FRESH POND RD/ELIOT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901289,
+          40.714767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 43,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.29,
+        "address": "FRESH POND RD/METROPOLITAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900714,
+          40.712523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 44,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "FRESH POND RD/LINDEN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898796,
+          40.709385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 45,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.24,
+        "address": "FRESH POND RD/PALMETTO ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898006,
+          40.708253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 46,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.38,
+        "address": "PUTNAM AV/FRESH POND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897352,
+          40.706427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 47,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/WOODWARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903669,
+          40.703316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 16,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.41,
+        "address": "PUTNAM AV/FOREST AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901966,
+          40.705216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 48,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/ONDERDONK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904813,
+          40.702171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 49,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.4,
+        "address": "SENECA AV/CORNELIA ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90486,
+          40.701057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 50,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/MYRTLE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907354,
+          40.699716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 51,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/WYCKOFF AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908719,
+          40.698366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 52,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "ridgewood pl/palmetto st"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911285,
+          40.698558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 53,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.46,
+        "address": "PALMETTO ST/WYCKOFF AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91121,
+          40.699335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 41.89,
+        "address": "41 RD/MAIN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82929,
+          40.757391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 8.92,
+        "address": "COLLEGE POINT BLVD/SANFORD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.833082,
+          40.754336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "COLLEGE POINT BLVD/FOWLER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832316,
+          40.752011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 2.3,
+        "address": "COLLEGE POINT BLVD/58 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.835312,
+          40.746005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.74,
+        "address": "COLLEGE POINT BLVD/59 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.836207,
+          40.744715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.81,
+        "address": "HORACE HARDING EXPWY/WALDRON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.850434,
+          40.738218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "108 ST/HORACE HARDING EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.851901,
+          40.737858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.73,
+        "address": "CORONA AV/51 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.855877,
+          40.74363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.62,
+        "address": "CORONA AV/104 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.859166,
+          40.744099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "CORONA AV/102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86218,
+          40.744346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.71,
+        "address": "CORONA AV/NATIONAL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.864781,
+          40.744821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.81,
+        "address": "CORONA AV/JUNCTION BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867254,
+          40.742172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.48,
+        "address": "CORONA AV/94 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.870005,
+          40.74238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 5.12,
+        "address": "CORONA AV/91 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873904,
+          40.742375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 4.51,
+        "address": "BROADWAY/CORONA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877764,
+          40.739049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 27.76,
+        "address": "BROADWAY/QUEENS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877551,
+          40.737121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 23.56,
+        "address": "GRAND AV/QUEENS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.878318,
+          40.736357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 34,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "GRAND AV/QUEENS MIDTOWN EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897316,
+          40.724911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 35,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 6.31,
+        "address": "GRAND AV/HAMILTON PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898774,
+          40.724156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 3,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.05,
+        "address": "COLLEGE POINT BLVD/VAN WYCK EXPWY EXIT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.834973,
+          40.746654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 8,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "108 ST/WALDRON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.853114,
+          40.739531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 9,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 2.78,
+        "address": "108 ST/VAN CLEEF ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.853603,
+          40.74094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 14,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "CORONA AV/46 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.866029,
+          40.743481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 19,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.16,
+        "address": "CORONA AV/90 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874947,
+          40.741585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 20,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.32,
+        "address": "CORONA AV/88 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876296,
+          40.740585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 24,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "GRAND AV/GOLDSMITH ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880889,
+          40.735702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 25,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.8,
+        "address": "GRAND AV/HASPEL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882084,
+          40.734958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 26,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.77,
+        "address": "GRAND AV/CALAMUS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.884007,
+          40.733361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 27,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.41,
+        "address": "GRAND AV/82 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88473,
+          40.732141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 28,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.36,
+        "address": "GRAND AV/79 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885954,
+          40.730814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 29,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.25,
+        "address": "GRAND AV/74 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.888385,
+          40.7301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 30,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.62,
+        "address": "GRAND AV/73 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.890277,
+          40.729251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 31,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.26,
+        "address": "GRAND AV/72 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891827,
+          40.728025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 32,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.3,
+        "address": "GRAND AV/69 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894688,
+          40.72635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 33,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.16,
+        "address": "GRAND AV/BORDEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89579,
+          40.725716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 36,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "GRAND AV/REMSEN PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8998,
+          40.723649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 37,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.4,
+        "address": "FLUSHING AV/64 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90188,
+          40.722442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 38,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.72,
+        "address": "FRESH POND RD/FLUSHING AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903057,
+          40.721244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 39,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "FRESH POND RD/59 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902497,
+          40.719077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 40,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 2.49,
+        "address": "FRESH POND RD/59 DR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902217,
+          40.718083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 41,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "FRESH POND RD/60 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901821,
+          40.716841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 42,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.81,
+        "address": "FRESH POND RD/ELIOT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901289,
+          40.714767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 43,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 3.29,
+        "address": "FRESH POND RD/METROPOLITAN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900714,
+          40.712523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 44,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "FRESH POND RD/LINDEN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898796,
+          40.709385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 45,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.24,
+        "address": "FRESH POND RD/PALMETTO ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898006,
+          40.708253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 46,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 1.38,
+        "address": "PUTNAM AV/FRESH POND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897352,
+          40.706427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 47,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/WOODWARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903669,
+          40.703316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 16,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.41,
+        "address": "PUTNAM AV/FOREST AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901966,
+          40.705216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 49,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.4,
+        "address": "SENECA AV/CORNELIA ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90486,
+          40.701057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 48,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/ONDERDONK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904813,
+          40.702171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 50,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/MYRTLE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907354,
+          40.699716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 51,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "PUTNAM AV/WYCKOFF AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908719,
+          40.698366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 52,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "ridgewood pl/palmetto st"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911285,
+          40.698558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 53,
+        "route_id": "Q58-W-Evening",
+        "postboxes": 1,
+        "revenue": 0.46,
+        "address": "PALMETTO ST/WYCKOFF AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91121,
+          40.699335
+        ]
+      }
+    }
+  ]
+}

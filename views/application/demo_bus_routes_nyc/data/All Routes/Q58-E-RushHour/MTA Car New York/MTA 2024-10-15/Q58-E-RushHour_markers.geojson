@@ -1,0 +1,2095 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 31.9,
+        "address": "PALMETTO ST/WYCKOFF AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911187,
+          40.699352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "CYPRESS AV/PALMETTO ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908578,
+          40.701455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.93,
+        "address": "GRAND AV/74 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887154,
+          40.730283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "67 AV/60 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900551,
+          40.704678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 8.96,
+        "address": "GRAND AV/84 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.883824,
+          40.733451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "67 AV/FRESH POND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896695,
+          40.705683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.22,
+        "address": "FRESH POND RD/WOODBINE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897694,
+          40.708023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 18,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "FRESH POND RD/GROVE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.899216,
+          40.710175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 19,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.25,
+        "address": "108 ST/HORACE HARDING EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.852341,
+          40.737814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 20,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "FRESH POND RD/ELIOT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901197,
+          40.714986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 21,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.4,
+        "address": "COLLEGE POINT BLVD/58 RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83517,
+          40.745711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 22,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.02,
+        "address": "FRESH POND RD/60 RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901546,
+          40.716346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "COLLEGE POINT BLVD/MAPLE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832887,
+          40.754027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 24,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.58,
+        "address": "FRESH POND RD / 61ST ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902122,
+          40.718253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 25,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.72,
+        "address": "FRESH POND RD/59 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902537,
+          40.719707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 26,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "FLUSHING AV/64 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901124,
+          40.722773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 27,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 7.01,
+        "address": "GRAND AV/66 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898362,
+          40.724268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 28,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.77,
+        "address": "GRAND AV/QUEENS MIDTOWN EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896739,
+          40.725094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 29,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "GRAND AV/71 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892151,
+          40.72776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 30,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.49,
+        "address": "GRAND AV/73 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889932,
+          40.729453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 31,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "GRAND AV/79 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885277,
+          40.731137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 32,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.24,
+        "address": "GRAND AV/HASPEL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881807,
+          40.735058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 33,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "GRAND AV/VAN HORN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880197,
+          40.735806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 34,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 15.15,
+        "address": "GRAND AV/QUEENS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877838,
+          40.736494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 35,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.33,
+        "address": "BROADWAY/CORONA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877793,
+          40.739332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 36,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "CORONA AV/88 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876413,
+          40.740412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 37,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.73,
+        "address": "CORONA AV/90 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.875087,
+          40.741382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 38,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.16,
+        "address": "CORONA AV/91 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87281,
+          40.742444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 39,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "CORONA AV/93 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87151,
+          40.742369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 40,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.47,
+        "address": "CORONA AV/94 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.870047,
+          40.742305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 41,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.9,
+        "address": "CORONA AV/JUNCTION BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867676,
+          40.742062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 42,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.26,
+        "address": "CORONA AV/ALSTYNE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.865956,
+          40.743382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 43,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.78,
+        "address": "CORONA AV/98 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.864488,
+          40.744949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 44,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.41,
+        "address": "CORONA AV/102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861633,
+          40.744224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 45,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.72,
+        "address": "CORONA AV/104 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.858281,
+          40.743955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 46,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.29,
+        "address": "CORONA AV/51 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.855716,
+          40.743487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 47,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.68,
+        "address": "108 ST/MARTENSE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.854336,
+          40.741925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 48,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.26,
+        "address": "108 ST/WALDRON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.852687,
+          40.739159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 49,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "COLLEGE POINT BLVD/HORACE HARDING EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.837083,
+          40.743221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 50,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "COLLEGE POINT BLVD/57 RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.834629,
+          40.74679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 51,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "COLLEGE POINT BLVD/BOOTH MEMORIAL AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832893,
+          40.748293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 52,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.85,
+        "address": "COLLEGE POINT BLVD/AVERY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832366,
+          40.752274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 53,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "41 RD/COLLEGE POINT BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.833009,
+          40.755659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 54,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 11.1,
+        "address": "41 RD/MAIN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.829369,
+          40.757363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 2,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.99,
+        "address": "MADISON ST/SENECA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905912,
+          40.70215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 3,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 7.2,
+        "address": "FAIRVIEW AV/FOREST AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901923,
+          40.704364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 4,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.14,
+        "address": "MADISON ST/CYPRESS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907068,
+          40.701012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 5,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 18.98,
+        "address": "FRESH POND RD/PUTNAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896715,
+          40.706356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 9,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 18.12,
+        "address": "FRESH POND RD/FLUSHING AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903054,
+          40.721506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 11,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.05,
+        "address": "GRAND AV/69 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894339,
+          40.726466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 16,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 36.11,
+        "address": "BROADWAY/JUSTICE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877105,
+          40.737801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 8,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.93,
+        "address": "MADISON ST/WOODWARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904052,
+          40.70402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 10,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "MADISON ST/FAIRVIEW AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903055,
+          40.704989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 6,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "MADISON ST/ONDERDONK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904991,
+          40.703052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 7,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 11.06,
+        "address": "FRESH POND RD/BLEECKER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900241,
+          40.71216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 31.9,
+        "address": "PALMETTO ST/WYCKOFF AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911187,
+          40.699352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "CYPRESS AV/PALMETTO ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.908578,
+          40.701455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.14,
+        "address": "MADISON ST/CYPRESS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907068,
+          40.701012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.99,
+        "address": "MADISON ST/SENECA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905912,
+          40.70215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 7.2,
+        "address": "FAIRVIEW AV/FOREST AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901923,
+          40.704364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "67 AV/60 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900551,
+          40.704678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "67 AV/FRESH POND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896695,
+          40.705683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 18.98,
+        "address": "FRESH POND RD/PUTNAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896715,
+          40.706356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.22,
+        "address": "FRESH POND RD/WOODBINE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897694,
+          40.708023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "FRESH POND RD/GROVE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.899216,
+          40.710175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 11.06,
+        "address": "FRESH POND RD/BLEECKER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900241,
+          40.71216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "FRESH POND RD/ELIOT AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901197,
+          40.714986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.02,
+        "address": "FRESH POND RD/60 RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901546,
+          40.716346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 18.12,
+        "address": "FRESH POND RD/FLUSHING AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903054,
+          40.721506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "FLUSHING AV/64 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.901124,
+          40.722773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 7.01,
+        "address": "GRAND AV/66 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898362,
+          40.724268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.77,
+        "address": "GRAND AV/QUEENS MIDTOWN EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896739,
+          40.725094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.05,
+        "address": "GRAND AV/69 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.894339,
+          40.726466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "GRAND AV/71 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.892151,
+          40.72776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 30,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.49,
+        "address": "GRAND AV/73 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.889932,
+          40.729453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.93,
+        "address": "GRAND AV/74 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887154,
+          40.730283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 31,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "GRAND AV/79 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.885277,
+          40.731137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 8.96,
+        "address": "GRAND AV/84 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.883824,
+          40.733451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 32,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.24,
+        "address": "GRAND AV/HASPEL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.881807,
+          40.735058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 33,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "GRAND AV/VAN HORN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880197,
+          40.735806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 34,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 15.15,
+        "address": "GRAND AV/QUEENS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877838,
+          40.736494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 36.11,
+        "address": "BROADWAY/JUSTICE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877105,
+          40.737801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 35,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.33,
+        "address": "BROADWAY/CORONA AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.877793,
+          40.739332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 36,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "CORONA AV/88 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.876413,
+          40.740412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 37,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.73,
+        "address": "CORONA AV/90 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.875087,
+          40.741382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 38,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.16,
+        "address": "CORONA AV/91 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87281,
+          40.742444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 40,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.47,
+        "address": "CORONA AV/94 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.870047,
+          40.742305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 41,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.9,
+        "address": "CORONA AV/JUNCTION BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867676,
+          40.742062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 42,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.26,
+        "address": "CORONA AV/ALSTYNE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.865956,
+          40.743382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 43,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.78,
+        "address": "CORONA AV/98 PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.864488,
+          40.744949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 44,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.41,
+        "address": "CORONA AV/102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861633,
+          40.744224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 45,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.72,
+        "address": "CORONA AV/104 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.858281,
+          40.743955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 46,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.29,
+        "address": "CORONA AV/51 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.855716,
+          40.743487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 47,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 6.68,
+        "address": "108 ST/MARTENSE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.854336,
+          40.741925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 6,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "MADISON ST/ONDERDONK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904991,
+          40.703052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 8,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.93,
+        "address": "MADISON ST/WOODWARD AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904052,
+          40.70402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 10,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "MADISON ST/FAIRVIEW AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903055,
+          40.704989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 19,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 10.25,
+        "address": "108 ST/HORACE HARDING EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.852341,
+          40.737814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 24,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.58,
+        "address": "FRESH POND RD / 61ST ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902122,
+          40.718253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 25,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.72,
+        "address": "FRESH POND RD/59 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902537,
+          40.719707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 39,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "CORONA AV/93 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87151,
+          40.742369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 48,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 3.26,
+        "address": "108 ST/WALDRON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.852687,
+          40.739159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 49,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "COLLEGE POINT BLVD/HORACE HARDING EXPWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.837083,
+          40.743221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 50,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "COLLEGE POINT BLVD/57 RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.834629,
+          40.74679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 51,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "COLLEGE POINT BLVD/BOOTH MEMORIAL AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832893,
+          40.748293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 52,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 1.85,
+        "address": "COLLEGE POINT BLVD/AVERY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832366,
+          40.752274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 21,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 4.4,
+        "address": "COLLEGE POINT BLVD/58 RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83517,
+          40.745711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 53,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "41 RD/COLLEGE POINT BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.833009,
+          40.755659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 23,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "COLLEGE POINT BLVD/MAPLE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832887,
+          40.754027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 54,
+        "route_id": "Q58-E-RushHour",
+        "postboxes": 1,
+        "revenue": 11.1,
+        "address": "41 RD/MAIN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.829369,
+          40.757363
+        ]
+      }
+    }
+  ]
+}

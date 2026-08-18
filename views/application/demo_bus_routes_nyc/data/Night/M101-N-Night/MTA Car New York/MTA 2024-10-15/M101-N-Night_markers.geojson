@@ -1,0 +1,1411 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 0,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 9 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989235,
+          40.730389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "3 AV/E 118 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938718,
+          40.799578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 121 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937686,
+          40.801025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "3 AV/E 33 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978601,
+          40.744963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "E 125 ST/LEXINGTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937761,
+          40.804584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 39 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975585,
+          40.749101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "3 AV/E 42 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974122,
+          40.751085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "W 125 ST/5 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94244,
+          40.806542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 8,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "W 125 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945964,
+          40.808026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 9,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 57 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967523,
+          40.76014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 10,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 129 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954899,
+          40.815135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 11,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 135 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95184,
+          40.819316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 145 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947231,
+          40.825615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 91 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951458,
+          40.782086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "AMSTERDAM AV/W 161 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940199,
+          40.835239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 167 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93697,
+          40.839672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 16,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946287,
+          40.789273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 173 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934443,
+          40.84312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 18,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 106 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944367,
+          40.79189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 19,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 176 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932962,
+          40.84515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 20,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 179 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931612,
+          40.847008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 21,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 181 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930616,
+          40.848358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 22,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 116 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94004,
+          40.797798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "W 125 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948781,
+          40.809228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 24,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "W 125 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951598,
+          40.810402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 25,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "W 125 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953007,
+          40.811005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 26,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "AMSTERDAM AV/W 125 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955868,
+          40.813745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 27,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 131 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953761,
+          40.816685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 28,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 1.93,
+        "address": "AMSTERDAM AV/W 133 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952922,
+          40.81785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 29,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 138 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950578,
+          40.821041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 30,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 152 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944107,
+          40.829905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 31,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 155 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942827,
+          40.831683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 32,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 158 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941374,
+          40.833638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 33,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 164 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938575,
+          40.837468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 34,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 183 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929603,
+          40.849806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 35,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 190 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926552,
+          40.853927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 36,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "FORT GEORGE AV/66 FORT GEORGE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926518,
+          40.858017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 0,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 9 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989235,
+          40.730389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "3 AV/E 33 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978601,
+          40.744963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 39 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975585,
+          40.749101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "3 AV/E 42 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974122,
+          40.751085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 57 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967523,
+          40.76014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 106 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944367,
+          40.79189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 1,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "3 AV/E 118 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938718,
+          40.799578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 121 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937686,
+          40.801025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "E 125 ST/LEXINGTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937761,
+          40.804584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "W 125 ST/5 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94244,
+          40.806542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "W 125 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945964,
+          40.808026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "W 125 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948781,
+          40.809228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 24,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "W 125 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951598,
+          40.810402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "W 125 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953007,
+          40.811005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "AMSTERDAM AV/W 125 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955868,
+          40.813745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 129 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954899,
+          40.815135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 131 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953761,
+          40.816685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 1.93,
+        "address": "AMSTERDAM AV/W 133 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952922,
+          40.81785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 135 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95184,
+          40.819316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 138 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950578,
+          40.821041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 145 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947231,
+          40.825615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 30,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 152 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944107,
+          40.829905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 31,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 155 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942827,
+          40.831683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 32,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 158 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941374,
+          40.833638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "AMSTERDAM AV/W 161 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940199,
+          40.835239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 33,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 164 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938575,
+          40.837468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 167 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93697,
+          40.839672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 173 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934443,
+          40.84312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 19,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 176 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932962,
+          40.84515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 179 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931612,
+          40.847008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 181 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930616,
+          40.848358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 34,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 183 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929603,
+          40.849806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 35,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 190 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926552,
+          40.853927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 36,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "FORT GEORGE AV/66 FORT GEORGE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926518,
+          40.858017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 22,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 116 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94004,
+          40.797798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 16,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946287,
+          40.789273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 13,
+        "route_id": "M101-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 91 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951458,
+          40.782086
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Info - Overview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <link rel="icon" href="../favicon.ico">
+</head>
+<body class="blog-theme">
+    <div class="header">
+        <div class="header-row">
+            <div class="header-left">
+                <a class="header-btn" href="index.html" title="Home">&#127968;</a>
+            </div>
+            <h1 class="page-title">Info: Overview</h1>
+            <div class="header-right">
+                <img class="logo" src="../img/logo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="scenario-meta">Documentation for <code>html/index.html</code></div>
+    </div>
+
+    <main class="info-shell">
+        <section class="info-hero">
+            <h2>What is this page for?</h2>
+            <p>
+                This is the starting point. Use the filters to narrow the scenarios, compare them, and open the one
+                you want to inspect.
+            </p>
+            <div class="info-links">
+                <a class="info-link active" href="index_info.html" aria-current="page">Overview</a>
+                <a class="info-link" href="overview_info.html">Scenario view</a>
+                <a class="info-link" href="route_info.html">Route view</a>
+            </div>
+        </section>
+
+        <section class="definition-box">
+            <h3>Key terms</h3>
+            <p>These are the main terms used on the overview page.</p>
+            <div class="definition-grid">
+                <div class="definition-item">
+                    <strong>Label</strong>
+                    <span>Label describes the route setup, such as a day, evening, morning or rush hour group.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Profile</strong>
+                    <span>Profile is the operating profile used in the score.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Analysis period</strong>
+                    <span>Analysis period shows the time window used for evaluation.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Type 1 and Type 2</strong>
+                    <span>Type 1 keeps the order fixed. Type 2 may reorder the route.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Original and optimized</strong>
+                    <span>Original is the baseline. Optimized is the best solution found.</span>
+                </div>
+                <div class="definition-item">
+                    <strong>Significant outliers</strong>
+                    <span>These mark the most important problem spots on the route.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-figure-grid">
+            <figure class="info-figure">
+                <div class="info-figure-header">Header and overview</div>
+                <div class="info-figure-body">
+                    <img src="../img/index_page_1.png" alt="Overview screenshot">
+                </div>
+                <figcaption>The top section shows the header and the overview table.</figcaption>
+            </figure>
+
+            <figure class="info-figure">
+                <div class="info-figure-header">Filters and expandable blocks</div>
+                <div class="info-figure-body">
+                    <img src="../img/index_page_2.png" alt="Overview filters screenshot">
+                </div>
+                <figcaption>The filters and expandable blocks are shown lower on the page.</figcaption>
+            </figure>
+        </section>
+
+        <section class="info-grid">
+            <article class="info-card">
+                <h3>How to use it</h3>
+                <ul>
+                    <li>Start with Label, Profile and Analysis period.</li>
+                    <li>Use the overview to compare revenue, cost and outliers.</li>
+                    <li>Open the most interesting scenario when you want to go deeper.</li>
+                    <li>Use the expandable blocks for period and KPI details.</li>
+                </ul>
+            </article>
+
+            <article class="info-card">
+                <h3>What the overview shows</h3>
+                <div class="formula-list">
+                    <div class="formula-item">
+                        <strong>Rows</strong>
+                        Each row is one scenario for a specific Profile and Label.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Column groups</strong>
+                        Type 1 and Type 2 are shown side by side.
+                    </div>
+                    <div class="formula-item">
+                        <strong>DB, revenue and costs</strong>
+                        Both original and optimized values are shown.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Open scenario</strong>
+                        The button opens the selected scenario.
+                    </div>
+                    <div class="formula-item">
+                        <strong>Week buttons</strong>
+                        Use the arrows to switch between analysis periods.
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-stack">
+            <article class="info-card">
+                <h3>When is a scenario worth looking at?</h3>
+                <ul>
+                    <li>When optimized DB rises without costs eating the gain.</li>
+                    <li>When Type 2 consistently beats Type 1.</li>
+                    <li>When the scenario stays stable across periods.</li>
+                    <li>When the number of significant outliers is low.</li>
+                </ul>
+                <div class="callout">
+                    Use the overview to choose a direction, then use the scenario and route pages to explain why.
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,1298 @@
+[
+  {
+    "label": "All Routes",
+    "route_id": "B35-E-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-E-Day/MTA Car New York/MTA 2024-10-15/B35-E-Day.json",
+    "markers_geojson": "All Routes/B35-E-Day/MTA Car New York/MTA 2024-10-15/B35-E-Day_markers.geojson",
+    "route_geojson": "All Routes/B35-E-Day/MTA Car New York/MTA 2024-10-15/B35-E-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-E-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-E-Evening/MTA Car New York/MTA 2024-10-15/B35-E-Evening.json",
+    "markers_geojson": "All Routes/B35-E-Evening/MTA Car New York/MTA 2024-10-15/B35-E-Evening_markers.geojson",
+    "route_geojson": "All Routes/B35-E-Evening/MTA Car New York/MTA 2024-10-15/B35-E-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-E-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-E-Morning/MTA Car New York/MTA 2024-10-15/B35-E-Morning.json",
+    "markers_geojson": "All Routes/B35-E-Morning/MTA Car New York/MTA 2024-10-15/B35-E-Morning_markers.geojson",
+    "route_geojson": "All Routes/B35-E-Morning/MTA Car New York/MTA 2024-10-15/B35-E-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-E-Night/MTA Car New York/MTA 2024-10-15/B35-E-Night.json",
+    "markers_geojson": "All Routes/B35-E-Night/MTA Car New York/MTA 2024-10-15/B35-E-Night_markers.geojson",
+    "route_geojson": "All Routes/B35-E-Night/MTA Car New York/MTA 2024-10-15/B35-E-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-E-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-E-RushHour/MTA Car New York/MTA 2024-10-15/B35-E-RushHour.json",
+    "markers_geojson": "All Routes/B35-E-RushHour/MTA Car New York/MTA 2024-10-15/B35-E-RushHour_markers.geojson",
+    "route_geojson": "All Routes/B35-E-RushHour/MTA Car New York/MTA 2024-10-15/B35-E-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-W-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-W-Day/MTA Car New York/MTA 2024-10-15/B35-W-Day.json",
+    "markers_geojson": "All Routes/B35-W-Day/MTA Car New York/MTA 2024-10-15/B35-W-Day_markers.geojson",
+    "route_geojson": "All Routes/B35-W-Day/MTA Car New York/MTA 2024-10-15/B35-W-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-W-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-W-Evening/MTA Car New York/MTA 2024-10-15/B35-W-Evening.json",
+    "markers_geojson": "All Routes/B35-W-Evening/MTA Car New York/MTA 2024-10-15/B35-W-Evening_markers.geojson",
+    "route_geojson": "All Routes/B35-W-Evening/MTA Car New York/MTA 2024-10-15/B35-W-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-W-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-W-Morning/MTA Car New York/MTA 2024-10-15/B35-W-Morning.json",
+    "markers_geojson": "All Routes/B35-W-Morning/MTA Car New York/MTA 2024-10-15/B35-W-Morning_markers.geojson",
+    "route_geojson": "All Routes/B35-W-Morning/MTA Car New York/MTA 2024-10-15/B35-W-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-W-Night/MTA Car New York/MTA 2024-10-15/B35-W-Night.json",
+    "markers_geojson": "All Routes/B35-W-Night/MTA Car New York/MTA 2024-10-15/B35-W-Night_markers.geojson",
+    "route_geojson": "All Routes/B35-W-Night/MTA Car New York/MTA 2024-10-15/B35-W-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B35-W-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B35-W-RushHour/MTA Car New York/MTA 2024-10-15/B35-W-RushHour.json",
+    "markers_geojson": "All Routes/B35-W-RushHour/MTA Car New York/MTA 2024-10-15/B35-W-RushHour_markers.geojson",
+    "route_geojson": "All Routes/B35-W-RushHour/MTA Car New York/MTA 2024-10-15/B35-W-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-N-Day/MTA Car New York/MTA 2024-10-15/B46-N-Day.json",
+    "markers_geojson": "All Routes/B46-N-Day/MTA Car New York/MTA 2024-10-15/B46-N-Day_markers.geojson",
+    "route_geojson": "All Routes/B46-N-Day/MTA Car New York/MTA 2024-10-15/B46-N-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-N-Evening/MTA Car New York/MTA 2024-10-15/B46-N-Evening.json",
+    "markers_geojson": "All Routes/B46-N-Evening/MTA Car New York/MTA 2024-10-15/B46-N-Evening_markers.geojson",
+    "route_geojson": "All Routes/B46-N-Evening/MTA Car New York/MTA 2024-10-15/B46-N-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-N-Morning/MTA Car New York/MTA 2024-10-15/B46-N-Morning.json",
+    "markers_geojson": "All Routes/B46-N-Morning/MTA Car New York/MTA 2024-10-15/B46-N-Morning_markers.geojson",
+    "route_geojson": "All Routes/B46-N-Morning/MTA Car New York/MTA 2024-10-15/B46-N-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-N-Night/MTA Car New York/MTA 2024-10-15/B46-N-Night.json",
+    "markers_geojson": "All Routes/B46-N-Night/MTA Car New York/MTA 2024-10-15/B46-N-Night_markers.geojson",
+    "route_geojson": "All Routes/B46-N-Night/MTA Car New York/MTA 2024-10-15/B46-N-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-N-RushHour/MTA Car New York/MTA 2024-10-15/B46-N-RushHour.json",
+    "markers_geojson": "All Routes/B46-N-RushHour/MTA Car New York/MTA 2024-10-15/B46-N-RushHour_markers.geojson",
+    "route_geojson": "All Routes/B46-N-RushHour/MTA Car New York/MTA 2024-10-15/B46-N-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-S-Day/MTA Car New York/MTA 2024-10-15/B46-S-Day.json",
+    "markers_geojson": "All Routes/B46-S-Day/MTA Car New York/MTA 2024-10-15/B46-S-Day_markers.geojson",
+    "route_geojson": "All Routes/B46-S-Day/MTA Car New York/MTA 2024-10-15/B46-S-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-S-Evening/MTA Car New York/MTA 2024-10-15/B46-S-Evening.json",
+    "markers_geojson": "All Routes/B46-S-Evening/MTA Car New York/MTA 2024-10-15/B46-S-Evening_markers.geojson",
+    "route_geojson": "All Routes/B46-S-Evening/MTA Car New York/MTA 2024-10-15/B46-S-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-S-Morning/MTA Car New York/MTA 2024-10-15/B46-S-Morning.json",
+    "markers_geojson": "All Routes/B46-S-Morning/MTA Car New York/MTA 2024-10-15/B46-S-Morning_markers.geojson",
+    "route_geojson": "All Routes/B46-S-Morning/MTA Car New York/MTA 2024-10-15/B46-S-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-S-Night/MTA Car New York/MTA 2024-10-15/B46-S-Night.json",
+    "markers_geojson": "All Routes/B46-S-Night/MTA Car New York/MTA 2024-10-15/B46-S-Night_markers.geojson",
+    "route_geojson": "All Routes/B46-S-Night/MTA Car New York/MTA 2024-10-15/B46-S-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "B46-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/B46-S-RushHour/MTA Car New York/MTA 2024-10-15/B46-S-RushHour.json",
+    "markers_geojson": "All Routes/B46-S-RushHour/MTA Car New York/MTA 2024-10-15/B46-S-RushHour_markers.geojson",
+    "route_geojson": "All Routes/B46-S-RushHour/MTA Car New York/MTA 2024-10-15/B46-S-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX12-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX12-E-Night/MTA Car New York/MTA 2024-10-15/BX12-E-Night.json",
+    "markers_geojson": "All Routes/BX12-E-Night/MTA Car New York/MTA 2024-10-15/BX12-E-Night_markers.geojson",
+    "route_geojson": "All Routes/BX12-E-Night/MTA Car New York/MTA 2024-10-15/BX12-E-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX12-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX12-W-Night/MTA Car New York/MTA 2024-10-15/BX12-W-Night.json",
+    "markers_geojson": "All Routes/BX12-W-Night/MTA Car New York/MTA 2024-10-15/BX12-W-Night_markers.geojson",
+    "route_geojson": "All Routes/BX12-W-Night/MTA Car New York/MTA 2024-10-15/BX12-W-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-N-Day/MTA Car New York/MTA 2024-10-15/BX19-N-Day.json",
+    "markers_geojson": "All Routes/BX19-N-Day/MTA Car New York/MTA 2024-10-15/BX19-N-Day_markers.geojson",
+    "route_geojson": "All Routes/BX19-N-Day/MTA Car New York/MTA 2024-10-15/BX19-N-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-N-Evening/MTA Car New York/MTA 2024-10-15/BX19-N-Evening.json",
+    "markers_geojson": "All Routes/BX19-N-Evening/MTA Car New York/MTA 2024-10-15/BX19-N-Evening_markers.geojson",
+    "route_geojson": "All Routes/BX19-N-Evening/MTA Car New York/MTA 2024-10-15/BX19-N-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-N-Morning/MTA Car New York/MTA 2024-10-15/BX19-N-Morning.json",
+    "markers_geojson": "All Routes/BX19-N-Morning/MTA Car New York/MTA 2024-10-15/BX19-N-Morning_markers.geojson",
+    "route_geojson": "All Routes/BX19-N-Morning/MTA Car New York/MTA 2024-10-15/BX19-N-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-N-Night/MTA Car New York/MTA 2024-10-15/BX19-N-Night.json",
+    "markers_geojson": "All Routes/BX19-N-Night/MTA Car New York/MTA 2024-10-15/BX19-N-Night_markers.geojson",
+    "route_geojson": "All Routes/BX19-N-Night/MTA Car New York/MTA 2024-10-15/BX19-N-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-N-RushHour/MTA Car New York/MTA 2024-10-15/BX19-N-RushHour.json",
+    "markers_geojson": "All Routes/BX19-N-RushHour/MTA Car New York/MTA 2024-10-15/BX19-N-RushHour_markers.geojson",
+    "route_geojson": "All Routes/BX19-N-RushHour/MTA Car New York/MTA 2024-10-15/BX19-N-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-S-Day/MTA Car New York/MTA 2024-10-15/BX19-S-Day.json",
+    "markers_geojson": "All Routes/BX19-S-Day/MTA Car New York/MTA 2024-10-15/BX19-S-Day_markers.geojson",
+    "route_geojson": "All Routes/BX19-S-Day/MTA Car New York/MTA 2024-10-15/BX19-S-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-S-Evening/MTA Car New York/MTA 2024-10-15/BX19-S-Evening.json",
+    "markers_geojson": "All Routes/BX19-S-Evening/MTA Car New York/MTA 2024-10-15/BX19-S-Evening_markers.geojson",
+    "route_geojson": "All Routes/BX19-S-Evening/MTA Car New York/MTA 2024-10-15/BX19-S-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-S-Morning/MTA Car New York/MTA 2024-10-15/BX19-S-Morning.json",
+    "markers_geojson": "All Routes/BX19-S-Morning/MTA Car New York/MTA 2024-10-15/BX19-S-Morning_markers.geojson",
+    "route_geojson": "All Routes/BX19-S-Morning/MTA Car New York/MTA 2024-10-15/BX19-S-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-S-Night/MTA Car New York/MTA 2024-10-15/BX19-S-Night.json",
+    "markers_geojson": "All Routes/BX19-S-Night/MTA Car New York/MTA 2024-10-15/BX19-S-Night_markers.geojson",
+    "route_geojson": "All Routes/BX19-S-Night/MTA Car New York/MTA 2024-10-15/BX19-S-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "BX19-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/BX19-S-RushHour/MTA Car New York/MTA 2024-10-15/BX19-S-RushHour.json",
+    "markers_geojson": "All Routes/BX19-S-RushHour/MTA Car New York/MTA 2024-10-15/BX19-S-RushHour_markers.geojson",
+    "route_geojson": "All Routes/BX19-S-RushHour/MTA Car New York/MTA 2024-10-15/BX19-S-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-N-Day/MTA Car New York/MTA 2024-10-15/M101-N-Day.json",
+    "markers_geojson": "All Routes/M101-N-Day/MTA Car New York/MTA 2024-10-15/M101-N-Day_markers.geojson",
+    "route_geojson": "All Routes/M101-N-Day/MTA Car New York/MTA 2024-10-15/M101-N-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-N-Evening/MTA Car New York/MTA 2024-10-15/M101-N-Evening.json",
+    "markers_geojson": "All Routes/M101-N-Evening/MTA Car New York/MTA 2024-10-15/M101-N-Evening_markers.geojson",
+    "route_geojson": "All Routes/M101-N-Evening/MTA Car New York/MTA 2024-10-15/M101-N-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-N-Morning/MTA Car New York/MTA 2024-10-15/M101-N-Morning.json",
+    "markers_geojson": "All Routes/M101-N-Morning/MTA Car New York/MTA 2024-10-15/M101-N-Morning_markers.geojson",
+    "route_geojson": "All Routes/M101-N-Morning/MTA Car New York/MTA 2024-10-15/M101-N-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-N-Night/MTA Car New York/MTA 2024-10-15/M101-N-Night.json",
+    "markers_geojson": "All Routes/M101-N-Night/MTA Car New York/MTA 2024-10-15/M101-N-Night_markers.geojson",
+    "route_geojson": "All Routes/M101-N-Night/MTA Car New York/MTA 2024-10-15/M101-N-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-N-RushHour/MTA Car New York/MTA 2024-10-15/M101-N-RushHour.json",
+    "markers_geojson": "All Routes/M101-N-RushHour/MTA Car New York/MTA 2024-10-15/M101-N-RushHour_markers.geojson",
+    "route_geojson": "All Routes/M101-N-RushHour/MTA Car New York/MTA 2024-10-15/M101-N-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-S-Day/MTA Car New York/MTA 2024-10-15/M101-S-Day.json",
+    "markers_geojson": "All Routes/M101-S-Day/MTA Car New York/MTA 2024-10-15/M101-S-Day_markers.geojson",
+    "route_geojson": "All Routes/M101-S-Day/MTA Car New York/MTA 2024-10-15/M101-S-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-S-Evening/MTA Car New York/MTA 2024-10-15/M101-S-Evening.json",
+    "markers_geojson": "All Routes/M101-S-Evening/MTA Car New York/MTA 2024-10-15/M101-S-Evening_markers.geojson",
+    "route_geojson": "All Routes/M101-S-Evening/MTA Car New York/MTA 2024-10-15/M101-S-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-S-Morning/MTA Car New York/MTA 2024-10-15/M101-S-Morning.json",
+    "markers_geojson": "All Routes/M101-S-Morning/MTA Car New York/MTA 2024-10-15/M101-S-Morning_markers.geojson",
+    "route_geojson": "All Routes/M101-S-Morning/MTA Car New York/MTA 2024-10-15/M101-S-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-S-Night/MTA Car New York/MTA 2024-10-15/M101-S-Night.json",
+    "markers_geojson": "All Routes/M101-S-Night/MTA Car New York/MTA 2024-10-15/M101-S-Night_markers.geojson",
+    "route_geojson": "All Routes/M101-S-Night/MTA Car New York/MTA 2024-10-15/M101-S-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M101-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M101-S-RushHour/MTA Car New York/MTA 2024-10-15/M101-S-RushHour.json",
+    "markers_geojson": "All Routes/M101-S-RushHour/MTA Car New York/MTA 2024-10-15/M101-S-RushHour_markers.geojson",
+    "route_geojson": "All Routes/M101-S-RushHour/MTA Car New York/MTA 2024-10-15/M101-S-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-N-Day/MTA Car New York/MTA 2024-10-15/M15-N-Day.json",
+    "markers_geojson": "All Routes/M15-N-Day/MTA Car New York/MTA 2024-10-15/M15-N-Day_markers.geojson",
+    "route_geojson": "All Routes/M15-N-Day/MTA Car New York/MTA 2024-10-15/M15-N-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-N-Evening/MTA Car New York/MTA 2024-10-15/M15-N-Evening.json",
+    "markers_geojson": "All Routes/M15-N-Evening/MTA Car New York/MTA 2024-10-15/M15-N-Evening_markers.geojson",
+    "route_geojson": "All Routes/M15-N-Evening/MTA Car New York/MTA 2024-10-15/M15-N-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-N-Morning/MTA Car New York/MTA 2024-10-15/M15-N-Morning.json",
+    "markers_geojson": "All Routes/M15-N-Morning/MTA Car New York/MTA 2024-10-15/M15-N-Morning_markers.geojson",
+    "route_geojson": "All Routes/M15-N-Morning/MTA Car New York/MTA 2024-10-15/M15-N-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-N-Night/MTA Car New York/MTA 2024-10-15/M15-N-Night.json",
+    "markers_geojson": "All Routes/M15-N-Night/MTA Car New York/MTA 2024-10-15/M15-N-Night_markers.geojson",
+    "route_geojson": "All Routes/M15-N-Night/MTA Car New York/MTA 2024-10-15/M15-N-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-N-RushHour/MTA Car New York/MTA 2024-10-15/M15-N-RushHour.json",
+    "markers_geojson": "All Routes/M15-N-RushHour/MTA Car New York/MTA 2024-10-15/M15-N-RushHour_markers.geojson",
+    "route_geojson": "All Routes/M15-N-RushHour/MTA Car New York/MTA 2024-10-15/M15-N-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-S-Day/MTA Car New York/MTA 2024-10-15/M15-S-Day.json",
+    "markers_geojson": "All Routes/M15-S-Day/MTA Car New York/MTA 2024-10-15/M15-S-Day_markers.geojson",
+    "route_geojson": "All Routes/M15-S-Day/MTA Car New York/MTA 2024-10-15/M15-S-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-S-Evening/MTA Car New York/MTA 2024-10-15/M15-S-Evening.json",
+    "markers_geojson": "All Routes/M15-S-Evening/MTA Car New York/MTA 2024-10-15/M15-S-Evening_markers.geojson",
+    "route_geojson": "All Routes/M15-S-Evening/MTA Car New York/MTA 2024-10-15/M15-S-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-S-Morning/MTA Car New York/MTA 2024-10-15/M15-S-Morning.json",
+    "markers_geojson": "All Routes/M15-S-Morning/MTA Car New York/MTA 2024-10-15/M15-S-Morning_markers.geojson",
+    "route_geojson": "All Routes/M15-S-Morning/MTA Car New York/MTA 2024-10-15/M15-S-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-S-Night/MTA Car New York/MTA 2024-10-15/M15-S-Night.json",
+    "markers_geojson": "All Routes/M15-S-Night/MTA Car New York/MTA 2024-10-15/M15-S-Night_markers.geojson",
+    "route_geojson": "All Routes/M15-S-Night/MTA Car New York/MTA 2024-10-15/M15-S-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "M15-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/M15-S-RushHour/MTA Car New York/MTA 2024-10-15/M15-S-RushHour.json",
+    "markers_geojson": "All Routes/M15-S-RushHour/MTA Car New York/MTA 2024-10-15/M15-S-RushHour_markers.geojson",
+    "route_geojson": "All Routes/M15-S-RushHour/MTA Car New York/MTA 2024-10-15/M15-S-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-E-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-E-Day/MTA Car New York/MTA 2024-10-15/Q58-E-Day.json",
+    "markers_geojson": "All Routes/Q58-E-Day/MTA Car New York/MTA 2024-10-15/Q58-E-Day_markers.geojson",
+    "route_geojson": "All Routes/Q58-E-Day/MTA Car New York/MTA 2024-10-15/Q58-E-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-E-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-E-Evening/MTA Car New York/MTA 2024-10-15/Q58-E-Evening.json",
+    "markers_geojson": "All Routes/Q58-E-Evening/MTA Car New York/MTA 2024-10-15/Q58-E-Evening_markers.geojson",
+    "route_geojson": "All Routes/Q58-E-Evening/MTA Car New York/MTA 2024-10-15/Q58-E-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-E-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-E-Morning/MTA Car New York/MTA 2024-10-15/Q58-E-Morning.json",
+    "markers_geojson": "All Routes/Q58-E-Morning/MTA Car New York/MTA 2024-10-15/Q58-E-Morning_markers.geojson",
+    "route_geojson": "All Routes/Q58-E-Morning/MTA Car New York/MTA 2024-10-15/Q58-E-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-E-Night/MTA Car New York/MTA 2024-10-15/Q58-E-Night.json",
+    "markers_geojson": "All Routes/Q58-E-Night/MTA Car New York/MTA 2024-10-15/Q58-E-Night_markers.geojson",
+    "route_geojson": "All Routes/Q58-E-Night/MTA Car New York/MTA 2024-10-15/Q58-E-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-E-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-E-RushHour/MTA Car New York/MTA 2024-10-15/Q58-E-RushHour.json",
+    "markers_geojson": "All Routes/Q58-E-RushHour/MTA Car New York/MTA 2024-10-15/Q58-E-RushHour_markers.geojson",
+    "route_geojson": "All Routes/Q58-E-RushHour/MTA Car New York/MTA 2024-10-15/Q58-E-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-W-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-W-Day/MTA Car New York/MTA 2024-10-15/Q58-W-Day.json",
+    "markers_geojson": "All Routes/Q58-W-Day/MTA Car New York/MTA 2024-10-15/Q58-W-Day_markers.geojson",
+    "route_geojson": "All Routes/Q58-W-Day/MTA Car New York/MTA 2024-10-15/Q58-W-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-W-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-W-Evening/MTA Car New York/MTA 2024-10-15/Q58-W-Evening.json",
+    "markers_geojson": "All Routes/Q58-W-Evening/MTA Car New York/MTA 2024-10-15/Q58-W-Evening_markers.geojson",
+    "route_geojson": "All Routes/Q58-W-Evening/MTA Car New York/MTA 2024-10-15/Q58-W-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-W-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-W-Morning/MTA Car New York/MTA 2024-10-15/Q58-W-Morning.json",
+    "markers_geojson": "All Routes/Q58-W-Morning/MTA Car New York/MTA 2024-10-15/Q58-W-Morning_markers.geojson",
+    "route_geojson": "All Routes/Q58-W-Morning/MTA Car New York/MTA 2024-10-15/Q58-W-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-W-Night/MTA Car New York/MTA 2024-10-15/Q58-W-Night.json",
+    "markers_geojson": "All Routes/Q58-W-Night/MTA Car New York/MTA 2024-10-15/Q58-W-Night_markers.geojson",
+    "route_geojson": "All Routes/Q58-W-Night/MTA Car New York/MTA 2024-10-15/Q58-W-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "Q58-W-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/Q58-W-RushHour/MTA Car New York/MTA 2024-10-15/Q58-W-RushHour.json",
+    "markers_geojson": "All Routes/Q58-W-RushHour/MTA Car New York/MTA 2024-10-15/Q58-W-RushHour_markers.geojson",
+    "route_geojson": "All Routes/Q58-W-RushHour/MTA Car New York/MTA 2024-10-15/Q58-W-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-E-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-E-Day/MTA Car New York/MTA 2024-10-15/S53-E-Day.json",
+    "markers_geojson": "All Routes/S53-E-Day/MTA Car New York/MTA 2024-10-15/S53-E-Day_markers.geojson",
+    "route_geojson": "All Routes/S53-E-Day/MTA Car New York/MTA 2024-10-15/S53-E-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-E-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-E-Evening/MTA Car New York/MTA 2024-10-15/S53-E-Evening.json",
+    "markers_geojson": "All Routes/S53-E-Evening/MTA Car New York/MTA 2024-10-15/S53-E-Evening_markers.geojson",
+    "route_geojson": "All Routes/S53-E-Evening/MTA Car New York/MTA 2024-10-15/S53-E-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-E-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-E-Morning/MTA Car New York/MTA 2024-10-15/S53-E-Morning.json",
+    "markers_geojson": "All Routes/S53-E-Morning/MTA Car New York/MTA 2024-10-15/S53-E-Morning_markers.geojson",
+    "route_geojson": "All Routes/S53-E-Morning/MTA Car New York/MTA 2024-10-15/S53-E-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-E-Night/MTA Car New York/MTA 2024-10-15/S53-E-Night.json",
+    "markers_geojson": "All Routes/S53-E-Night/MTA Car New York/MTA 2024-10-15/S53-E-Night_markers.geojson",
+    "route_geojson": "All Routes/S53-E-Night/MTA Car New York/MTA 2024-10-15/S53-E-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-E-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-E-RushHour/MTA Car New York/MTA 2024-10-15/S53-E-RushHour.json",
+    "markers_geojson": "All Routes/S53-E-RushHour/MTA Car New York/MTA 2024-10-15/S53-E-RushHour_markers.geojson",
+    "route_geojson": "All Routes/S53-E-RushHour/MTA Car New York/MTA 2024-10-15/S53-E-RushHour_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-W-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-W-Day/MTA Car New York/MTA 2024-10-15/S53-W-Day.json",
+    "markers_geojson": "All Routes/S53-W-Day/MTA Car New York/MTA 2024-10-15/S53-W-Day_markers.geojson",
+    "route_geojson": "All Routes/S53-W-Day/MTA Car New York/MTA 2024-10-15/S53-W-Day_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-W-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-W-Evening/MTA Car New York/MTA 2024-10-15/S53-W-Evening.json",
+    "markers_geojson": "All Routes/S53-W-Evening/MTA Car New York/MTA 2024-10-15/S53-W-Evening_markers.geojson",
+    "route_geojson": "All Routes/S53-W-Evening/MTA Car New York/MTA 2024-10-15/S53-W-Evening_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-W-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-W-Morning/MTA Car New York/MTA 2024-10-15/S53-W-Morning.json",
+    "markers_geojson": "All Routes/S53-W-Morning/MTA Car New York/MTA 2024-10-15/S53-W-Morning_markers.geojson",
+    "route_geojson": "All Routes/S53-W-Morning/MTA Car New York/MTA 2024-10-15/S53-W-Morning_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-W-Night/MTA Car New York/MTA 2024-10-15/S53-W-Night.json",
+    "markers_geojson": "All Routes/S53-W-Night/MTA Car New York/MTA 2024-10-15/S53-W-Night_markers.geojson",
+    "route_geojson": "All Routes/S53-W-Night/MTA Car New York/MTA 2024-10-15/S53-W-Night_route.geojson"
+  },
+  {
+    "label": "All Routes",
+    "route_id": "S53-W-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "All Routes/S53-W-RushHour/MTA Car New York/MTA 2024-10-15/S53-W-RushHour.json",
+    "markers_geojson": "All Routes/S53-W-RushHour/MTA Car New York/MTA 2024-10-15/S53-W-RushHour_markers.geojson",
+    "route_geojson": "All Routes/S53-W-RushHour/MTA Car New York/MTA 2024-10-15/S53-W-RushHour_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "B35-E-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/B35-E-Day/MTA Car New York/MTA 2024-10-15/B35-E-Day.json",
+    "markers_geojson": "Day Busses/B35-E-Day/MTA Car New York/MTA 2024-10-15/B35-E-Day_markers.geojson",
+    "route_geojson": "Day Busses/B35-E-Day/MTA Car New York/MTA 2024-10-15/B35-E-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "B35-W-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/B35-W-Day/MTA Car New York/MTA 2024-10-15/B35-W-Day.json",
+    "markers_geojson": "Day Busses/B35-W-Day/MTA Car New York/MTA 2024-10-15/B35-W-Day_markers.geojson",
+    "route_geojson": "Day Busses/B35-W-Day/MTA Car New York/MTA 2024-10-15/B35-W-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "B46-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/B46-N-Day/MTA Car New York/MTA 2024-10-15/B46-N-Day.json",
+    "markers_geojson": "Day Busses/B46-N-Day/MTA Car New York/MTA 2024-10-15/B46-N-Day_markers.geojson",
+    "route_geojson": "Day Busses/B46-N-Day/MTA Car New York/MTA 2024-10-15/B46-N-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "B46-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/B46-S-Day/MTA Car New York/MTA 2024-10-15/B46-S-Day.json",
+    "markers_geojson": "Day Busses/B46-S-Day/MTA Car New York/MTA 2024-10-15/B46-S-Day_markers.geojson",
+    "route_geojson": "Day Busses/B46-S-Day/MTA Car New York/MTA 2024-10-15/B46-S-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "BX19-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/BX19-N-Day/MTA Car New York/MTA 2024-10-15/BX19-N-Day.json",
+    "markers_geojson": "Day Busses/BX19-N-Day/MTA Car New York/MTA 2024-10-15/BX19-N-Day_markers.geojson",
+    "route_geojson": "Day Busses/BX19-N-Day/MTA Car New York/MTA 2024-10-15/BX19-N-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "BX19-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/BX19-S-Day/MTA Car New York/MTA 2024-10-15/BX19-S-Day.json",
+    "markers_geojson": "Day Busses/BX19-S-Day/MTA Car New York/MTA 2024-10-15/BX19-S-Day_markers.geojson",
+    "route_geojson": "Day Busses/BX19-S-Day/MTA Car New York/MTA 2024-10-15/BX19-S-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "M101-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/M101-N-Day/MTA Car New York/MTA 2024-10-15/M101-N-Day.json",
+    "markers_geojson": "Day Busses/M101-N-Day/MTA Car New York/MTA 2024-10-15/M101-N-Day_markers.geojson",
+    "route_geojson": "Day Busses/M101-N-Day/MTA Car New York/MTA 2024-10-15/M101-N-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "M101-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/M101-S-Day/MTA Car New York/MTA 2024-10-15/M101-S-Day.json",
+    "markers_geojson": "Day Busses/M101-S-Day/MTA Car New York/MTA 2024-10-15/M101-S-Day_markers.geojson",
+    "route_geojson": "Day Busses/M101-S-Day/MTA Car New York/MTA 2024-10-15/M101-S-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "M15-N-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/M15-N-Day/MTA Car New York/MTA 2024-10-15/M15-N-Day.json",
+    "markers_geojson": "Day Busses/M15-N-Day/MTA Car New York/MTA 2024-10-15/M15-N-Day_markers.geojson",
+    "route_geojson": "Day Busses/M15-N-Day/MTA Car New York/MTA 2024-10-15/M15-N-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "M15-S-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/M15-S-Day/MTA Car New York/MTA 2024-10-15/M15-S-Day.json",
+    "markers_geojson": "Day Busses/M15-S-Day/MTA Car New York/MTA 2024-10-15/M15-S-Day_markers.geojson",
+    "route_geojson": "Day Busses/M15-S-Day/MTA Car New York/MTA 2024-10-15/M15-S-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "Q58-E-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/Q58-E-Day/MTA Car New York/MTA 2024-10-15/Q58-E-Day.json",
+    "markers_geojson": "Day Busses/Q58-E-Day/MTA Car New York/MTA 2024-10-15/Q58-E-Day_markers.geojson",
+    "route_geojson": "Day Busses/Q58-E-Day/MTA Car New York/MTA 2024-10-15/Q58-E-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "Q58-W-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/Q58-W-Day/MTA Car New York/MTA 2024-10-15/Q58-W-Day.json",
+    "markers_geojson": "Day Busses/Q58-W-Day/MTA Car New York/MTA 2024-10-15/Q58-W-Day_markers.geojson",
+    "route_geojson": "Day Busses/Q58-W-Day/MTA Car New York/MTA 2024-10-15/Q58-W-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "S53-E-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/S53-E-Day/MTA Car New York/MTA 2024-10-15/S53-E-Day.json",
+    "markers_geojson": "Day Busses/S53-E-Day/MTA Car New York/MTA 2024-10-15/S53-E-Day_markers.geojson",
+    "route_geojson": "Day Busses/S53-E-Day/MTA Car New York/MTA 2024-10-15/S53-E-Day_route.geojson"
+  },
+  {
+    "label": "Day Busses",
+    "route_id": "S53-W-Day",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Day Busses/S53-W-Day/MTA Car New York/MTA 2024-10-15/S53-W-Day.json",
+    "markers_geojson": "Day Busses/S53-W-Day/MTA Car New York/MTA 2024-10-15/S53-W-Day_markers.geojson",
+    "route_geojson": "Day Busses/S53-W-Day/MTA Car New York/MTA 2024-10-15/S53-W-Day_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "B35-E-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/B35-E-Evening/MTA Car New York/MTA 2024-10-15/B35-E-Evening.json",
+    "markers_geojson": "Evening Busses/B35-E-Evening/MTA Car New York/MTA 2024-10-15/B35-E-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/B35-E-Evening/MTA Car New York/MTA 2024-10-15/B35-E-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "B35-W-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/B35-W-Evening/MTA Car New York/MTA 2024-10-15/B35-W-Evening.json",
+    "markers_geojson": "Evening Busses/B35-W-Evening/MTA Car New York/MTA 2024-10-15/B35-W-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/B35-W-Evening/MTA Car New York/MTA 2024-10-15/B35-W-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "B46-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/B46-N-Evening/MTA Car New York/MTA 2024-10-15/B46-N-Evening.json",
+    "markers_geojson": "Evening Busses/B46-N-Evening/MTA Car New York/MTA 2024-10-15/B46-N-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/B46-N-Evening/MTA Car New York/MTA 2024-10-15/B46-N-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "B46-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/B46-S-Evening/MTA Car New York/MTA 2024-10-15/B46-S-Evening.json",
+    "markers_geojson": "Evening Busses/B46-S-Evening/MTA Car New York/MTA 2024-10-15/B46-S-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/B46-S-Evening/MTA Car New York/MTA 2024-10-15/B46-S-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "BX19-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/BX19-N-Evening/MTA Car New York/MTA 2024-10-15/BX19-N-Evening.json",
+    "markers_geojson": "Evening Busses/BX19-N-Evening/MTA Car New York/MTA 2024-10-15/BX19-N-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/BX19-N-Evening/MTA Car New York/MTA 2024-10-15/BX19-N-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "BX19-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/BX19-S-Evening/MTA Car New York/MTA 2024-10-15/BX19-S-Evening.json",
+    "markers_geojson": "Evening Busses/BX19-S-Evening/MTA Car New York/MTA 2024-10-15/BX19-S-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/BX19-S-Evening/MTA Car New York/MTA 2024-10-15/BX19-S-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "M101-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/M101-N-Evening/MTA Car New York/MTA 2024-10-15/M101-N-Evening.json",
+    "markers_geojson": "Evening Busses/M101-N-Evening/MTA Car New York/MTA 2024-10-15/M101-N-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/M101-N-Evening/MTA Car New York/MTA 2024-10-15/M101-N-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "M101-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/M101-S-Evening/MTA Car New York/MTA 2024-10-15/M101-S-Evening.json",
+    "markers_geojson": "Evening Busses/M101-S-Evening/MTA Car New York/MTA 2024-10-15/M101-S-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/M101-S-Evening/MTA Car New York/MTA 2024-10-15/M101-S-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "M15-N-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/M15-N-Evening/MTA Car New York/MTA 2024-10-15/M15-N-Evening.json",
+    "markers_geojson": "Evening Busses/M15-N-Evening/MTA Car New York/MTA 2024-10-15/M15-N-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/M15-N-Evening/MTA Car New York/MTA 2024-10-15/M15-N-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "M15-S-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/M15-S-Evening/MTA Car New York/MTA 2024-10-15/M15-S-Evening.json",
+    "markers_geojson": "Evening Busses/M15-S-Evening/MTA Car New York/MTA 2024-10-15/M15-S-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/M15-S-Evening/MTA Car New York/MTA 2024-10-15/M15-S-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "Q58-E-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/Q58-E-Evening/MTA Car New York/MTA 2024-10-15/Q58-E-Evening.json",
+    "markers_geojson": "Evening Busses/Q58-E-Evening/MTA Car New York/MTA 2024-10-15/Q58-E-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/Q58-E-Evening/MTA Car New York/MTA 2024-10-15/Q58-E-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "Q58-W-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/Q58-W-Evening/MTA Car New York/MTA 2024-10-15/Q58-W-Evening.json",
+    "markers_geojson": "Evening Busses/Q58-W-Evening/MTA Car New York/MTA 2024-10-15/Q58-W-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/Q58-W-Evening/MTA Car New York/MTA 2024-10-15/Q58-W-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "S53-E-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/S53-E-Evening/MTA Car New York/MTA 2024-10-15/S53-E-Evening.json",
+    "markers_geojson": "Evening Busses/S53-E-Evening/MTA Car New York/MTA 2024-10-15/S53-E-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/S53-E-Evening/MTA Car New York/MTA 2024-10-15/S53-E-Evening_route.geojson"
+  },
+  {
+    "label": "Evening Busses",
+    "route_id": "S53-W-Evening",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Evening Busses/S53-W-Evening/MTA Car New York/MTA 2024-10-15/S53-W-Evening.json",
+    "markers_geojson": "Evening Busses/S53-W-Evening/MTA Car New York/MTA 2024-10-15/S53-W-Evening_markers.geojson",
+    "route_geojson": "Evening Busses/S53-W-Evening/MTA Car New York/MTA 2024-10-15/S53-W-Evening_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "B35-E-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/B35-E-Morning/MTA Car New York/MTA 2024-10-15/B35-E-Morning.json",
+    "markers_geojson": "Morning/B35-E-Morning/MTA Car New York/MTA 2024-10-15/B35-E-Morning_markers.geojson",
+    "route_geojson": "Morning/B35-E-Morning/MTA Car New York/MTA 2024-10-15/B35-E-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "B35-W-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/B35-W-Morning/MTA Car New York/MTA 2024-10-15/B35-W-Morning.json",
+    "markers_geojson": "Morning/B35-W-Morning/MTA Car New York/MTA 2024-10-15/B35-W-Morning_markers.geojson",
+    "route_geojson": "Morning/B35-W-Morning/MTA Car New York/MTA 2024-10-15/B35-W-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "B46-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/B46-N-Morning/MTA Car New York/MTA 2024-10-15/B46-N-Morning.json",
+    "markers_geojson": "Morning/B46-N-Morning/MTA Car New York/MTA 2024-10-15/B46-N-Morning_markers.geojson",
+    "route_geojson": "Morning/B46-N-Morning/MTA Car New York/MTA 2024-10-15/B46-N-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "B46-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/B46-S-Morning/MTA Car New York/MTA 2024-10-15/B46-S-Morning.json",
+    "markers_geojson": "Morning/B46-S-Morning/MTA Car New York/MTA 2024-10-15/B46-S-Morning_markers.geojson",
+    "route_geojson": "Morning/B46-S-Morning/MTA Car New York/MTA 2024-10-15/B46-S-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "BX19-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/BX19-N-Morning/MTA Car New York/MTA 2024-10-15/BX19-N-Morning.json",
+    "markers_geojson": "Morning/BX19-N-Morning/MTA Car New York/MTA 2024-10-15/BX19-N-Morning_markers.geojson",
+    "route_geojson": "Morning/BX19-N-Morning/MTA Car New York/MTA 2024-10-15/BX19-N-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "BX19-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/BX19-S-Morning/MTA Car New York/MTA 2024-10-15/BX19-S-Morning.json",
+    "markers_geojson": "Morning/BX19-S-Morning/MTA Car New York/MTA 2024-10-15/BX19-S-Morning_markers.geojson",
+    "route_geojson": "Morning/BX19-S-Morning/MTA Car New York/MTA 2024-10-15/BX19-S-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "M101-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/M101-N-Morning/MTA Car New York/MTA 2024-10-15/M101-N-Morning.json",
+    "markers_geojson": "Morning/M101-N-Morning/MTA Car New York/MTA 2024-10-15/M101-N-Morning_markers.geojson",
+    "route_geojson": "Morning/M101-N-Morning/MTA Car New York/MTA 2024-10-15/M101-N-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "M101-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/M101-S-Morning/MTA Car New York/MTA 2024-10-15/M101-S-Morning.json",
+    "markers_geojson": "Morning/M101-S-Morning/MTA Car New York/MTA 2024-10-15/M101-S-Morning_markers.geojson",
+    "route_geojson": "Morning/M101-S-Morning/MTA Car New York/MTA 2024-10-15/M101-S-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "M15-N-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/M15-N-Morning/MTA Car New York/MTA 2024-10-15/M15-N-Morning.json",
+    "markers_geojson": "Morning/M15-N-Morning/MTA Car New York/MTA 2024-10-15/M15-N-Morning_markers.geojson",
+    "route_geojson": "Morning/M15-N-Morning/MTA Car New York/MTA 2024-10-15/M15-N-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "M15-S-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/M15-S-Morning/MTA Car New York/MTA 2024-10-15/M15-S-Morning.json",
+    "markers_geojson": "Morning/M15-S-Morning/MTA Car New York/MTA 2024-10-15/M15-S-Morning_markers.geojson",
+    "route_geojson": "Morning/M15-S-Morning/MTA Car New York/MTA 2024-10-15/M15-S-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "Q58-E-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/Q58-E-Morning/MTA Car New York/MTA 2024-10-15/Q58-E-Morning.json",
+    "markers_geojson": "Morning/Q58-E-Morning/MTA Car New York/MTA 2024-10-15/Q58-E-Morning_markers.geojson",
+    "route_geojson": "Morning/Q58-E-Morning/MTA Car New York/MTA 2024-10-15/Q58-E-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "Q58-W-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/Q58-W-Morning/MTA Car New York/MTA 2024-10-15/Q58-W-Morning.json",
+    "markers_geojson": "Morning/Q58-W-Morning/MTA Car New York/MTA 2024-10-15/Q58-W-Morning_markers.geojson",
+    "route_geojson": "Morning/Q58-W-Morning/MTA Car New York/MTA 2024-10-15/Q58-W-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "S53-E-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/S53-E-Morning/MTA Car New York/MTA 2024-10-15/S53-E-Morning.json",
+    "markers_geojson": "Morning/S53-E-Morning/MTA Car New York/MTA 2024-10-15/S53-E-Morning_markers.geojson",
+    "route_geojson": "Morning/S53-E-Morning/MTA Car New York/MTA 2024-10-15/S53-E-Morning_route.geojson"
+  },
+  {
+    "label": "Morning",
+    "route_id": "S53-W-Morning",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Morning/S53-W-Morning/MTA Car New York/MTA 2024-10-15/S53-W-Morning.json",
+    "markers_geojson": "Morning/S53-W-Morning/MTA Car New York/MTA 2024-10-15/S53-W-Morning_markers.geojson",
+    "route_geojson": "Morning/S53-W-Morning/MTA Car New York/MTA 2024-10-15/S53-W-Morning_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "B35-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/B35-E-Night/MTA Car New York/MTA 2024-10-15/B35-E-Night.json",
+    "markers_geojson": "Night/B35-E-Night/MTA Car New York/MTA 2024-10-15/B35-E-Night_markers.geojson",
+    "route_geojson": "Night/B35-E-Night/MTA Car New York/MTA 2024-10-15/B35-E-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "B35-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/B35-W-Night/MTA Car New York/MTA 2024-10-15/B35-W-Night.json",
+    "markers_geojson": "Night/B35-W-Night/MTA Car New York/MTA 2024-10-15/B35-W-Night_markers.geojson",
+    "route_geojson": "Night/B35-W-Night/MTA Car New York/MTA 2024-10-15/B35-W-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "B46-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/B46-N-Night/MTA Car New York/MTA 2024-10-15/B46-N-Night.json",
+    "markers_geojson": "Night/B46-N-Night/MTA Car New York/MTA 2024-10-15/B46-N-Night_markers.geojson",
+    "route_geojson": "Night/B46-N-Night/MTA Car New York/MTA 2024-10-15/B46-N-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "B46-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/B46-S-Night/MTA Car New York/MTA 2024-10-15/B46-S-Night.json",
+    "markers_geojson": "Night/B46-S-Night/MTA Car New York/MTA 2024-10-15/B46-S-Night_markers.geojson",
+    "route_geojson": "Night/B46-S-Night/MTA Car New York/MTA 2024-10-15/B46-S-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "BX12-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/BX12-E-Night/MTA Car New York/MTA 2024-10-15/BX12-E-Night.json",
+    "markers_geojson": "Night/BX12-E-Night/MTA Car New York/MTA 2024-10-15/BX12-E-Night_markers.geojson",
+    "route_geojson": "Night/BX12-E-Night/MTA Car New York/MTA 2024-10-15/BX12-E-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "BX12-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/BX12-W-Night/MTA Car New York/MTA 2024-10-15/BX12-W-Night.json",
+    "markers_geojson": "Night/BX12-W-Night/MTA Car New York/MTA 2024-10-15/BX12-W-Night_markers.geojson",
+    "route_geojson": "Night/BX12-W-Night/MTA Car New York/MTA 2024-10-15/BX12-W-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "BX19-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/BX19-N-Night/MTA Car New York/MTA 2024-10-15/BX19-N-Night.json",
+    "markers_geojson": "Night/BX19-N-Night/MTA Car New York/MTA 2024-10-15/BX19-N-Night_markers.geojson",
+    "route_geojson": "Night/BX19-N-Night/MTA Car New York/MTA 2024-10-15/BX19-N-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "BX19-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/BX19-S-Night/MTA Car New York/MTA 2024-10-15/BX19-S-Night.json",
+    "markers_geojson": "Night/BX19-S-Night/MTA Car New York/MTA 2024-10-15/BX19-S-Night_markers.geojson",
+    "route_geojson": "Night/BX19-S-Night/MTA Car New York/MTA 2024-10-15/BX19-S-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "M101-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/M101-N-Night/MTA Car New York/MTA 2024-10-15/M101-N-Night.json",
+    "markers_geojson": "Night/M101-N-Night/MTA Car New York/MTA 2024-10-15/M101-N-Night_markers.geojson",
+    "route_geojson": "Night/M101-N-Night/MTA Car New York/MTA 2024-10-15/M101-N-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "M101-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/M101-S-Night/MTA Car New York/MTA 2024-10-15/M101-S-Night.json",
+    "markers_geojson": "Night/M101-S-Night/MTA Car New York/MTA 2024-10-15/M101-S-Night_markers.geojson",
+    "route_geojson": "Night/M101-S-Night/MTA Car New York/MTA 2024-10-15/M101-S-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "M15-N-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/M15-N-Night/MTA Car New York/MTA 2024-10-15/M15-N-Night.json",
+    "markers_geojson": "Night/M15-N-Night/MTA Car New York/MTA 2024-10-15/M15-N-Night_markers.geojson",
+    "route_geojson": "Night/M15-N-Night/MTA Car New York/MTA 2024-10-15/M15-N-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "M15-S-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/M15-S-Night/MTA Car New York/MTA 2024-10-15/M15-S-Night.json",
+    "markers_geojson": "Night/M15-S-Night/MTA Car New York/MTA 2024-10-15/M15-S-Night_markers.geojson",
+    "route_geojson": "Night/M15-S-Night/MTA Car New York/MTA 2024-10-15/M15-S-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "Q58-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/Q58-E-Night/MTA Car New York/MTA 2024-10-15/Q58-E-Night.json",
+    "markers_geojson": "Night/Q58-E-Night/MTA Car New York/MTA 2024-10-15/Q58-E-Night_markers.geojson",
+    "route_geojson": "Night/Q58-E-Night/MTA Car New York/MTA 2024-10-15/Q58-E-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "Q58-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/Q58-W-Night/MTA Car New York/MTA 2024-10-15/Q58-W-Night.json",
+    "markers_geojson": "Night/Q58-W-Night/MTA Car New York/MTA 2024-10-15/Q58-W-Night_markers.geojson",
+    "route_geojson": "Night/Q58-W-Night/MTA Car New York/MTA 2024-10-15/Q58-W-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "S53-E-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/S53-E-Night/MTA Car New York/MTA 2024-10-15/S53-E-Night.json",
+    "markers_geojson": "Night/S53-E-Night/MTA Car New York/MTA 2024-10-15/S53-E-Night_markers.geojson",
+    "route_geojson": "Night/S53-E-Night/MTA Car New York/MTA 2024-10-15/S53-E-Night_route.geojson"
+  },
+  {
+    "label": "Night",
+    "route_id": "S53-W-Night",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Night/S53-W-Night/MTA Car New York/MTA 2024-10-15/S53-W-Night.json",
+    "markers_geojson": "Night/S53-W-Night/MTA Car New York/MTA 2024-10-15/S53-W-Night_markers.geojson",
+    "route_geojson": "Night/S53-W-Night/MTA Car New York/MTA 2024-10-15/S53-W-Night_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "B35-E-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/B35-E-RushHour/MTA Car New York/MTA 2024-10-15/B35-E-RushHour.json",
+    "markers_geojson": "Rush Hour/B35-E-RushHour/MTA Car New York/MTA 2024-10-15/B35-E-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/B35-E-RushHour/MTA Car New York/MTA 2024-10-15/B35-E-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "B35-W-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/B35-W-RushHour/MTA Car New York/MTA 2024-10-15/B35-W-RushHour.json",
+    "markers_geojson": "Rush Hour/B35-W-RushHour/MTA Car New York/MTA 2024-10-15/B35-W-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/B35-W-RushHour/MTA Car New York/MTA 2024-10-15/B35-W-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "B46-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/B46-N-RushHour/MTA Car New York/MTA 2024-10-15/B46-N-RushHour.json",
+    "markers_geojson": "Rush Hour/B46-N-RushHour/MTA Car New York/MTA 2024-10-15/B46-N-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/B46-N-RushHour/MTA Car New York/MTA 2024-10-15/B46-N-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "B46-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/B46-S-RushHour/MTA Car New York/MTA 2024-10-15/B46-S-RushHour.json",
+    "markers_geojson": "Rush Hour/B46-S-RushHour/MTA Car New York/MTA 2024-10-15/B46-S-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/B46-S-RushHour/MTA Car New York/MTA 2024-10-15/B46-S-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "BX19-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/BX19-N-RushHour/MTA Car New York/MTA 2024-10-15/BX19-N-RushHour.json",
+    "markers_geojson": "Rush Hour/BX19-N-RushHour/MTA Car New York/MTA 2024-10-15/BX19-N-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/BX19-N-RushHour/MTA Car New York/MTA 2024-10-15/BX19-N-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "BX19-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/BX19-S-RushHour/MTA Car New York/MTA 2024-10-15/BX19-S-RushHour.json",
+    "markers_geojson": "Rush Hour/BX19-S-RushHour/MTA Car New York/MTA 2024-10-15/BX19-S-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/BX19-S-RushHour/MTA Car New York/MTA 2024-10-15/BX19-S-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "M101-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/M101-N-RushHour/MTA Car New York/MTA 2024-10-15/M101-N-RushHour.json",
+    "markers_geojson": "Rush Hour/M101-N-RushHour/MTA Car New York/MTA 2024-10-15/M101-N-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/M101-N-RushHour/MTA Car New York/MTA 2024-10-15/M101-N-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "M101-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/M101-S-RushHour/MTA Car New York/MTA 2024-10-15/M101-S-RushHour.json",
+    "markers_geojson": "Rush Hour/M101-S-RushHour/MTA Car New York/MTA 2024-10-15/M101-S-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/M101-S-RushHour/MTA Car New York/MTA 2024-10-15/M101-S-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "M15-N-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/M15-N-RushHour/MTA Car New York/MTA 2024-10-15/M15-N-RushHour.json",
+    "markers_geojson": "Rush Hour/M15-N-RushHour/MTA Car New York/MTA 2024-10-15/M15-N-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/M15-N-RushHour/MTA Car New York/MTA 2024-10-15/M15-N-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "M15-S-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/M15-S-RushHour/MTA Car New York/MTA 2024-10-15/M15-S-RushHour.json",
+    "markers_geojson": "Rush Hour/M15-S-RushHour/MTA Car New York/MTA 2024-10-15/M15-S-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/M15-S-RushHour/MTA Car New York/MTA 2024-10-15/M15-S-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "Q58-E-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/Q58-E-RushHour/MTA Car New York/MTA 2024-10-15/Q58-E-RushHour.json",
+    "markers_geojson": "Rush Hour/Q58-E-RushHour/MTA Car New York/MTA 2024-10-15/Q58-E-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/Q58-E-RushHour/MTA Car New York/MTA 2024-10-15/Q58-E-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "Q58-W-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/Q58-W-RushHour/MTA Car New York/MTA 2024-10-15/Q58-W-RushHour.json",
+    "markers_geojson": "Rush Hour/Q58-W-RushHour/MTA Car New York/MTA 2024-10-15/Q58-W-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/Q58-W-RushHour/MTA Car New York/MTA 2024-10-15/Q58-W-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "S53-E-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/S53-E-RushHour/MTA Car New York/MTA 2024-10-15/S53-E-RushHour.json",
+    "markers_geojson": "Rush Hour/S53-E-RushHour/MTA Car New York/MTA 2024-10-15/S53-E-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/S53-E-RushHour/MTA Car New York/MTA 2024-10-15/S53-E-RushHour_route.geojson"
+  },
+  {
+    "label": "Rush Hour",
+    "route_id": "S53-W-RushHour",
+    "APR_profile": "MTA Car New York",
+    "Week_Profile": "MTA 2024-10-15",
+    "route_json": "Rush Hour/S53-W-RushHour/MTA Car New York/MTA 2024-10-15/S53-W-RushHour.json",
+    "markers_geojson": "Rush Hour/S53-W-RushHour/MTA Car New York/MTA 2024-10-15/S53-W-RushHour_markers.geojson",
+    "route_geojson": "Rush Hour/S53-W-RushHour/MTA Car New York/MTA 2024-10-15/S53-W-RushHour_route.geojson"
+  }
+]

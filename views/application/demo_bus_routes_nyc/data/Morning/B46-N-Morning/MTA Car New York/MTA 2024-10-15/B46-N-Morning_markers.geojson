@@ -1,0 +1,2057 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 5.32,
+        "address": "UTICA AV/AVENUE L"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92729,
+          40.623923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 10.68,
+        "address": "UTICA AV/AVENUE K"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927479,
+          40.625699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 8,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.11,
+        "address": "UTICA AV/AVENUE J"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927779,
+          40.628507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 9,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.14,
+        "address": "UTICA AV/AVENUE I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928032,
+          40.630868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 10,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 18.0,
+        "address": "UTICA AV/AVENUE H"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928289,
+          40.63278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 11,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.09,
+        "address": "UTICA AV/KINGS HWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928456,
+          40.634043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.29,
+        "address": "UTICA AV/FARRAGUT RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928767,
+          40.637785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.07,
+        "address": "UTICA AV/FOSTER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928978,
+          40.639704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 13.53,
+        "address": "UTICA AV/AVENUE D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929131,
+          40.641743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.99,
+        "address": "UTICA AV/CLARENDON RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929523,
+          40.644815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 16,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 7.01,
+        "address": "UTICA AV/BEVERLY RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929723,
+          40.646701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.09,
+        "address": "UTICA AV/TILDEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92992,
+          40.648531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 18,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 8.59,
+        "address": "UTICA AV/SNYDER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930119,
+          40.650447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 19,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 23.29,
+        "address": "UTICA AV/CHURCH AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930416,
+          40.652508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 20,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.93,
+        "address": "UTICA AV/LINDEN BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930519,
+          40.65417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 21,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 9.43,
+        "address": "UTICA AV/LENOX RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930683,
+          40.655688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 22,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 16.35,
+        "address": "UTICA AV/WINTHROP ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930984,
+          40.65814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 23,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 7.77,
+        "address": "UTICA AV/RUTLAND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93124,
+          40.660919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 24,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.9,
+        "address": "UTICA AV/MAPLE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931397,
+          40.662404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 25,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 21.93,
+        "address": "UTICA AV/EMPIRE BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931453,
+          40.663942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 26,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.17,
+        "address": "UTICA AV/CARROLL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931263,
+          40.666445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 27,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 12.57,
+        "address": "UTICA AV/EASTERN PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931074,
+          40.668476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 28,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 12.6,
+        "address": "UTICA AV/SAINT JOHNS PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930844,
+          40.670935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 29,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 8.27,
+        "address": "UTICA AV/PROSPECT PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930593,
+          40.67355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 30,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.78,
+        "address": "UTICA AV/BERGEN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930421,
+          40.675351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 31,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "UTICA AV/ATLANTIC AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930213,
+          40.677732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 32,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 9.67,
+        "address": "UTICA AV/FULTON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929053,
+          40.679184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 33,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.51,
+        "address": "MALCOLM X BLVD/BAINBRIDGE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928702,
+          40.681561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 34,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.51,
+        "address": "MALCOLM X BLVD/HALSEY ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92929,
+          40.684479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 35,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "MALCOLM X BLVD/PUTNAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929724,
+          40.686684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 36,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.73,
+        "address": "MALCOLM X BLVD/GATES AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930162,
+          40.688899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 37,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.38,
+        "address": "MALCOLM X BLVD/GREENE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930589,
+          40.691046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 38,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.39,
+        "address": "MALCOLM X BLVD/LAFAYETTE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930811,
+          40.692133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 39,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 9.39,
+        "address": "MALCOLM X BLVD/DE KALB AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931092,
+          40.693612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 40,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.71,
+        "address": "BROADWAY/LAWTON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931411,
+          40.694911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 42,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.0,
+        "address": "BROADWAY/JEFFERSON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935803,
+          40.697354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 43,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.22,
+        "address": "BROADWAY/ARION PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937041,
+          40.69807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 0,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "KINGS PLAZA/AVENUE U"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921817,
+          40.609564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 1,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "FLATBUSH AV/AVENUE T"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92407,
+          40.611476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 2,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.67,
+        "address": "UTICA AV/FILLMORE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926274,
+          40.614365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 3,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "UTICA AV/AVENUE O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926509,
+          40.616498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 4,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.84,
+        "address": "UTICA AV/AVENUE N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926824,
+          40.619894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 5,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.78,
+        "address": "UTICA AV/AVENUE M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927052,
+          40.621675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 44,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.98,
+        "address": "BROADWAY/PARK ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939185,
+          40.699257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 45,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 7.58,
+        "address": "BROADWAY/FLUSHING AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941708,
+          40.700664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 46,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.36,
+        "address": "BROADWAY/COOK ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944549,
+          40.70234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 47,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.19,
+        "address": "BROADWAY/LEONARD ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945695,
+          40.702982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 48,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "BROADWAY/LORIMER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948374,
+          40.704482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 49,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.28,
+        "address": "BROADWAY/BOERUM ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949556,
+          40.705142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 50,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "BROADWAY/MONTROSE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951586,
+          40.706254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 51,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.24,
+        "address": "BROADWAY/HOOPER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95389,
+          40.707109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 52,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "BROADWAY/MARCY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958417,
+          40.708638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 53,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.19,
+        "address": "WILLIAMSBURG BRIDGE PLAZA/LANE 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959608,
+          40.709424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 41,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.32,
+        "address": "BROADWAY/WILLOUGHBY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933414,
+          40.696002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 43,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.22,
+        "address": "BROADWAY/ARION PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937041,
+          40.69807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 42,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.0,
+        "address": "BROADWAY/JEFFERSON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935803,
+          40.697354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 40,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.71,
+        "address": "BROADWAY/LAWTON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931411,
+          40.694911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 39,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 9.39,
+        "address": "MALCOLM X BLVD/DE KALB AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931092,
+          40.693612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 38,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.39,
+        "address": "MALCOLM X BLVD/LAFAYETTE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930811,
+          40.692133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 37,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.38,
+        "address": "MALCOLM X BLVD/GREENE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930589,
+          40.691046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 36,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.73,
+        "address": "MALCOLM X BLVD/GATES AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930162,
+          40.688899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 35,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "MALCOLM X BLVD/PUTNAM AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929724,
+          40.686684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 34,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.51,
+        "address": "MALCOLM X BLVD/HALSEY ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92929,
+          40.684479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 33,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.51,
+        "address": "MALCOLM X BLVD/BAINBRIDGE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928702,
+          40.681561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 32,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 9.67,
+        "address": "UTICA AV/FULTON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929053,
+          40.679184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 31,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "UTICA AV/ATLANTIC AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930213,
+          40.677732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 30,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.78,
+        "address": "UTICA AV/BERGEN ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930421,
+          40.675351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 8.27,
+        "address": "UTICA AV/PROSPECT PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930593,
+          40.67355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 12.6,
+        "address": "UTICA AV/SAINT JOHNS PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930844,
+          40.670935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 12.57,
+        "address": "UTICA AV/EASTERN PKWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931074,
+          40.668476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.17,
+        "address": "UTICA AV/CARROLL ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931263,
+          40.666445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 21.93,
+        "address": "UTICA AV/EMPIRE BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931453,
+          40.663942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 24,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.9,
+        "address": "UTICA AV/MAPLE ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931397,
+          40.662404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 7.77,
+        "address": "UTICA AV/RUTLAND RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93124,
+          40.660919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 16.35,
+        "address": "UTICA AV/WINTHROP ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930984,
+          40.65814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 9.43,
+        "address": "UTICA AV/LENOX RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930683,
+          40.655688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.93,
+        "address": "UTICA AV/LINDEN BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930519,
+          40.65417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 19,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 23.29,
+        "address": "UTICA AV/CHURCH AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930416,
+          40.652508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 8.59,
+        "address": "UTICA AV/SNYDER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930119,
+          40.650447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.09,
+        "address": "UTICA AV/TILDEN AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92992,
+          40.648531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 7.01,
+        "address": "UTICA AV/BEVERLY RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929723,
+          40.646701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.99,
+        "address": "UTICA AV/CLARENDON RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929523,
+          40.644815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 13.53,
+        "address": "UTICA AV/AVENUE D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929131,
+          40.641743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 13,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 2.07,
+        "address": "UTICA AV/FOSTER AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928978,
+          40.639704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.29,
+        "address": "UTICA AV/FARRAGUT RD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928767,
+          40.637785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.09,
+        "address": "UTICA AV/KINGS HWY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928456,
+          40.634043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 18.0,
+        "address": "UTICA AV/AVENUE H"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928289,
+          40.63278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.14,
+        "address": "UTICA AV/AVENUE I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.928032,
+          40.630868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.11,
+        "address": "UTICA AV/AVENUE J"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927779,
+          40.628507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 10.68,
+        "address": "UTICA AV/AVENUE K"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927479,
+          40.625699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 5.32,
+        "address": "UTICA AV/AVENUE L"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92729,
+          40.623923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.78,
+        "address": "UTICA AV/AVENUE M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927052,
+          40.621675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.84,
+        "address": "UTICA AV/AVENUE N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926824,
+          40.619894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 0,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "KINGS PLAZA/AVENUE U"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921817,
+          40.609564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 1,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "FLATBUSH AV/AVENUE T"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92407,
+          40.611476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 2,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 6.67,
+        "address": "UTICA AV/FILLMORE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926274,
+          40.614365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 3,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "UTICA AV/AVENUE O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926509,
+          40.616498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 41,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.32,
+        "address": "BROADWAY/WILLOUGHBY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.933414,
+          40.696002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 44,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.98,
+        "address": "BROADWAY/PARK ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939185,
+          40.699257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 45,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 7.58,
+        "address": "BROADWAY/FLUSHING AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941708,
+          40.700664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 46,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.36,
+        "address": "BROADWAY/COOK ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944549,
+          40.70234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 47,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 3.19,
+        "address": "BROADWAY/LEONARD ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945695,
+          40.702982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 48,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "BROADWAY/LORIMER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948374,
+          40.704482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 49,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.28,
+        "address": "BROADWAY/BOERUM ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949556,
+          40.705142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 50,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "BROADWAY/MONTROSE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951586,
+          40.706254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 51,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.24,
+        "address": "BROADWAY/HOOPER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95389,
+          40.707109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 52,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "BROADWAY/MARCY AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958417,
+          40.708638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 53,
+        "route_id": "B46-N-Morning",
+        "postboxes": 1,
+        "revenue": 1.19,
+        "address": "WILLIAMSBURG BRIDGE PLAZA/LANE 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959608,
+          40.709424
+        ]
+      }
+    }
+  ]
+}

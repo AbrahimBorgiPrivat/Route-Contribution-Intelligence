@@ -1,0 +1,1031 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "PIKE ST/MADISON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992288,
+          40.71288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "ALLEN ST/GRAND ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991222,
+          40.717171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "ALLEN ST/STANTON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988839,
+          40.721896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "1 AV / 4 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986785,
+          40.725463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 40.6,
+        "address": "1 AV/E 14 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981946,
+          40.732122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 23 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978368,
+          40.737053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "1 AV/E 60 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961795,
+          40.759751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 0,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "MADISON ST/OLIVER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997922,
+          40.711877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 1,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "MADISON ST/MARKET ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994092,
+          40.712207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 8,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 27 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976496,
+          40.739627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 9,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 28 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975823,
+          40.74057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 10,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 34 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973187,
+          40.744172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 11,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 36 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972349,
+          40.745324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 12,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 52 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964983,
+          40.755395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 13,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 55 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963631,
+          40.75726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 15,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 62 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960457,
+          40.761632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 16,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 67 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958109,
+          40.76487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 17,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 70 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956738,
+          40.766741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 18,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 72 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955742,
+          40.768087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 19,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 75 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95435,
+          40.769986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 20,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 77 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953421,
+          40.771254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 21,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 82 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950985,
+          40.774585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 22,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941682,
+          40.787357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 23,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 106 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939854,
+          40.789858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 24,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 116 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935122,
+          40.796323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 25,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 125 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931268,
+          40.801611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 26,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 126 ST/2 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932264,
+          40.80315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 2,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "PIKE ST/MADISON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992288,
+          40.71288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 3,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "ALLEN ST/GRAND ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.991222,
+          40.717171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "ALLEN ST/STANTON ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988839,
+          40.721896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "1 AV / 4 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986785,
+          40.725463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 40.6,
+        "address": "1 AV/E 14 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981946,
+          40.732122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 23 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978368,
+          40.737053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 14,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "1 AV/E 60 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961795,
+          40.759751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 0,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "MADISON ST/OLIVER ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.997922,
+          40.711877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 1,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "MADISON ST/MARKET ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994092,
+          40.712207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 8,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 27 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976496,
+          40.739627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 9,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 28 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975823,
+          40.74057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 10,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 34 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973187,
+          40.744172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 11,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 36 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972349,
+          40.745324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 12,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 52 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964983,
+          40.755395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 13,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 55 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963631,
+          40.75726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 15,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 62 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960457,
+          40.761632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 16,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 67 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958109,
+          40.76487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 17,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 70 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.956738,
+          40.766741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 18,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 72 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955742,
+          40.768087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 19,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 75 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95435,
+          40.769986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 20,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 77 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953421,
+          40.771254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 21,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 82 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950985,
+          40.774585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 22,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 102 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941682,
+          40.787357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 23,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "1 AV/E 106 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939854,
+          40.789858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 24,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 116 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935122,
+          40.796323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 25,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "1 AV/E 125 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931268,
+          40.801611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 26,
+        "route_id": "M15-N-Night",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "E 126 ST/2 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932264,
+          40.80315
+        ]
+      }
+    }
+  ]
+}

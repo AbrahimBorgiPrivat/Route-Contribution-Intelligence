@@ -1,0 +1,105 @@
+{
+  "pipeline": "route_presentation",
+  "kpi_registry": "kpi_registry.py",
+  "input": {
+    "file_path": "./data/routes.csv",
+    "file_seperator": ";"
+  },
+  "output": {
+    "html_render": true,
+    "views_root": "./views/static/demo_bus_routes_nyc/",
+    "template_root": null
+  },
+  "routing": {
+    "route_type": "both",
+    "start_routes": null,
+    "max_routes": null
+  },
+  "algorithm": {
+    "E": 5.0,
+    "APR": {
+      "car-newyork": {
+        "duration": 0.03944
+      }
+    },
+    "z": 0.0,
+    "k_max": 25,
+    "k_all": 1,
+    "B": 10,
+    "solver_tsp": "ortools",
+    "solver_hpp": "ortools",
+    "deterministic_tsp": true,
+    "deterministic_hpp": true,
+    "precheck": true,
+    "ortools_time_limit": 2,
+    "initial_point_method": {
+      "method": "GREEDY_DNN"
+    },
+    "type1_methods": ["A", "B", "U"],
+    "type2_methods": ["A", "B"],
+    "A_kwargs": null,
+    "B_kwargs": null,
+    "U_kwargs": {
+      "max_combination_size": 2,
+      "max_union_size": 10,
+      "min_union_size": 3
+    }
+  },
+  "geometry": {
+    "allowed_highways": null,
+    "chunk_size_osm": null,
+    "chunk_size_osrm": 50,
+    "use_rotated_side": false,
+    "offset_m": 2.5,
+    "entry_angle_deg": -60.0,
+    "exit_angle_deg": 60.0,
+    "unit_entry_exit_strategy": null
+  },
+  "col_map": {
+    "route_id": { "name": "RouteId" },
+    "lon": { "name": "lon" },
+    "lat": { "name": "lat" },
+    "line_nr": { "name": "linjenummer" },
+    "L_u": { "name": "L_u" },
+    "address": {
+      "fields": ["Adress"],
+      "separator": "; "
+    },
+    "type": {
+      "name": "type",
+      "car-newyork": { "val": "Car", "annotations": "duration" }
+    },
+    "problem_type": {
+      "name": "problem_type",
+      "HPP": ["HPP"],
+      "TSP": ["TSP"],
+      "OUT:HPP": ["OUT:HPP"],
+      "OUT:TSP": ["OUT:TSP"]
+    },
+    "revenue": {
+      "path_revenue": "./data/route_revenue.csv",
+      "sep": ";",
+      "join_fields": {
+        "route_id": "RouteId",
+        "Adress Id": "Adress Id"
+      },
+      "rev_fields": ["Oms"],
+      "rev_formula": "SUM",
+      "rev_include_all_addresses": true
+    },
+    "group_by_route_id": true
+  },
+  "kpis": [
+    { "name": "Route", "key": "route_id", "type": "both", "fn": "route_id" },
+    { "name": "T1 Orig Time", "key": "t1_L_original", "type": "type1", "fn": "L_original" },
+    { "name": "T1 Opt Time", "key": "t1_L_opt", "type": "type1", "fn": "L_opt" },
+    { "name": "T1 Orig CM", "key": "t1_DG_org", "type": "type1", "fn": "DG_original" },
+    { "name": "T1 Opt CM", "key": "t1_DG_best", "type": "type1", "fn": "DG_best" },
+    { "name": "T1 Sign. outliers", "key": "t1_seg_outliers", "type": "type1", "fn": "count_outliers" },
+    { "name": "T2 Orig Time", "key": "t2_L_original", "type": "type2", "fn": "L_original" },
+    { "name": "T2 Opt Time", "key": "t2_L_opt", "type": "type2", "fn": "L_opt" },
+    { "name": "T2 Orig CM", "key": "t2_DG_org", "type": "type2", "fn": "DG_original" },
+    { "name": "T2 Opt CM", "key": "t2_DG_best", "type": "type2", "fn": "DG_best" },
+    { "name": "T2 Sign. outliers", "key": "t2_seg_outliers", "type": "type2", "fn": "count_outliers" }
+  ]
+}

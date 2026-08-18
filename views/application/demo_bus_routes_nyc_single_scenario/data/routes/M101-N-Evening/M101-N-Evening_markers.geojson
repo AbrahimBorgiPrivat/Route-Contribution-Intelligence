@@ -1,0 +1,2171 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 1,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 9 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989235,
+          40.730389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 2,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 14 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986787,
+          40.733689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 3,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 23 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982771,
+          40.739218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 4,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "3 AV/E 33 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978601,
+          40.744963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 5,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 6.77,
+        "address": "3 AV/E 42 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974122,
+          40.751085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 6,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 50 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.970922,
+          40.755505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 7,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 33.35,
+        "address": "3 AV/E 60 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965738,
+          40.762558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 9,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 6.53,
+        "address": "3 AV/E 67 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962513,
+          40.767113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 10,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "3 AV/E 72 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960281,
+          40.770075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 11,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "3 AV/E 79 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95697,
+          40.774605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 12,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 22.48,
+        "address": "3 AV/E 86 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954179,
+          40.778466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 13,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.06,
+        "address": "3 AV/E 97 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948748,
+          40.78573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 14,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 99 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947273,
+          40.787906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 15,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "3 AV/E 45 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973161,
+          40.752407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 16,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 9.67,
+        "address": "3 AV/E 106 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944367,
+          40.79189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 17,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 47 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97185,
+          40.754234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 36,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 138 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950578,
+          40.821041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 37,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 88 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952701,
+          40.780478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 38,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "AMSTERDAM AV/W 140 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949594,
+          40.822402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 39,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 143 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94826,
+          40.824241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 40,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 93 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950493,
+          40.783505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 41,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "AMSTERDAM AV/W 145 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947231,
+          40.825615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 42,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "AMSTERDAM AV/W 149 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945755,
+          40.827662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 43,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.72,
+        "address": "AMSTERDAM AV/W 152 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944107,
+          40.829905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 44,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.12,
+        "address": "AMSTERDAM AV/W 155 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942827,
+          40.831683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 45,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "AMSTERDAM AV/W 158 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941374,
+          40.833638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 46,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "AMSTERDAM AV/W 161 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940199,
+          40.835239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 47,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "AMSTERDAM AV/W 164 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938575,
+          40.837468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 48,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.62,
+        "address": "AMSTERDAM AV/W 167 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93697,
+          40.839672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 49,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 171 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935267,
+          40.841978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 50,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 173 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934443,
+          40.84312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 51,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 176 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932962,
+          40.84515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 52,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 179 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931612,
+          40.847008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 53,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.48,
+        "address": "AMSTERDAM AV/W 181 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930616,
+          40.848358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 54,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 187 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927829,
+          40.852204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Normal",
+        "layer": "T1 Normal",
+        "number": 55,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "AMSTERDAM AV/W 190 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926552,
+          40.853927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 0,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "ASTOR PL/COOPER SQ EAST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99004,
+          40.729574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 8,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 29 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980105,
+          40.742894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 18,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.57,
+        "address": "3 AV/E 116 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94004,
+          40.797798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 19,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.62,
+        "address": "E 125 ST/3 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936221,
+          40.803935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 20,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 34.8,
+        "address": "E 125 ST/LEXINGTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937761,
+          40.804584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 22,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 10.63,
+        "address": "E 125 ST/PARK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939475,
+          40.805301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 25,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 13.53,
+        "address": "W 125 ST/5 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94244,
+          40.806542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 26,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 28.27,
+        "address": "W 125 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945964,
+          40.808026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 27,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 17.4,
+        "address": "W 125 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948781,
+          40.809228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 28,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 10.63,
+        "address": "W 125 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951598,
+          40.810402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 29,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.33,
+        "address": "W 125 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953007,
+          40.811005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 30,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 9.43,
+        "address": "AMSTERDAM AV/W 125 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955868,
+          40.813745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 31,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "AMSTERDAM AV/W 129 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954899,
+          40.815135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 32,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "3 AV/E 77 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95799,
+          40.773208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 33,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "AMSTERDAM AV/W 131 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953761,
+          40.816685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 34,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "AMSTERDAM AV/W 133 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952922,
+          40.81785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 35,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "AMSTERDAM AV/W 135 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95184,
+          40.819316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Outlier",
+        "layer": "T1 Outlier",
+        "number": 56,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "FORT GEORGE AV/66 FORT GEORGE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926518,
+          40.858017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 24,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "E 125 ST/MADISON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940999,
+          40.805979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 21,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "3 AV/E 53 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969235,
+          40.757751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T1 Significant",
+        "layer": "T1 Significant",
+        "number": 23,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 57 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967523,
+          40.76014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 8,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 29 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980105,
+          40.742894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 4,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "3 AV/E 33 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978601,
+          40.744963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 5,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 6.77,
+        "address": "3 AV/E 42 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.974122,
+          40.751085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 15,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "3 AV/E 45 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.973161,
+          40.752407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 17,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 47 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97185,
+          40.754234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 6,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 50 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.970922,
+          40.755505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 21,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 11.6,
+        "address": "3 AV/E 53 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.969235,
+          40.757751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 23,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "3 AV/E 57 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.967523,
+          40.76014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 7,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 33.35,
+        "address": "3 AV/E 60 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965738,
+          40.762558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 9,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 6.53,
+        "address": "3 AV/E 67 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962513,
+          40.767113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 10,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "3 AV/E 72 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960281,
+          40.770075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 32,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "3 AV/E 77 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95799,
+          40.773208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 11,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "3 AV/E 79 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95697,
+          40.774605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 12,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 22.48,
+        "address": "3 AV/E 86 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954179,
+          40.778466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 16,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 9.67,
+        "address": "3 AV/E 106 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944367,
+          40.79189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 18,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.57,
+        "address": "3 AV/E 116 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94004,
+          40.797798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 19,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.62,
+        "address": "E 125 ST/3 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936221,
+          40.803935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 20,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 34.8,
+        "address": "E 125 ST/LEXINGTON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937761,
+          40.804584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 22,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 10.63,
+        "address": "E 125 ST/PARK AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.939475,
+          40.805301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 24,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "E 125 ST/MADISON AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940999,
+          40.805979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 25,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 13.53,
+        "address": "W 125 ST/5 AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94244,
+          40.806542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 26,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 28.27,
+        "address": "W 125 ST/MALCOLM X BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945964,
+          40.808026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 27,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 17.4,
+        "address": "W 125 ST/ADAM C POWELL BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948781,
+          40.809228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 28,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 10.63,
+        "address": "W 125 ST/FREDERICK DOUGLASS BLVD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951598,
+          40.810402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 29,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 19.33,
+        "address": "W 125 ST/SAINT NICHOLAS AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953007,
+          40.811005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 30,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 9.43,
+        "address": "AMSTERDAM AV/W 125 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955868,
+          40.813745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 31,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.7,
+        "address": "AMSTERDAM AV/W 129 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954899,
+          40.815135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 33,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "AMSTERDAM AV/W 131 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953761,
+          40.816685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 35,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "AMSTERDAM AV/W 135 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95184,
+          40.819316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 36,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 138 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950578,
+          40.821041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 41,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.64,
+        "address": "AMSTERDAM AV/W 145 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947231,
+          40.825615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 42,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "AMSTERDAM AV/W 149 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945755,
+          40.827662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 44,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 8.12,
+        "address": "AMSTERDAM AV/W 155 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942827,
+          40.831683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 45,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.17,
+        "address": "AMSTERDAM AV/W 158 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941374,
+          40.833638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 46,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 7.25,
+        "address": "AMSTERDAM AV/W 161 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940199,
+          40.835239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Normal",
+        "layer": "T2 Normal",
+        "number": 47,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "AMSTERDAM AV/W 164 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938575,
+          40.837468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 0,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.35,
+        "address": "ASTOR PL/COOPER SQ EAST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99004,
+          40.729574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 1,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 9 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989235,
+          40.730389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 2,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 5.8,
+        "address": "3 AV/E 14 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986787,
+          40.733689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 3,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 23 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.982771,
+          40.739218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 13,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 4.06,
+        "address": "3 AV/E 97 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948748,
+          40.78573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 14,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 99 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947273,
+          40.787906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 34,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.97,
+        "address": "AMSTERDAM AV/W 133 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952922,
+          40.81785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 37,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 88 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952701,
+          40.780478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 38,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 1.45,
+        "address": "AMSTERDAM AV/W 140 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949594,
+          40.822402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 39,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 143 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94826,
+          40.824241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 40,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "3 AV/E 93 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.950493,
+          40.783505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 43,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.72,
+        "address": "AMSTERDAM AV/W 152 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944107,
+          40.829905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Outlier",
+        "layer": "T2 Outlier",
+        "number": 48,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 3.62,
+        "address": "AMSTERDAM AV/W 167 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93697,
+          40.839672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 49,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 171 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935267,
+          40.841978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 50,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 173 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934443,
+          40.84312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 51,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 2.9,
+        "address": "AMSTERDAM AV/W 176 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932962,
+          40.84515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 52,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 179 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931612,
+          40.847008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 53,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.48,
+        "address": "AMSTERDAM AV/W 181 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930616,
+          40.848358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 54,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "AMSTERDAM AV/W 187 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927829,
+          40.852204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 55,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.58,
+        "address": "AMSTERDAM AV/W 190 ST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926552,
+          40.853927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "T2 Significant",
+        "layer": "T2 Significant",
+        "number": 56,
+        "route_id": "M101-N-Evening",
+        "postboxes": 1,
+        "revenue": 0.0,
+        "address": "FORT GEORGE AV/66 FORT GEORGE AV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.926518,
+          40.858017
+        ]
+      }
+    }
+  ]
+}
