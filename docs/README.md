@@ -7,11 +7,22 @@ This folder contains the presentation of the current project.
 ```text
 docs/
 |-- pages/
+|-- article/
+|-- analysis/
 ```
 
 ### `pages/`
 
 Static HTML documentation pages with shared assets, navigation, and screenshots.
+
+### `article/`
+
+Written research paper based on this project.
+
+### `analysis/`
+
+Analysis made ready for the research paper. 
+
 
 ## Purpose
 
