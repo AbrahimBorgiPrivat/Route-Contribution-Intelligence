@@ -5,6 +5,11 @@ import time
 from libraries.utils.algorithm.solvers.tsp import tsp_solve
 from libraries.utils.experiments.simulations import simulate_distance_matrix
 
+def _normalize_solvers(solvers):
+    if isinstance(solvers, dict):
+        return solvers
+    return {solver: [True] for solver in solvers}
+
 def benchmark_solvers(n_values, 
                       solvers, 
                       seed: int = 834, 
@@ -16,8 +21,14 @@ def benchmark_solvers(n_values,
       - length_results : {solver: [L(n1), L(n2), ...]}
       - time_results   : {solver: [t(n1), t(n2), ...]}
     """
-    length_results = {solver: [] for solver in solvers}
-    time_results   = {solver: [] for solver in solvers}
+    solvers = _normalize_solvers(solvers)
+    solver_labels = [
+        f"{solver} | det={det}" if len(det_modes) > 1 else solver
+        for solver, det_modes in solvers.items()
+        for det in det_modes
+    ]
+    length_results = {label: [] for label in solver_labels}
+    time_results   = {label: [] for label in solver_labels}
     for n in tqdm(n_values, desc="Running simulations"):
         D = simulate_distance_matrix(
                 n=n,
@@ -26,21 +37,24 @@ def benchmark_solvers(n_values,
                 outlier_fraction = outlier_fraction,
                 cluster_strength=cluster_strength,
         )
-        for solver in solvers:
-            try:
-                t0 = time.perf_counter()
-                _, L = tsp_solve(
-                    D,
-                    deterministic_tsp=True,
-                    solver=solver,
-                )
-                t1 = time.perf_counter()
-                length_results[solver].append(L)
-                time_results[solver].append(t1 - t0)
-            except Exception as e:
-                print(f"FAILED ({solver}, n={n}): {e}")
-                length_results[solver].append(np.nan)
-                time_results[solver].append(np.nan)
+        for solver, det_modes in solvers.items():
+            for det in det_modes:
+                label = f"{solver} | det={det}" if len(det_modes) > 1 else solver
+                try:
+                    t0 = time.perf_counter()
+                    _, L = tsp_solve(
+                        D,
+                        deterministic_tsp=det,
+                        solver=solver,
+                        ortools_time_limit=2,
+                    )
+                    t1 = time.perf_counter()
+                    length_results[label].append(L)
+                    time_results[label].append(t1 - t0)
+                except Exception as e:
+                    print(f"FAILED ({solver}, det={det}, n={n}): {e}")
+                    length_results[label].append(np.nan)
+                    time_results[label].append(np.nan)
     return length_results, time_results
 
 def plot_all_results(n_values, length_results, time_results,save_path):
@@ -85,7 +99,7 @@ def plot_all_results(n_values, length_results, time_results,save_path):
     bars = ax.bar(x, avg_len, color="steelblue")
     ax.set_title("Average TSP Tour Length Across n")
     ax.set_xticks(x)
-    ax.set_xticklabels(solvers)
+    ax.set_xticklabels(solvers, rotation=25, ha="right")
     ax.set_ylabel("Average tour length")
     ax.grid(axis='y')
     for bar, val in zip(bars, avg_len):
@@ -104,7 +118,7 @@ def plot_all_results(n_values, length_results, time_results,save_path):
     bars = ax.bar(x, avg_time, color="darkorange")
     ax.set_title("Average Solver Runtime Across n")
     ax.set_xticks(x)
-    ax.set_xticklabels(solvers)
+    ax.set_xticklabels(solvers, rotation=25, ha="right")
     ax.set_ylabel("Average runtime (seconds)")
     ax.grid(axis='y')
     for bar, val in zip(bars, avg_time):
@@ -123,7 +137,12 @@ def plot_all_results(n_values, length_results, time_results,save_path):
 def main():
     N_MIN = 50
     N_MAX = 100
-    solvers = ["greedy", "python_tsp", "ortools", "lkh"]
+    solvers = {
+        "greedy": [True],
+        "python_tsp": [True, False],
+        "ortools": [True, False],
+        "lkh": [True],
+    }
     n_values = list(range(N_MIN, N_MAX + 1))
     length_results, time_results = benchmark_solvers(n_values, solvers)
     plot_all_results(n_values, 

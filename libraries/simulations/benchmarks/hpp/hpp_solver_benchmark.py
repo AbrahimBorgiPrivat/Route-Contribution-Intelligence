@@ -5,6 +5,10 @@ import time
 from libraries.utils.algorithm.solvers.hpp import hpp_solve
 from libraries.utils.experiments.simulations import simulate_distance_matrix
 
+def _normalize_solvers(solvers):
+    if isinstance(solvers, dict):
+        return solvers
+    return {solver: [False, True] if solver == "ortools" else [True] for solver in solvers}
 
 def benchmark_hpp_solvers(
     n_values,
@@ -30,19 +34,12 @@ def benchmark_hpp_solvers(
       - length_results : {label: [L(n1), L(n2), ...]}
       - time_results   : {label: [t(n1), t(n2), ...]}
     """
+    solvers = _normalize_solvers(solvers)
     solver_specs = []
-    for solver in solvers:
-        if solver == "ortools":
-            solver_specs.append(
-                ("ortools", True, "ortools (det=T)")
-            )
-            solver_specs.append(
-                ("ortools", False, "ortools")
-            )
-        else:
-            solver_specs.append(
-                (solver, True, solver)
-            )
+    for solver, det_modes in solvers.items():
+        for det in det_modes:
+            label = f"{solver} | det={det}" if len(det_modes) > 1 else solver
+            solver_specs.append((solver, det, label))
     length_results = {label: [] for _, _, label in solver_specs}
     time_results = {label: [] for _, _, label in solver_specs}
     for n in tqdm(n_values, desc="Running HPP simulations"):
@@ -116,7 +113,7 @@ def plot_all_results(n_values, length_results, time_results, save_path: str):
     bars = ax.bar(x, avg_len, color="steelblue")
     ax.set_title("Average HPP Path Length Across n")
     ax.set_xticks(x)
-    ax.set_xticklabels(solvers)
+    ax.set_xticklabels(solvers, rotation=25, ha="right")
     ax.set_ylabel("Average path length")
     ax.grid(axis="y")
     for bar, val in zip(bars, avg_len):
@@ -135,7 +132,7 @@ def plot_all_results(n_values, length_results, time_results, save_path: str):
     bars = ax.bar(x, avg_time, color="darkorange")
     ax.set_title("Average Solver Runtime Across n")
     ax.set_xticks(x)
-    ax.set_xticklabels(solvers)
+    ax.set_xticklabels(solvers, rotation=25, ha="right")
     ax.set_ylabel("Average runtime (seconds)")
     ax.grid(axis="y")
     for bar, val in zip(bars, avg_time):
@@ -153,12 +150,12 @@ def plot_all_results(n_values, length_results, time_results, save_path: str):
 
 def main(N_MIN = 50,
          N_MAX = 100):
-    solvers = [
-        "greedy",    
-        "greedy_denn",           
-        "cheapest_insertion",   
-        "ortools",              
-    ]
+    solvers = {
+        "greedy": [True],
+        "greedy_denn": [True],
+        "cheapest_insertion": [True],
+        "ortools": [True, False],
+    }
     initial_point_method = {"method": "GREEDY_DNN"}
     n_values = list(range(N_MIN, N_MAX + 1))
     fixed_endpoints = {"start": None, "end": None}

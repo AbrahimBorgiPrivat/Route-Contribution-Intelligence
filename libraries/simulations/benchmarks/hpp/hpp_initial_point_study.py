@@ -179,7 +179,7 @@ def main():
         n_values,
         length_results,
         time_results,
-        save_path="libraries/simulations/_img/benchmarks/hpp/hpp_initial_point_study.png",
+        save_path="libraries/simulations/_img/benchmarks/hpp/hpp_ortools_initial_point_study.png",
     )
 
 
