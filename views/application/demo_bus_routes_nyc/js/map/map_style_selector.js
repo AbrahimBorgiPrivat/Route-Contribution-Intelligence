@@ -1,39 +1,30 @@
-const MAP_STYLE_CONFIG = {
-    color: {
-        label: "Color",
-        url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-        options: {
-            maxZoom: 19,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }
-    },
-    bw: {
-        label: "Light",
-        url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-        options: {
-            maxZoom: 20,
-            subdomains: "abcd",
-            attribution:
-                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ' +
-                '&copy; <a href="https://carto.com/attributions">CARTO</a>'
-        }
-    },
-    dark: {
-        label: "Dark",
-        url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-        options: {
-            maxZoom: 20,
-            subdomains: "abcd",
-            attribution:
-                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> ' +
-                '&copy; <a href="https://carto.com/attributions">CARTO</a>'
-        }
+const DEFAULT_BASE_LAYER_CONFIG = {
+    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    options: {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }
 };
 
-export function createMapBaseLayers() {
-    return Object.fromEntries(
-        Object.entries(MAP_STYLE_CONFIG).map(([key, config]) => [key, L.tileLayer(config.url, config.options)])
+const MAP_STYLE_CONFIG = {
+    color: {
+        label: "Color",
+        className: "fk-map-style-color"
+    },
+    bw: {
+        label: "Light",
+        className: "fk-map-style-bw"
+    },
+    dark: {
+        label: "Dark",
+        className: "fk-map-style-dark"
+    }
+};
+
+export function createMapBaseLayer() {
+    return L.tileLayer(
+        DEFAULT_BASE_LAYER_CONFIG.url,
+        DEFAULT_BASE_LAYER_CONFIG.options
     );
 }
 
@@ -52,15 +43,14 @@ export function addMapStyleSelector(map, containerId, styleKeys = ["color", "bw"
 
     styleKeys.forEach(key => {
         const config = MAP_STYLE_CONFIG[key];
-        const layer = map._fkBaseLayers?.[key];
-        if (!config || !layer) return;
+        if (!config) return;
 
         const button = document.createElement("button");
         button.type = "button";
         button.className = "map-style-button";
         button.textContent = config.label;
         button.dataset.styleKey = key;
-        button.classList.toggle("active", map._fkActiveBaseLayer === key);
+        button.classList.toggle("active", map._fkActiveBaseStyle === key);
         button.addEventListener("click", () => {
             setMapStyle(map, key);
             selector.querySelectorAll(".map-style-button").forEach(btn => {
@@ -74,16 +64,16 @@ export function addMapStyleSelector(map, containerId, styleKeys = ["color", "bw"
 }
 
 export function setMapStyle(map, styleKey) {
-    const nextLayer = map._fkBaseLayers?.[styleKey];
-    if (!nextLayer || map._fkActiveBaseLayer === styleKey) return;
+    const config = MAP_STYLE_CONFIG[styleKey];
+    const mapContainer = map?.getContainer?.();
+    if (!config || !mapContainer || map._fkActiveBaseStyle === styleKey) return;
 
-    const currentLayer = map._fkBaseLayers?.[map._fkActiveBaseLayer];
-    if (currentLayer && map.hasLayer(currentLayer)) {
-        map.removeLayer(currentLayer);
-    }
+    Object.values(MAP_STYLE_CONFIG).forEach(style => {
+        mapContainer.classList.remove(style.className);
+    });
 
-    nextLayer.addTo(map);
-    map._fkActiveBaseLayer = styleKey;
+    mapContainer.classList.add(config.className);
+    map._fkActiveBaseStyle = styleKey;
 }
 
 function ensureMapToolbar(host, mapElement) {

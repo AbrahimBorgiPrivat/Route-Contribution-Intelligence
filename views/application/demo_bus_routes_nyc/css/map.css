@@ -57,6 +57,26 @@
     z-index: 3000 !important;
 }
 
+.leaflet-container .leaflet-tile-pane {
+    transition: filter 0.18s ease;
+}
+
+.leaflet-container.fk-map-style-color .leaflet-tile-pane {
+    filter: none;
+}
+
+.leaflet-container.fk-map-style-bw .leaflet-tile-pane {
+    filter: grayscale(1) brightness(1.04) contrast(0.96);
+}
+
+.leaflet-container.fk-map-style-dark {
+    background: #101820;
+}
+
+.leaflet-container.fk-map-style-dark .leaflet-tile-pane {
+    filter: grayscale(0.35) invert(1) hue-rotate(180deg) brightness(0.7) contrast(1.15) saturate(0.7);
+}
+
 .custom-marker {
     background: transparent !important;
     border: none !important;
