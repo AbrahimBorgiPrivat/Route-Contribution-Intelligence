@@ -237,6 +237,18 @@ const SITE = {
         },
       ],
     },
+    {
+      id: "article",
+      title: "Article",
+      items: [
+        {
+          label: "Article",
+          href: "article.html",
+          page: "article",
+          desc: "The written article introducing the method and results.",
+        },
+      ],
+    },
   ],
 };
 

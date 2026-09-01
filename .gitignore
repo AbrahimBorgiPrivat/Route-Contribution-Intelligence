@@ -49,3 +49,13 @@ secrets.json
 **/data/maps/*
 
 docs/report/build/
+
+# Article build artifacts
+**.aux
+**.bbl
+**.blg
+**.fdb_latexmk
+**.fls
+**.out
+**.spl
+**.synctex.gz

@@ -826,6 +826,31 @@ table.comparison-table {
   transform: translateY(-1px);
 }
 
+.pdf-render {
+  margin-top: 34px;
+}
+
+.pdf-render-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.pdf-render-header h2 {
+  margin: 0;
+}
+
+.pdf-frame {
+  display: block;
+  width: 100%;
+  min-height: 78vh;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+}
+
 .definition-table {
   margin: 28px 0;
   border-top: 1px solid var(--border);
@@ -903,6 +928,18 @@ table.comparison-table {
   .entry-cta {
     width: 100%;
     min-width: 0;
+  }
+
+  .pdf-render-header {
+    display: block;
+  }
+
+  .pdf-render-header .entry-cta {
+    margin-top: 12px;
+  }
+
+  .pdf-frame {
+    min-height: 70vh;
   }
 }
 
